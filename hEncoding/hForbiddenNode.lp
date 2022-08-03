@@ -1,0 +1,1 @@
+#heuristic at(R,(X,Y),T):task(R,(Sx,Sy),_),(|X-Sx|+|Y-Sy|)>T. [-1,sign]

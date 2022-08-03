@@ -8,10 +8,16 @@
 %hDistance.lp
 %%%%%
 %%%%%
+%hForbiddenNode.lp
+%%%%%
+%%%%%
 %hNaivePathDistance.lp
 %%%%%
 %%%%%
 %hNarrowNode.lp
+%%%%%
+%%%%%
+%hNodeCost.lp
 %%%%%
 %%%%%
 %hPathArea.lp

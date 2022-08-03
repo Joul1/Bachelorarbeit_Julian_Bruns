@@ -7,7 +7,7 @@ import numpy as np
 import os
 
 path=r"./instances/moo/structured/1x2x4/100sc/r02/transformedResults/transformedResult.lp"
-path=r"./instances/moo/structured/4x5x8/100sc/r35/transformedResults/transformedResult.lp"
+path=r"./instances/moo/structured/2x3x5/100sc/r19/transformedResults/transformedResult.lp"
 
 hpath=r"./hEncoding"
 hname=[]

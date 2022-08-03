@@ -230,8 +230,8 @@ SATISFIABLE
 
 Models       : 1+
 Calls        : 1
-Time         : 1.805s (Solving: 0.11s 1st Model: 0.11s Unsat: 0.00s)
-CPU Time     : 1.812s
+Time         : 1.850s (Solving: 0.10s 1st Model: 0.10s Unsat: 0.00s)
+CPU Time     : 1.844s
 
 Choices      : 2444    
 Conflicts    : 61       (Analyzed: 61)
@@ -365,8 +365,142 @@ SATISFIABLE
 
 Models       : 1+
 Calls        : 1
-Time         : 1.736s (Solving: 0.10s 1st Model: 0.10s Unsat: 0.00s)
-CPU Time     : 1.734s
+Time         : 1.839s (Solving: 0.12s 1st Model: 0.12s Unsat: 0.00s)
+CPU Time     : 1.828s
+
+Choices      : 2453    
+Conflicts    : 61       (Analyzed: 61)
+Restarts     : 0       
+Model-Level  : 242.0   
+Problems     : 1        (Average Length: 0.00 Splits: 0)
+Lemmas       : 61       (Deleted: 0)
+  Binary     : 13       (Ratio:  21.31%)
+  Ternary    : 0        (Ratio:   0.00%)
+  Conflict   : 61       (Average Length:   37.3 Ratio: 100.00%) 
+  Loop       : 0        (Average Length:    0.0 Ratio:   0.00%) 
+  Other      : 0        (Average Length:    0.0 Ratio:   0.00%) 
+Backjumps    : 61       (Average: 36.25 Max: 192 Sum:   2211)
+  Executed   : 61       (Average: 36.25 Max: 192 Sum:   2211 Ratio: 100.00%)
+  Bounded    : 0        (Average:  0.00 Max:   0 Sum:      0 Ratio:   0.00%)
+
+Rules        : 396299   (Original: 344158)
+  Choice     : 200     
+Atoms        : 176049   (Original: 161339 Auxiliary: 14710)
+Bodies       : 251747   (Original: 214406)
+  Count      : 1941     (Original: 2832)
+Equivalences : 144983   (Atom=Atom: 228 Body=Body: 239 Other: 144516)
+Tight        : Yes
+Variables    : 250449   (Eliminated:    0 Frozen: 143293)
+Constraints  : 627398   (Binary:  82.5% Ternary:  12.7% Other:   4.8%)
+
+%%%%%
+%hForbiddenNode.lp
+%%%%%
+move(1,((1,9),(2,9)),1).
+move(1,((2,9),(3,9)),2).
+move(1,((3,9),(4,9)),3).
+move(1,((4,9),(4,8)),4).
+move(1,((4,8),(4,7)),5).
+move(1,((4,7),(5,7)),6).
+move(1,((5,7),(5,6)),7).
+move(1,((5,6),(4,6)),8).
+move(2,((2,9),(2,8)),1).
+move(2,((2,8),(2,7)),2).
+move(2,((2,7),(2,6)),3).
+move(2,((2,6),(2,5)),4).
+move(2,((2,5),(2,4)),5).
+move(2,((2,4),(2,3)),6).
+move(2,((2,3),(2,2)),7).
+move(2,((2,2),(3,2)),10).
+move(2,((3,2),(3,1)),11).
+move(2,((3,1),(4,1)),12).
+move(2,((4,1),(5,1)),13).
+move(2,((5,1),(5,2)),14).
+move(2,((5,2),(5,3)),15).
+move(3,((3,9),(3,8)),1).
+move(3,((3,8),(3,7)),2).
+move(3,((3,7),(3,6)),3).
+move(3,((3,6),(3,5)),4).
+move(3,((3,5),(3,4)),5).
+move(3,((3,4),(3,3)),6).
+move(4,((4,9),(4,8)),1).
+move(4,((4,8),(4,7)),2).
+move(4,((4,7),(4,6)),3).
+move(4,((4,6),(4,5)),4).
+move(4,((4,5),(4,4)),5).
+move(4,((4,4),(4,3)),6).
+move(4,((4,3),(5,3)),7).
+move(4,((5,3),(6,3)),8).
+move(4,((6,3),(6,4)),9).
+move(4,((6,4),(6,5)),10).
+move(4,((6,5),(6,6)),11).
+move(5,((5,9),(5,8)),1).
+move(5,((5,8),(5,7)),2).
+move(5,((5,7),(5,6)),3).
+move(5,((5,6),(5,5)),4).
+move(5,((5,5),(5,4)),5).
+move(5,((5,4),(5,3)),6).
+move(5,((5,3),(5,2)),7).
+move(5,((5,2),(5,3)),8).
+move(5,((5,3),(6,3)),9).
+move(6,((6,9),(6,8)),1).
+move(6,((6,8),(6,7)),2).
+move(6,((6,7),(6,6)),3).
+move(6,((6,6),(6,5)),4).
+move(6,((6,5),(6,4)),5).
+move(6,((6,4),(6,3)),6).
+move(6,((6,3),(6,2)),7).
+move(6,((6,2),(7,2)),9).
+move(6,((7,2),(8,2)),11).
+move(6,((8,2),(8,3)),12).
+move(7,((7,9),(7,8)),1).
+move(7,((7,8),(7,7)),2).
+move(7,((7,7),(7,6)),3).
+move(7,((7,6),(7,5)),4).
+move(7,((7,5),(6,5)),5).
+move(7,((6,5),(5,5)),6).
+move(7,((5,5),(4,5)),7).
+move(7,((4,5),(4,4)),8).
+move(7,((4,4),(4,3)),9).
+move(7,((4,3),(4,2)),10).
+move(7,((4,2),(4,3)),12).
+move(8,((8,9),(9,9)),1).
+move(8,((9,9),(10,9)),2).
+move(8,((10,9),(11,9)),3).
+move(8,((11,9),(11,8)),4).
+move(8,((11,8),(11,7)),5).
+move(8,((11,7),(12,7)),6).
+move(8,((12,7),(12,6)),7).
+move(8,((12,6),(13,6)),8).
+move(8,((13,6),(13,5)),9).
+move(8,((13,5),(14,5)),10).
+move(8,((14,5),(14,4)),11).
+move(9,((9,9),(9,8)),1).
+move(9,((9,8),(9,7)),2).
+move(9,((9,7),(9,6)),3).
+move(9,((9,6),(9,5)),4).
+move(9,((9,5),(8,5)),5).
+move(9,((8,5),(7,5)),6).
+move(9,((7,5),(6,5)),7).
+move(9,((6,5),(6,6)),9).
+move(9,((6,6),(6,7)),10).
+move(10,((10,9),(10,8)),1).
+move(10,((10,8),(10,7)),2).
+move(10,((10,7),(11,7)),3).
+move(10,((11,7),(12,7)),4).
+move(10,((12,7),(13,7)),5).
+move(10,((13,7),(14,7)),6).
+move(10,((14,7),(14,6)),7).
+move(10,((14,6),(14,5)),8).
+move(10,((14,5),(14,4)),9).
+move(10,((14,4),(13,4)),10).
+move(10,((13,4),(12,4)),11).
+SATISFIABLE
+
+Models       : 1+
+Calls        : 1
+Time         : 1.777s (Solving: 0.10s 1st Model: 0.10s Unsat: 0.00s)
+CPU Time     : 1.781s
 
 Choices      : 2453    
 Conflicts    : 61       (Analyzed: 61)
@@ -505,7 +639,7 @@ SATISFIABLE
 
 Models       : 1+
 Calls        : 1
-Time         : 1.741s (Solving: 0.09s 1st Model: 0.09s Unsat: 0.00s)
+Time         : 1.758s (Solving: 0.09s 1st Model: 0.09s Unsat: 0.00s)
 CPU Time     : 1.750s
 
 Choices      : 2037    
@@ -636,8 +770,8 @@ SATISFIABLE
 
 Models       : 1+
 Calls        : 1
-Time         : 1.759s (Solving: 0.10s 1st Model: 0.10s Unsat: 0.00s)
-CPU Time     : 1.766s
+Time         : 1.791s (Solving: 0.10s 1st Model: 0.10s Unsat: 0.00s)
+CPU Time     : 1.781s
 
 Choices      : 3799    
 Conflicts    : 61       (Analyzed: 61)
@@ -658,6 +792,119 @@ Rules        : 396652   (Original: 344515)
   Choice     : 200     
   Heuristic  : 363      (Original: 367)
 Atoms        : 176039   (Original: 161329 Auxiliary: 14710)
+Bodies       : 251747   (Original: 214406)
+  Count      : 1941     (Original: 2832)
+Equivalences : 144983   (Atom=Atom: 228 Body=Body: 239 Other: 144516)
+Tight        : Yes
+Variables    : 250449   (Eliminated:    0 Frozen: 143293)
+Constraints  : 627398   (Binary:  82.5% Ternary:  12.7% Other:   4.8%)
+
+%%%%%
+%hNodeCost.lp
+%%%%%
+move(1,((1,9),(2,9)),1).
+move(1,((2,9),(3,9)),2).
+move(1,((3,9),(4,9)),3).
+move(1,((4,9),(4,8)),4).
+move(1,((4,8),(4,7)),6).
+move(1,((4,7),(4,6)),7).
+move(2,((2,9),(2,8)),1).
+move(2,((2,8),(2,7)),2).
+move(2,((2,7),(2,6)),3).
+move(2,((2,6),(2,5)),4).
+move(2,((2,5),(2,4)),5).
+move(2,((2,4),(2,3)),6).
+move(2,((2,3),(2,2)),7).
+move(2,((2,2),(3,2)),8).
+move(2,((3,2),(4,2)),9).
+move(2,((4,2),(5,2)),10).
+move(2,((5,2),(5,3)),11).
+move(3,((3,9),(3,8)),1).
+move(3,((3,8),(3,7)),2).
+move(3,((3,7),(3,6)),3).
+move(3,((3,6),(3,5)),4).
+move(3,((3,5),(3,4)),5).
+move(3,((3,4),(3,3)),6).
+move(4,((4,9),(4,8)),1).
+move(4,((4,8),(4,7)),2).
+move(4,((4,7),(4,6)),3).
+move(4,((4,6),(5,6)),4).
+move(4,((5,6),(6,6)),5).
+move(5,((5,9),(5,8)),1).
+move(5,((5,8),(5,7)),2).
+move(5,((5,7),(5,6)),3).
+move(5,((5,6),(5,5)),4).
+move(5,((5,5),(5,4)),5).
+move(5,((5,4),(5,3)),6).
+move(5,((5,3),(6,3)),7).
+move(6,((6,9),(6,8)),1).
+move(6,((6,8),(6,7)),2).
+move(6,((6,7),(6,6)),3).
+move(6,((6,6),(6,5)),4).
+move(6,((6,5),(7,5)),5).
+move(6,((7,5),(7,4)),6).
+move(6,((7,4),(8,4)),7).
+move(6,((8,4),(8,3)),9).
+move(7,((7,9),(7,8)),1).
+move(7,((7,8),(7,7)),2).
+move(7,((7,7),(7,6)),3).
+move(7,((7,6),(7,5)),4).
+move(7,((7,5),(7,4)),5).
+move(7,((7,4),(6,4)),6).
+move(7,((6,4),(5,4)),7).
+move(7,((5,4),(4,4)),8).
+move(7,((4,4),(4,3)),9).
+move(8,((8,9),(9,9)),1).
+move(8,((9,9),(10,9)),2).
+move(8,((10,9),(11,9)),3).
+move(8,((11,9),(12,9)),4).
+move(8,((12,9),(12,8)),5).
+move(8,((12,8),(12,7)),6).
+move(8,((12,7),(12,6)),7).
+move(8,((12,6),(12,5)),8).
+move(8,((12,5),(13,5)),9).
+move(8,((13,5),(13,4)),10).
+move(8,((13,4),(14,4)),11).
+move(9,((9,9),(9,8)),1).
+move(9,((9,8),(8,8)),2).
+move(9,((8,8),(7,8)),3).
+move(9,((7,8),(6,8)),4).
+move(9,((6,8),(6,7)),5).
+move(10,((10,9),(10,8)),1).
+move(10,((10,8),(10,7)),2).
+move(10,((10,7),(10,6)),3).
+move(10,((10,6),(10,5)),4).
+move(10,((10,5),(10,4)),5).
+move(10,((10,4),(11,4)),6).
+move(10,((11,4),(12,4)),7).
+move(10,((12,4),(13,4)),8).
+move(10,((13,4),(12,4)),9).
+SATISFIABLE
+
+Models       : 1+
+Calls        : 1
+Time         : 1.715s (Solving: 0.03s 1st Model: 0.03s Unsat: 0.00s)
+CPU Time     : 1.719s
+
+Choices      : 791      (Domain: 72)
+Conflicts    : 33       (Analyzed: 33)
+Restarts     : 0       
+Model-Level  : 568.0   
+Problems     : 1        (Average Length: 0.00 Splits: 0)
+Lemmas       : 33       (Deleted: 0)
+  Binary     : 2        (Ratio:   6.06%)
+  Ternary    : 0        (Ratio:   0.00%)
+  Conflict   : 33       (Average Length:   42.3 Ratio: 100.00%) 
+  Loop       : 0        (Average Length:    0.0 Ratio:   0.00%) 
+  Other      : 0        (Average Length:    0.0 Ratio:   0.00%) 
+Backjumps    : 33       (Average:  6.76 Max:  41 Sum:    223)
+  Executed   : 33       (Average:  6.76 Max:  41 Sum:    223 Ratio: 100.00%)
+  Bounded    : 0        (Average:  0.00 Max:   0 Sum:      0 Ratio:   0.00%)
+
+Rules        : 414670   (Original: 362643)
+  Choice     : 200     
+  Heuristic  : 18361    (Original: 18475)
+Atoms        : 176059   (Original: 161349 Auxiliary: 14710)
 Bodies       : 251747   (Original: 214406)
   Count      : 1941     (Original: 2832)
 Equivalences : 144983   (Atom=Atom: 228 Body=Body: 239 Other: 144516)
@@ -747,8 +994,8 @@ SATISFIABLE
 
 Models       : 1+
 Calls        : 1
-Time         : 1.709s (Solving: 0.06s 1st Model: 0.06s Unsat: 0.00s)
-CPU Time     : 1.719s
+Time         : 1.749s (Solving: 0.06s 1st Model: 0.06s Unsat: 0.00s)
+CPU Time     : 1.750s
 
 Choices      : 1269    
 Conflicts    : 56       (Analyzed: 56)
@@ -948,8 +1195,8 @@ SATISFIABLE
 
 Models       : 1+
 Calls        : 1
-Time         : 1.707s (Solving: 0.06s 1st Model: 0.06s Unsat: 0.00s)
-CPU Time     : 1.719s
+Time         : 1.740s (Solving: 0.06s 1st Model: 0.06s Unsat: 0.00s)
+CPU Time     : 1.750s
 
 Choices      : 516      (Domain: 516)
 Conflicts    : 36       (Analyzed: 36)

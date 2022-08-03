@@ -5,8 +5,8 @@ UNSATISFIABLE
 
 Models       : 0
 Calls        : 1
-Time         : 11.198s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.203s
+Time         : 15.308s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 15.109s
 
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
@@ -36,8 +36,8 @@ UNSATISFIABLE
 
 Models       : 0
 Calls        : 1
-Time         : 11.312s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.312s
+Time         : 15.789s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 15.672s
 
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
@@ -68,8 +68,39 @@ UNSATISFIABLE
 
 Models       : 0
 Calls        : 1
-Time         : 11.169s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.172s
+Time         : 15.266s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 15.250s
+
+Choices      : 0       
+Conflicts    : 1        (Analyzed: 0)
+Restarts     : 0       
+Problems     : 0        (Average Length: 0.00 Splits: 0)
+Lemmas       : 0        (Deleted: 0)
+  Binary     : 0        (Ratio:   0.00%)
+  Ternary    : 0        (Ratio:   0.00%)
+  Conflict   : 0        (Average Length:    0.0 Ratio:   0.00%) 
+  Loop       : 0        (Average Length:    0.0 Ratio:   0.00%) 
+  Other      : 0        (Average Length:    0.0 Ratio:   0.00%) 
+Backjumps    : 0        (Average:  0.00 Max:   0 Sum:      0)
+  Executed   : 0        (Average:  0.00 Max:   0 Sum:      0 Ratio:   0.00%)
+  Bounded    : 0        (Average:  0.00 Max:   0 Sum:      0 Ratio: 100.00%)
+
+Rules        : 2707940 
+Atoms        : 0       
+Bodies       : 1490570 
+Tight        : Yes
+Variables    : 0        (Eliminated:    0 Frozen:    0)
+Constraints  : 0        (Binary:   0.0% Ternary:   0.0% Other:   0.0%)
+
+%%%%%
+%hForbiddenNode.lp
+%%%%%
+UNSATISFIABLE
+
+Models       : 0
+Calls        : 1
+Time         : 13.628s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 13.500s
 
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
@@ -99,8 +130,8 @@ UNSATISFIABLE
 
 Models       : 0
 Calls        : 1
-Time         : 11.276s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.281s
+Time         : 13.169s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 13.109s
 
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
@@ -131,8 +162,8 @@ UNSATISFIABLE
 
 Models       : 0
 Calls        : 1
-Time         : 11.204s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.203s
+Time         : 12.306s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 12.172s
 
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
@@ -157,14 +188,46 @@ Variables    : 0        (Eliminated:    0 Frozen:    0)
 Constraints  : 0        (Binary:   0.0% Ternary:   0.0% Other:   0.0%)
 
 %%%%%
+%hNodeCost.lp
+%%%%%
+UNSATISFIABLE
+
+Models       : 0
+Calls        : 1
+Time         : 13.120s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 13.078s
+
+Choices      : 0       
+Conflicts    : 1        (Analyzed: 0)
+Restarts     : 0       
+Problems     : 0        (Average Length: 0.00 Splits: 0)
+Lemmas       : 0        (Deleted: 0)
+  Binary     : 0        (Ratio:   0.00%)
+  Ternary    : 0        (Ratio:   0.00%)
+  Conflict   : 0        (Average Length:    0.0 Ratio:   0.00%) 
+  Loop       : 0        (Average Length:    0.0 Ratio:   0.00%) 
+  Other      : 0        (Average Length:    0.0 Ratio:   0.00%) 
+Backjumps    : 0        (Average:  0.00 Max:   0 Sum:      0)
+  Executed   : 0        (Average:  0.00 Max:   0 Sum:      0 Ratio:   0.00%)
+  Bounded    : 0        (Average:  0.00 Max:   0 Sum:      0 Ratio: 100.00%)
+
+Rules        : 2707963  (Original: 2773238)
+  Heuristic  : 0        (Original: 65275)
+Atoms        : 0       
+Bodies       : 1490570 
+Tight        : Yes
+Variables    : 0        (Eliminated:    0 Frozen:    0)
+Constraints  : 0        (Binary:   0.0% Ternary:   0.0% Other:   0.0%)
+
+%%%%%
 %hPathArea.lp
 %%%%%
 UNSATISFIABLE
 
 Models       : 0
 Calls        : 1
-Time         : 11.372s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.359s
+Time         : 12.050s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 12.016s
 
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
@@ -195,8 +258,8 @@ UNSATISFIABLE
 
 Models       : 0
 Calls        : 1
-Time         : 11.355s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.344s
+Time         : 13.210s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 12.969s
 
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)

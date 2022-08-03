@@ -8,58 +8,42 @@ Instanz: resultx46_y15_n690_r35_s320_ps10_pr320_u320_o35_N001.lp
 %Standard
 %%%%%
 UNSATISFIABLE
-Time         : 17.891s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 17.891s
+Time         : 17.118s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 17.109s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hDirectionalNarrowNode.lp
 %%%%%
 UNSATISFIABLE
-Time         : 18.436s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 18.438s
+Time         : 17.238s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 17.250s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hDistance.lp
 %%%%%
 UNSATISFIABLE
-Time         : 18.306s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 18.297s
+Time         : 17.456s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 17.344s
+Choices      : 0       
+Conflicts    : 1        (Analyzed: 0)
+%%%%%
+%hForbiddenNode.lp
+%%%%%
+UNSATISFIABLE
+Time         : 18.678s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 18.609s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hNaivePathDistance.lp
 %%%%%
 UNSATISFIABLE
-Time         : 18.366s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 18.281s
+Time         : 14.779s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 14.719s
 Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
-%%%%%
-%hNarrowNode.lp
-%%%%%
-UNSATISFIABLE
-Time         : 17.859s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 17.859s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
-%%%%%
-%hPathArea.lp
-%%%%%
-UNSATISFIABLE
-Time         : 18.403s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 18.391s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
-%%%%%
-%hStrange.lp
-%%%%%
-UNSATISFIABLE
-Time         : 18.602s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 18.594s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+Conflicts    : 0        (Analyzed: 0)
 
 %%%%%%%%%%%%%%%
 Instanz: resultx46_y15_n690_r35_s320_ps10_pr320_u320_o35_N002.lp
