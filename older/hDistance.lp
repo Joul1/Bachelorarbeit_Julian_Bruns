@@ -1,1 +1,0 @@
-#heuristic move(R,((X1,Y1),(X2,Y2)),T):task(R,_,(Gx,Gy)). [|X2-Gx|+|Y2-Gy|,level]
