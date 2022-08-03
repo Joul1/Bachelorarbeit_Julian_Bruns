@@ -1,0 +1,11 @@
+clingo ./hEncoding/hDistance.lp ./test/hDistanceTest.lp --heuristic=Domain -c horizon=20 --time=10 --out-atomf=%s. --out-ifs="\n" --verbose --stats
+
+clingo ./hEncoding/hNaivePathDistance.lp ./test/hNaivePathDistanceTest.lp --heuristic=Domain -c horizon=20 --time=10 --out-atomf=%s. --out-ifs="\n" --verbose --stats
+
+
+
+
+
+
+
+

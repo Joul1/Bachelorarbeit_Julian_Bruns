@@ -1,0 +1,2 @@
+clingo ./TestHAllatonce.lp ./instances/moo/structured/2x3x5/100sc/r15/converted/convertedx19_y9_n171_r15_s60_ps3_pr60_u60_o15_N001.lp --heuristic=Domain -c horizon=20 --time=60 --out-atomf=%s. --out-ifs="\n" -V0 --stats
+
