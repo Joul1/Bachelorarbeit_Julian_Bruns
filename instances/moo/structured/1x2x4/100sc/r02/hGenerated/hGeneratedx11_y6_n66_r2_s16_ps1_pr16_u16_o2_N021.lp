@@ -1,14 +1,2 @@
-hPathArea(1,3,3,6,1).
-hPathArea(2,4,4,6,2).
-hNarrowNode(3,6,2).
-hStep(1,6,2,6,1,0).
-hStep(2,6,3,6,2,0).
-hStep(3,4,3,3,1,0).
-hStep(4,5,4,4,2,0).
-hStep(2,6,3,6,1,1).
-hStep(3,6,4,6,2,1).
-hStep(3,6,3,5,1,2).
-hStep(4,6,4,5,2,2).
-hStep(3,5,3,4,1,3).
-hStep(4,5,4,4,2,3).
-hStep(3,4,3,3,1,4).
+hPathArea(#sup,#sup,#inf,#inf,1).
+hPathArea(#sup,#sup,#inf,#inf,2).

@@ -8,72 +8,72 @@ Instanz: resultx46_y15_n690_r23_s320_ps10_pr320_u320_o23_N001.lp
 %Standard
 %%%%%
 UNSATISFIABLE
-Time         : 14.599s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 14.406s
+Time         : 28.192s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 28.141s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hDirectionalNarrowNode.lp
 %%%%%
 UNSATISFIABLE
-Time         : 14.505s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 14.453s
+Time         : 27.799s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 27.781s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hDistance.lp
 %%%%%
 UNSATISFIABLE
-Time         : 14.928s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 14.828s
+Time         : 28.624s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 28.578s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hForbiddenNode.lp
 %%%%%
 UNSATISFIABLE
-Time         : 14.709s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 14.500s
+Time         : 29.804s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 29.703s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hNaivePathDistance.lp
 %%%%%
 UNSATISFIABLE
-Time         : 15.650s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 15.453s
+Time         : 28.832s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 28.609s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hNarrowNode.lp
 %%%%%
 UNSATISFIABLE
-Time         : 13.882s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 13.812s
+Time         : 26.812s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 26.781s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hNodeCost.lp
 %%%%%
 UNSATISFIABLE
-Time         : 16.653s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 16.578s
+Time         : 28.637s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 28.453s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hPathArea.lp
 %%%%%
 UNSATISFIABLE
-Time         : 13.841s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 13.719s
+Time         : 27.669s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 27.594s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hStrange.lp
 %%%%%
 UNSATISFIABLE
-Time         : 11.548s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.469s
+Time         : 27.084s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 27.078s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 
@@ -85,74 +85,74 @@ Instanz: resultx46_y15_n690_r23_s320_ps10_pr320_u320_o23_N002.lp
 %Standard
 %%%%%
 SATISFIABLE
-Time         : 16.209s (Solving: 0.89s 1st Model: 0.89s Unsat: 0.00s)
-CPU Time     : 16.125s
-Choices      : 6914    
-Conflicts    : 74       (Analyzed: 74)
+Time         : 39.058s (Solving: 2.14s 1st Model: 2.14s Unsat: 0.00s)
+CPU Time     : 39.031s
+Choices      : 16052   
+Conflicts    : 90       (Analyzed: 90)
 %%%%%
 %hDirectionalNarrowNode.lp
 %%%%%
 SATISFIABLE
-Time         : 15.363s (Solving: 0.88s 1st Model: 0.88s Unsat: 0.00s)
-CPU Time     : 15.328s
-Choices      : 6859    
-Conflicts    : 74       (Analyzed: 74)
+Time         : 38.423s (Solving: 2.03s 1st Model: 2.03s Unsat: 0.00s)
+CPU Time     : 38.391s
+Choices      : 15620    (Domain: 112)
+Conflicts    : 88       (Analyzed: 88)
 %%%%%
 %hDistance.lp
 %%%%%
 SATISFIABLE
-Time         : 17.989s (Solving: 0.90s 1st Model: 0.90s Unsat: 0.00s)
-CPU Time     : 17.875s
-Choices      : 6996    
-Conflicts    : 74       (Analyzed: 74)
+Time         : 36.936s (Solving: 0.53s 1st Model: 0.53s Unsat: 0.00s)
+CPU Time     : 36.938s
+Choices      : 1511     (Domain: 1511)
+Conflicts    : 23       (Analyzed: 23)
 %%%%%
 %hForbiddenNode.lp
 %%%%%
 SATISFIABLE
-Time         : 18.906s (Solving: 1.07s 1st Model: 1.07s Unsat: 0.00s)
-CPU Time     : 18.703s
-Choices      : 6996    
-Conflicts    : 74       (Analyzed: 74)
+Time         : 50.078s (Solving: 13.77s 1st Model: 13.77s Unsat: 0.00s)
+CPU Time     : 50.062s
+Choices      : 50323    (Domain: 8639)
+Conflicts    : 599      (Analyzed: 599)
 %%%%%
 %hNaivePathDistance.lp
 %%%%%
 SATISFIABLE
-Time         : 20.768s (Solving: 2.32s 1st Model: 2.32s Unsat: 0.00s)
-CPU Time     : 20.656s
-Choices      : 36819   
-Conflicts    : 136      (Analyzed: 136)
+Time         : 44.694s (Solving: 0.46s 1st Model: 0.46s Unsat: 0.00s)
+CPU Time     : 44.578s
+Choices      : 919      (Domain: 266)
+Conflicts    : 6        (Analyzed: 6)
 %%%%%
 %hNarrowNode.lp
 %%%%%
 SATISFIABLE
-Time         : 17.245s (Solving: 1.20s 1st Model: 1.20s Unsat: 0.00s)
-CPU Time     : 17.203s
-Choices      : 8567    
-Conflicts    : 76       (Analyzed: 76)
+Time         : 45.607s (Solving: 2.22s 1st Model: 2.22s Unsat: 0.00s)
+CPU Time     : 45.562s
+Choices      : 17989    (Domain: 1035)
+Conflicts    : 85       (Analyzed: 85)
 %%%%%
 %hNodeCost.lp
 %%%%%
 SATISFIABLE
-Time         : 20.955s (Solving: 0.45s 1st Model: 0.45s Unsat: 0.00s)
-CPU Time     : 20.672s
-Choices      : 1227     (Domain: 530)
-Conflicts    : 66       (Analyzed: 66)
+Time         : 44.201s (Solving: 2.30s 1st Model: 2.29s Unsat: 0.00s)
+CPU Time     : 44.203s
+Choices      : 14987    (Domain: 9642)
+Conflicts    : 95       (Analyzed: 95)
 %%%%%
 %hPathArea.lp
 %%%%%
 SATISFIABLE
-Time         : 22.537s (Solving: 1.98s 1st Model: 1.98s Unsat: 0.00s)
-CPU Time     : 22.000s
-Choices      : 51611   
-Conflicts    : 122      (Analyzed: 122)
+Time         : 49.051s (Solving: 6.74s 1st Model: 6.73s Unsat: 0.00s)
+CPU Time     : 49.062s
+Choices      : 21390    (Domain: 21390)
+Conflicts    : 451      (Analyzed: 451)
 %%%%%
 %hStrange.lp
 %%%%%
 SATISFIABLE
-Time         : 21.174s (Solving: 0.87s 1st Model: 0.87s Unsat: 0.00s)
-CPU Time     : 20.516s
-Choices      : 2847     (Domain: 2847)
-Conflicts    : 98       (Analyzed: 98)
+Time         : 52.319s (Solving: 11.11s 1st Model: 11.11s Unsat: 0.00s)
+CPU Time     : 52.281s
+Choices      : 26290    (Domain: 26290)
+Conflicts    : 500      (Analyzed: 500)
 
 %%%%%%%%%%%%%%%
 Instanz: resultx46_y15_n690_r23_s320_ps10_pr320_u320_o23_N003.lp
@@ -162,72 +162,72 @@ Instanz: resultx46_y15_n690_r23_s320_ps10_pr320_u320_o23_N003.lp
 %Standard
 %%%%%
 UNSATISFIABLE
-Time         : 13.460s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 13.422s
+Time         : 31.719s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 31.531s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hDirectionalNarrowNode.lp
 %%%%%
 UNSATISFIABLE
-Time         : 11.964s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.891s
+Time         : 31.394s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 31.297s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hDistance.lp
 %%%%%
 UNSATISFIABLE
-Time         : 13.281s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 13.141s
+Time         : 27.696s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 27.672s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hForbiddenNode.lp
 %%%%%
 UNSATISFIABLE
-Time         : 12.674s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 12.625s
+Time         : 27.079s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 27.078s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hNaivePathDistance.lp
 %%%%%
 UNSATISFIABLE
-Time         : 13.495s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 13.469s
+Time         : 26.503s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 26.500s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hNarrowNode.lp
 %%%%%
 UNSATISFIABLE
-Time         : 12.068s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 12.016s
+Time         : 26.444s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 26.422s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hNodeCost.lp
 %%%%%
 UNSATISFIABLE
-Time         : 14.453s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 14.406s
+Time         : 26.674s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 26.672s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hPathArea.lp
 %%%%%
 UNSATISFIABLE
-Time         : 14.541s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 14.469s
+Time         : 27.589s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 27.547s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hStrange.lp
 %%%%%
 UNSATISFIABLE
-Time         : 14.172s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 14.141s
+Time         : 27.246s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 27.203s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 
@@ -238,75 +238,75 @@ Instanz: resultx46_y15_n690_r23_s320_ps10_pr320_u320_o23_N004.lp
 %%%%%
 %Standard
 %%%%%
-UNSATISFIABLE
-Time         : 15.308s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 15.109s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 45.516s (Solving: 9.32s 1st Model: 9.32s Unsat: 0.00s)
+CPU Time     : 45.453s
+Choices      : 59966   
+Conflicts    : 219      (Analyzed: 219)
 %%%%%
 %hDirectionalNarrowNode.lp
 %%%%%
-UNSATISFIABLE
-Time         : 15.789s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 15.672s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 44.128s (Solving: 7.31s 1st Model: 7.31s Unsat: 0.00s)
+CPU Time     : 44.125s
+Choices      : 45669    (Domain: 344)
+Conflicts    : 220      (Analyzed: 220)
 %%%%%
 %hDistance.lp
 %%%%%
-UNSATISFIABLE
-Time         : 15.266s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 15.250s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 37.998s (Solving: 0.87s 1st Model: 0.87s Unsat: 0.00s)
+CPU Time     : 37.938s
+Choices      : 2066     (Domain: 2066)
+Conflicts    : 69       (Analyzed: 69)
 %%%%%
 %hForbiddenNode.lp
 %%%%%
-UNSATISFIABLE
-Time         : 13.628s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 13.500s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 53.836s (Solving: 17.08s 1st Model: 17.08s Unsat: 0.00s)
+CPU Time     : 53.781s
+Choices      : 56620    (Domain: 14283)
+Conflicts    : 734      (Analyzed: 734)
 %%%%%
 %hNaivePathDistance.lp
 %%%%%
-UNSATISFIABLE
-Time         : 13.169s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 13.109s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 43.788s (Solving: 0.72s 1st Model: 0.71s Unsat: 0.00s)
+CPU Time     : 41.031s
+Choices      : 2043     (Domain: 301)
+Conflicts    : 26       (Analyzed: 26)
 %%%%%
 %hNarrowNode.lp
 %%%%%
-UNSATISFIABLE
-Time         : 12.306s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 12.172s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 46.824s (Solving: 1.41s 1st Model: 1.41s Unsat: 0.00s)
+CPU Time     : 41.422s
+Choices      : 26118    (Domain: 4803)
+Conflicts    : 162      (Analyzed: 162)
 %%%%%
 %hNodeCost.lp
 %%%%%
-UNSATISFIABLE
-Time         : 13.120s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 13.078s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 51.997s (Solving: 8.55s 1st Model: 8.55s Unsat: 0.00s)
+CPU Time     : 48.969s
+Choices      : 47760    (Domain: 27408)
+Conflicts    : 212      (Analyzed: 212)
 %%%%%
 %hPathArea.lp
 %%%%%
-UNSATISFIABLE
-Time         : 12.050s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 12.016s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 38.114s (Solving: 0.51s 1st Model: 0.51s Unsat: 0.00s)
+CPU Time     : 37.906s
+Choices      : 913      (Domain: 913)
+Conflicts    : 50       (Analyzed: 50)
 %%%%%
 %hStrange.lp
 %%%%%
-UNSATISFIABLE
-Time         : 13.210s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 12.969s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 43.776s (Solving: 3.27s 1st Model: 3.26s Unsat: 0.00s)
+CPU Time     : 43.344s
+Choices      : 5826     (Domain: 5826)
+Conflicts    : 265      (Analyzed: 265)
 
 %%%%%%%%%%%%%%%
 Instanz: resultx46_y15_n690_r23_s320_ps10_pr320_u320_o23_N005.lp
@@ -316,74 +316,74 @@ Instanz: resultx46_y15_n690_r23_s320_ps10_pr320_u320_o23_N005.lp
 %Standard
 %%%%%
 SATISFIABLE
-Time         : 19.696s (Solving: 1.62s 1st Model: 1.61s Unsat: 0.00s)
-CPU Time     : 19.484s
-Choices      : 11110   
-Conflicts    : 90       (Analyzed: 90)
+Time         : 43.227s (Solving: 2.98s 1st Model: 2.97s Unsat: 0.00s)
+CPU Time     : 42.375s
+Choices      : 14937   
+Conflicts    : 96       (Analyzed: 96)
 %%%%%
 %hDirectionalNarrowNode.lp
 %%%%%
 SATISFIABLE
-Time         : 16.709s (Solving: 1.48s 1st Model: 1.47s Unsat: 0.00s)
-CPU Time     : 16.719s
-Choices      : 11506   
+Time         : 41.598s (Solving: 1.45s 1st Model: 1.44s Unsat: 0.00s)
+CPU Time     : 40.891s
+Choices      : 8856     (Domain: 112)
 Conflicts    : 88       (Analyzed: 88)
 %%%%%
 %hDistance.lp
 %%%%%
 SATISFIABLE
-Time         : 18.561s (Solving: 1.79s 1st Model: 1.79s Unsat: 0.00s)
-CPU Time     : 18.406s
-Choices      : 11439   
-Conflicts    : 88       (Analyzed: 88)
+Time         : 37.161s (Solving: 0.55s 1st Model: 0.54s Unsat: 0.00s)
+CPU Time     : 37.109s
+Choices      : 1528     (Domain: 1528)
+Conflicts    : 23       (Analyzed: 23)
 %%%%%
 %hForbiddenNode.lp
 %%%%%
 SATISFIABLE
-Time         : 19.990s (Solving: 1.82s 1st Model: 1.81s Unsat: 0.00s)
-CPU Time     : 19.953s
-Choices      : 11439   
-Conflicts    : 88       (Analyzed: 88)
+Time         : 53.539s (Solving: 16.82s 1st Model: 16.82s Unsat: 0.00s)
+CPU Time     : 53.547s
+Choices      : 65881    (Domain: 20790)
+Conflicts    : 1145     (Analyzed: 1145)
 %%%%%
 %hNaivePathDistance.lp
 %%%%%
 SATISFIABLE
-Time         : 21.115s (Solving: 2.89s 1st Model: 2.89s Unsat: 0.00s)
-CPU Time     : 20.797s
-Choices      : 19590   
-Conflicts    : 143      (Analyzed: 143)
+Time         : 40.627s (Solving: 0.46s 1st Model: 0.46s Unsat: 0.00s)
+CPU Time     : 40.109s
+Choices      : 944      (Domain: 267)
+Conflicts    : 10       (Analyzed: 10)
 %%%%%
 %hNarrowNode.lp
 %%%%%
 SATISFIABLE
-Time         : 20.409s (Solving: 1.66s 1st Model: 1.65s Unsat: 0.00s)
-CPU Time     : 20.344s
-Choices      : 11094   
-Conflicts    : 90       (Analyzed: 90)
+Time         : 47.238s (Solving: 1.91s 1st Model: 1.91s Unsat: 0.00s)
+CPU Time     : 46.609s
+Choices      : 17326    (Domain: 999)
+Conflicts    : 86       (Analyzed: 86)
 %%%%%
 %hNodeCost.lp
 %%%%%
 SATISFIABLE
-Time         : 18.863s (Solving: 0.42s 1st Model: 0.41s Unsat: 0.00s)
-CPU Time     : 18.797s
-Choices      : 1232     (Domain: 535)
-Conflicts    : 68       (Analyzed: 68)
+Time         : 42.876s (Solving: 3.78s 1st Model: 3.78s Unsat: 0.00s)
+CPU Time     : 42.828s
+Choices      : 40711    (Domain: 30265)
+Conflicts    : 137      (Analyzed: 137)
 %%%%%
 %hPathArea.lp
 %%%%%
 SATISFIABLE
-Time         : 20.468s (Solving: 2.02s 1st Model: 2.02s Unsat: 0.00s)
-CPU Time     : 20.281s
-Choices      : 41466   
-Conflicts    : 117      (Analyzed: 117)
+Time         : 41.809s (Solving: 3.17s 1st Model: 3.16s Unsat: 0.00s)
+CPU Time     : 41.750s
+Choices      : 10514    (Domain: 10514)
+Conflicts    : 414      (Analyzed: 414)
 %%%%%
 %hStrange.lp
 %%%%%
 SATISFIABLE
-Time         : 21.201s (Solving: 1.46s 1st Model: 1.45s Unsat: 0.00s)
-CPU Time     : 20.938s
-Choices      : 3738     (Domain: 3738)
-Conflicts    : 137      (Analyzed: 137)
+Time         : 40.309s (Solving: 1.02s 1st Model: 1.02s Unsat: 0.00s)
+CPU Time     : 40.297s
+Choices      : 3007     (Domain: 3007)
+Conflicts    : 127      (Analyzed: 127)
 
 %%%%%%%%%%%%%%%
 Instanz: resultx46_y15_n690_r23_s320_ps10_pr320_u320_o23_N006.lp
@@ -393,72 +393,72 @@ Instanz: resultx46_y15_n690_r23_s320_ps10_pr320_u320_o23_N006.lp
 %Standard
 %%%%%
 UNSATISFIABLE
-Time         : 14.025s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 14.016s
+Time         : 27.726s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 27.719s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hDirectionalNarrowNode.lp
 %%%%%
 UNSATISFIABLE
-Time         : 14.420s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 14.328s
+Time         : 27.653s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 27.641s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hDistance.lp
 %%%%%
 UNSATISFIABLE
-Time         : 13.106s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 13.109s
+Time         : 28.413s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 28.422s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hForbiddenNode.lp
 %%%%%
 UNSATISFIABLE
-Time         : 13.876s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 13.844s
+Time         : 29.412s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 29.375s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hNaivePathDistance.lp
 %%%%%
 UNSATISFIABLE
-Time         : 14.382s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 14.297s
+Time         : 31.592s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 31.547s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hNarrowNode.lp
 %%%%%
 UNSATISFIABLE
-Time         : 14.041s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 13.953s
+Time         : 33.103s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 33.062s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hNodeCost.lp
 %%%%%
 UNSATISFIABLE
-Time         : 13.842s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 13.781s
+Time         : 32.767s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 32.766s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hPathArea.lp
 %%%%%
 UNSATISFIABLE
-Time         : 14.467s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 14.391s
+Time         : 31.951s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 31.938s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hStrange.lp
 %%%%%
 UNSATISFIABLE
-Time         : 13.812s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 13.750s
+Time         : 30.962s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 30.891s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 
@@ -469,75 +469,75 @@ Instanz: resultx46_y15_n690_r23_s320_ps10_pr320_u320_o23_N007.lp
 %%%%%
 %Standard
 %%%%%
-UNSATISFIABLE
-Time         : 14.416s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 14.297s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 45.929s (Solving: 8.97s 1st Model: 8.97s Unsat: 0.00s)
+CPU Time     : 45.922s
+Choices      : 61274   
+Conflicts    : 213      (Analyzed: 213)
 %%%%%
 %hDirectionalNarrowNode.lp
 %%%%%
-UNSATISFIABLE
-Time         : 15.092s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 14.812s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 42.686s (Solving: 5.12s 1st Model: 5.12s Unsat: 0.00s)
+CPU Time     : 42.516s
+Choices      : 28715    (Domain: 344)
+Conflicts    : 216      (Analyzed: 216)
 %%%%%
 %hDistance.lp
 %%%%%
-UNSATISFIABLE
-Time         : 15.064s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 15.000s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 41.710s (Solving: 0.88s 1st Model: 0.88s Unsat: 0.00s)
+CPU Time     : 41.141s
+Choices      : 2384     (Domain: 2384)
+Conflicts    : 83       (Analyzed: 83)
 %%%%%
 %hForbiddenNode.lp
 %%%%%
-UNSATISFIABLE
-Time         : 15.312s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 15.188s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 57.307s (Solving: 15.23s 1st Model: 15.23s Unsat: 0.00s)
+CPU Time     : 55.734s
+Choices      : 46854    (Domain: 10504)
+Conflicts    : 713      (Analyzed: 713)
 %%%%%
 %hNaivePathDistance.lp
 %%%%%
-UNSATISFIABLE
-Time         : 13.048s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 12.906s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 40.575s (Solving: 0.64s 1st Model: 0.64s Unsat: 0.00s)
+CPU Time     : 39.594s
+Choices      : 1808     (Domain: 317)
+Conflicts    : 30       (Analyzed: 30)
 %%%%%
 %hNarrowNode.lp
 %%%%%
-UNSATISFIABLE
-Time         : 12.785s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 12.703s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 45.121s (Solving: 3.73s 1st Model: 3.73s Unsat: 0.00s)
+CPU Time     : 43.562s
+Choices      : 57609    (Domain: 4803)
+Conflicts    : 184      (Analyzed: 184)
 %%%%%
 %hNodeCost.lp
 %%%%%
-UNSATISFIABLE
-Time         : 14.082s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 14.000s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 53.252s (Solving: 11.33s 1st Model: 11.32s Unsat: 0.00s)
+CPU Time     : 52.141s
+Choices      : 66112    (Domain: 36274)
+Conflicts    : 237      (Analyzed: 237)
 %%%%%
 %hPathArea.lp
 %%%%%
-UNSATISFIABLE
-Time         : 14.834s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 14.703s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 41.996s (Solving: 0.48s 1st Model: 0.47s Unsat: 0.00s)
+CPU Time     : 40.297s
+Choices      : 918      (Domain: 918)
+Conflicts    : 49       (Analyzed: 49)
 %%%%%
 %hStrange.lp
 %%%%%
-UNSATISFIABLE
-Time         : 14.328s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 14.266s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 40.165s (Solving: 2.89s 1st Model: 2.89s Unsat: 0.00s)
+CPU Time     : 40.156s
+Choices      : 6892     (Domain: 6892)
+Conflicts    : 337      (Analyzed: 337)
 
 %%%%%%%%%%%%%%%
 Instanz: resultx46_y15_n690_r23_s320_ps10_pr320_u320_o23_N008.lp
@@ -547,74 +547,74 @@ Instanz: resultx46_y15_n690_r23_s320_ps10_pr320_u320_o23_N008.lp
 %Standard
 %%%%%
 SATISFIABLE
-Time         : 19.270s (Solving: 1.44s 1st Model: 1.44s Unsat: 0.00s)
-CPU Time     : 19.141s
-Choices      : 10959   
-Conflicts    : 83       (Analyzed: 83)
+Time         : 38.519s (Solving: 1.56s 1st Model: 1.56s Unsat: 0.00s)
+CPU Time     : 38.500s
+Choices      : 17712   
+Conflicts    : 102      (Analyzed: 102)
 %%%%%
 %hDirectionalNarrowNode.lp
 %%%%%
 SATISFIABLE
-Time         : 18.943s (Solving: 1.38s 1st Model: 1.38s Unsat: 0.00s)
-CPU Time     : 18.812s
-Choices      : 12210   
-Conflicts    : 89       (Analyzed: 89)
+Time         : 38.367s (Solving: 1.27s 1st Model: 1.27s Unsat: 0.00s)
+CPU Time     : 38.375s
+Choices      : 14025    (Domain: 112)
+Conflicts    : 88       (Analyzed: 88)
 %%%%%
 %hDistance.lp
 %%%%%
 SATISFIABLE
-Time         : 17.043s (Solving: 1.39s 1st Model: 1.38s Unsat: 0.00s)
-CPU Time     : 17.016s
-Choices      : 12236   
-Conflicts    : 85       (Analyzed: 85)
+Time         : 38.533s (Solving: 0.67s 1st Model: 0.66s Unsat: 0.00s)
+CPU Time     : 38.531s
+Choices      : 1967     (Domain: 1967)
+Conflicts    : 18       (Analyzed: 18)
 %%%%%
 %hForbiddenNode.lp
 %%%%%
 SATISFIABLE
-Time         : 16.108s (Solving: 1.28s 1st Model: 1.27s Unsat: 0.00s)
-CPU Time     : 16.047s
-Choices      : 12236   
-Conflicts    : 85       (Analyzed: 85)
+Time         : 58.466s (Solving: 21.05s 1st Model: 21.04s Unsat: 0.00s)
+CPU Time     : 58.453s
+Choices      : 92830    (Domain: 22518)
+Conflicts    : 1164     (Analyzed: 1164)
 %%%%%
 %hNaivePathDistance.lp
 %%%%%
 SATISFIABLE
-Time         : 19.640s (Solving: 1.97s 1st Model: 1.97s Unsat: 0.00s)
-CPU Time     : 19.516s
-Choices      : 29804   
-Conflicts    : 143      (Analyzed: 143)
+Time         : 37.355s (Solving: 0.36s 1st Model: 0.36s Unsat: 0.00s)
+CPU Time     : 37.328s
+Choices      : 884      (Domain: 288)
+Conflicts    : 2        (Analyzed: 2)
 %%%%%
 %hNarrowNode.lp
 %%%%%
 SATISFIABLE
-Time         : 18.867s (Solving: 1.62s 1st Model: 1.62s Unsat: 0.00s)
-CPU Time     : 18.719s
-Choices      : 12398   
-Conflicts    : 87       (Analyzed: 87)
+Time         : 38.942s (Solving: 1.91s 1st Model: 1.90s Unsat: 0.00s)
+CPU Time     : 38.922s
+Choices      : 25820    (Domain: 1069)
+Conflicts    : 93       (Analyzed: 93)
 %%%%%
 %hNodeCost.lp
 %%%%%
 SATISFIABLE
-Time         : 19.451s (Solving: 0.74s 1st Model: 0.74s Unsat: 0.00s)
-CPU Time     : 19.328s
-Choices      : 4166     (Domain: 857)
-Conflicts    : 95       (Analyzed: 95)
+Time         : 39.872s (Solving: 2.00s 1st Model: 1.99s Unsat: 0.00s)
+CPU Time     : 39.859s
+Choices      : 18432    (Domain: 14214)
+Conflicts    : 122      (Analyzed: 122)
 %%%%%
 %hPathArea.lp
 %%%%%
 SATISFIABLE
-Time         : 17.903s (Solving: 0.93s 1st Model: 0.93s Unsat: 0.00s)
-CPU Time     : 17.609s
-Choices      : 7183    
-Conflicts    : 130      (Analyzed: 130)
+Time         : 41.017s (Solving: 3.26s 1st Model: 3.26s Unsat: 0.00s)
+CPU Time     : 41.000s
+Choices      : 10728    (Domain: 10728)
+Conflicts    : 398      (Analyzed: 398)
 %%%%%
 %hStrange.lp
 %%%%%
 SATISFIABLE
-Time         : 17.203s (Solving: 0.80s 1st Model: 0.80s Unsat: 0.00s)
-CPU Time     : 17.078s
-Choices      : 3090     (Domain: 3090)
-Conflicts    : 129      (Analyzed: 129)
+Time         : 47.764s (Solving: 10.43s 1st Model: 10.42s Unsat: 0.00s)
+CPU Time     : 47.750s
+Choices      : 28914    (Domain: 28914)
+Conflicts    : 493      (Analyzed: 493)
 
 %%%%%%%%%%%%%%%
 Instanz: resultx46_y15_n690_r23_s320_ps10_pr320_u320_o23_N009.lp
@@ -624,74 +624,74 @@ Instanz: resultx46_y15_n690_r23_s320_ps10_pr320_u320_o23_N009.lp
 %Standard
 %%%%%
 SATISFIABLE
-Time         : 16.883s (Solving: 1.36s 1st Model: 1.36s Unsat: 0.00s)
-CPU Time     : 16.797s
-Choices      : 10534   
-Conflicts    : 82       (Analyzed: 82)
+Time         : 41.084s (Solving: 3.15s 1st Model: 3.15s Unsat: 0.00s)
+CPU Time     : 40.984s
+Choices      : 26376   
+Conflicts    : 107      (Analyzed: 107)
 %%%%%
 %hDirectionalNarrowNode.lp
 %%%%%
 SATISFIABLE
-Time         : 16.997s (Solving: 1.52s 1st Model: 1.52s Unsat: 0.00s)
-CPU Time     : 16.953s
-Choices      : 11223   
-Conflicts    : 83       (Analyzed: 83)
+Time         : 41.236s (Solving: 2.78s 1st Model: 2.77s Unsat: 0.00s)
+CPU Time     : 41.219s
+Choices      : 23411    (Domain: 112)
+Conflicts    : 99       (Analyzed: 99)
 %%%%%
 %hDistance.lp
 %%%%%
 SATISFIABLE
-Time         : 17.019s (Solving: 1.55s 1st Model: 1.55s Unsat: 0.00s)
-CPU Time     : 16.938s
-Choices      : 11303   
-Conflicts    : 83       (Analyzed: 83)
+Time         : 37.945s (Solving: 0.56s 1st Model: 0.56s Unsat: 0.00s)
+CPU Time     : 37.938s
+Choices      : 1467     (Domain: 1467)
+Conflicts    : 23       (Analyzed: 23)
 %%%%%
 %hForbiddenNode.lp
 %%%%%
 SATISFIABLE
-Time         : 18.464s (Solving: 1.45s 1st Model: 1.44s Unsat: 0.00s)
-CPU Time     : 18.234s
-Choices      : 11303   
-Conflicts    : 83       (Analyzed: 83)
+Time         : 48.919s (Solving: 11.02s 1st Model: 11.01s Unsat: 0.00s)
+CPU Time     : 48.906s
+Choices      : 37019    (Domain: 8878)
+Conflicts    : 783      (Analyzed: 783)
 %%%%%
 %hNaivePathDistance.lp
 %%%%%
 SATISFIABLE
-Time         : 21.227s (Solving: 2.72s 1st Model: 2.72s Unsat: 0.00s)
-CPU Time     : 20.953s
-Choices      : 34453   
-Conflicts    : 136      (Analyzed: 136)
+Time         : 39.614s (Solving: 0.44s 1st Model: 0.44s Unsat: 0.00s)
+CPU Time     : 39.609s
+Choices      : 929      (Domain: 266)
+Conflicts    : 7        (Analyzed: 7)
 %%%%%
 %hNarrowNode.lp
 %%%%%
 SATISFIABLE
-Time         : 18.166s (Solving: 1.41s 1st Model: 1.41s Unsat: 0.00s)
-CPU Time     : 18.156s
-Choices      : 11834   
-Conflicts    : 83       (Analyzed: 83)
+Time         : 46.223s (Solving: 2.89s 1st Model: 2.89s Unsat: 0.00s)
+CPU Time     : 46.219s
+Choices      : 24946    (Domain: 1035)
+Conflicts    : 96       (Analyzed: 96)
 %%%%%
 %hNodeCost.lp
 %%%%%
 SATISFIABLE
-Time         : 17.715s (Solving: 0.40s 1st Model: 0.40s Unsat: 0.00s)
-CPU Time     : 17.453s
-Choices      : 1179     (Domain: 529)
-Conflicts    : 66       (Analyzed: 66)
+Time         : 47.314s (Solving: 3.21s 1st Model: 3.21s Unsat: 0.00s)
+CPU Time     : 47.297s
+Choices      : 23566    (Domain: 16040)
+Conflicts    : 103      (Analyzed: 103)
 %%%%%
 %hPathArea.lp
 %%%%%
 SATISFIABLE
-Time         : 18.259s (Solving: 2.26s 1st Model: 2.25s Unsat: 0.00s)
-CPU Time     : 18.188s
-Choices      : 42591   
-Conflicts    : 125      (Analyzed: 125)
+Time         : 48.224s (Solving: 2.58s 1st Model: 2.58s Unsat: 0.00s)
+CPU Time     : 48.094s
+Choices      : 8608     (Domain: 8608)
+Conflicts    : 333      (Analyzed: 333)
 %%%%%
 %hStrange.lp
 %%%%%
 SATISFIABLE
-Time         : 19.478s (Solving: 0.62s 1st Model: 0.62s Unsat: 0.00s)
-CPU Time     : 19.328s
-Choices      : 1469     (Domain: 1469)
-Conflicts    : 50       (Analyzed: 50)
+Time         : 45.191s (Solving: 5.40s 1st Model: 5.40s Unsat: 0.00s)
+CPU Time     : 45.078s
+Choices      : 16558    (Domain: 16558)
+Conflicts    : 557      (Analyzed: 557)
 
 %%%%%%%%%%%%%%%
 Instanz: resultx46_y15_n690_r23_s320_ps10_pr320_u320_o23_N010.lp
@@ -701,72 +701,72 @@ Instanz: resultx46_y15_n690_r23_s320_ps10_pr320_u320_o23_N010.lp
 %Standard
 %%%%%
 UNSATISFIABLE
-Time         : 14.002s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 13.953s
+Time         : 28.087s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 28.094s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hDirectionalNarrowNode.lp
 %%%%%
 UNSATISFIABLE
-Time         : 13.348s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 13.172s
+Time         : 28.372s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 28.312s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hDistance.lp
 %%%%%
 UNSATISFIABLE
-Time         : 12.903s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 12.828s
+Time         : 28.122s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 28.109s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hForbiddenNode.lp
 %%%%%
 UNSATISFIABLE
-Time         : 15.114s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 14.812s
+Time         : 27.530s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 27.531s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hNaivePathDistance.lp
 %%%%%
 UNSATISFIABLE
-Time         : 12.893s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 12.734s
+Time         : 28.130s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 28.109s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hNarrowNode.lp
 %%%%%
 UNSATISFIABLE
-Time         : 13.255s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 13.141s
+Time         : 27.548s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 27.516s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hNodeCost.lp
 %%%%%
 UNSATISFIABLE
-Time         : 11.393s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.250s
+Time         : 28.053s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 28.016s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hPathArea.lp
 %%%%%
 UNSATISFIABLE
-Time         : 11.755s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.625s
+Time         : 28.179s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 28.172s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hStrange.lp
 %%%%%
 UNSATISFIABLE
-Time         : 11.455s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.406s
+Time         : 27.737s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 27.734s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 
@@ -778,72 +778,72 @@ Instanz: resultx46_y15_n690_r23_s320_ps10_pr320_u320_o23_N011.lp
 %Standard
 %%%%%
 UNSATISFIABLE
-Time         : 11.419s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.250s
+Time         : 28.241s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 28.234s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hDirectionalNarrowNode.lp
 %%%%%
 UNSATISFIABLE
-Time         : 12.717s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 12.531s
+Time         : 27.251s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 27.250s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hDistance.lp
 %%%%%
 UNSATISFIABLE
-Time         : 11.526s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.484s
+Time         : 27.476s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 27.484s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hForbiddenNode.lp
 %%%%%
 UNSATISFIABLE
-Time         : 13.738s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 13.547s
+Time         : 34.175s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 33.828s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hNaivePathDistance.lp
 %%%%%
 UNSATISFIABLE
-Time         : 15.326s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 15.000s
+Time         : 34.628s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 34.484s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hNarrowNode.lp
 %%%%%
 UNSATISFIABLE
-Time         : 14.493s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 14.359s
+Time         : 32.600s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 32.469s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hNodeCost.lp
 %%%%%
 UNSATISFIABLE
-Time         : 14.545s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 14.469s
+Time         : 34.818s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 34.266s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hPathArea.lp
 %%%%%
 UNSATISFIABLE
-Time         : 14.746s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 14.625s
+Time         : 32.856s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 32.797s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hStrange.lp
 %%%%%
 UNSATISFIABLE
-Time         : 14.355s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 14.266s
+Time         : 31.581s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 31.500s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 
@@ -855,72 +855,72 @@ Instanz: resultx46_y15_n690_r23_s320_ps10_pr320_u320_o23_N012.lp
 %Standard
 %%%%%
 UNSATISFIABLE
-Time         : 14.021s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 13.953s
+Time         : 33.114s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 33.016s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hDirectionalNarrowNode.lp
 %%%%%
 UNSATISFIABLE
-Time         : 13.828s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 13.781s
+Time         : 33.580s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 33.406s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hDistance.lp
 %%%%%
 UNSATISFIABLE
-Time         : 13.063s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 12.906s
+Time         : 30.222s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 30.109s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hForbiddenNode.lp
 %%%%%
 UNSATISFIABLE
-Time         : 15.003s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 14.859s
+Time         : 31.698s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 30.859s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hNaivePathDistance.lp
 %%%%%
 UNSATISFIABLE
-Time         : 14.477s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 14.422s
+Time         : 33.163s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 31.969s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hNarrowNode.lp
 %%%%%
 UNSATISFIABLE
-Time         : 12.635s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 12.531s
+Time         : 26.783s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 26.781s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hNodeCost.lp
 %%%%%
 UNSATISFIABLE
-Time         : 14.159s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 14.156s
+Time         : 27.384s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 27.312s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hPathArea.lp
 %%%%%
 UNSATISFIABLE
-Time         : 14.371s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 14.312s
+Time         : 29.052s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 28.734s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hStrange.lp
 %%%%%
 UNSATISFIABLE
-Time         : 14.464s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 14.422s
+Time         : 27.990s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 27.844s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 
@@ -932,74 +932,74 @@ Instanz: resultx46_y15_n690_r23_s320_ps10_pr320_u320_o23_N013.lp
 %Standard
 %%%%%
 SATISFIABLE
-Time         : 21.183s (Solving: 2.85s 1st Model: 2.85s Unsat: 0.00s)
-CPU Time     : 20.906s
-Choices      : 30722   
-Conflicts    : 129      (Analyzed: 129)
+Time         : 41.992s (Solving: 2.35s 1st Model: 2.35s Unsat: 0.00s)
+CPU Time     : 41.766s
+Choices      : 20699   
+Conflicts    : 128      (Analyzed: 128)
 %%%%%
 %hDirectionalNarrowNode.lp
 %%%%%
 SATISFIABLE
-Time         : 21.310s (Solving: 3.22s 1st Model: 3.21s Unsat: 0.00s)
-CPU Time     : 21.219s
-Choices      : 31503   
-Conflicts    : 129      (Analyzed: 129)
+Time         : 40.772s (Solving: 2.41s 1st Model: 2.41s Unsat: 0.00s)
+CPU Time     : 40.625s
+Choices      : 23531    (Domain: 112)
+Conflicts    : 163      (Analyzed: 163)
 %%%%%
 %hDistance.lp
 %%%%%
 SATISFIABLE
-Time         : 21.026s (Solving: 2.50s 1st Model: 2.50s Unsat: 0.00s)
-CPU Time     : 20.719s
-Choices      : 28870   
-Conflicts    : 124      (Analyzed: 124)
+Time         : 40.164s (Solving: 0.52s 1st Model: 0.52s Unsat: 0.00s)
+CPU Time     : 39.953s
+Choices      : 943      (Domain: 943)
+Conflicts    : 5        (Analyzed: 5)
 %%%%%
 %hForbiddenNode.lp
 %%%%%
 SATISFIABLE
-Time         : 20.460s (Solving: 2.57s 1st Model: 2.57s Unsat: 0.00s)
-CPU Time     : 20.234s
-Choices      : 28870   
-Conflicts    : 124      (Analyzed: 124)
+Time         : 74.981s (Solving: 27.33s 1st Model: 27.33s Unsat: 0.00s)
+CPU Time     : 74.250s
+Choices      : 88585    (Domain: 26690)
+Conflicts    : 1466     (Analyzed: 1466)
 %%%%%
 %hNaivePathDistance.lp
 %%%%%
 SATISFIABLE
-Time         : 19.357s (Solving: 1.18s 1st Model: 1.18s Unsat: 0.00s)
-CPU Time     : 19.266s
-Choices      : 8493    
-Conflicts    : 159      (Analyzed: 159)
+Time         : 44.222s (Solving: 0.45s 1st Model: 0.44s Unsat: 0.00s)
+CPU Time     : 44.062s
+Choices      : 892      (Domain: 290)
+Conflicts    : 3        (Analyzed: 3)
 %%%%%
 %hNarrowNode.lp
 %%%%%
 SATISFIABLE
-Time         : 19.037s (Solving: 2.22s 1st Model: 2.22s Unsat: 0.00s)
-CPU Time     : 18.938s
-Choices      : 27227   
-Conflicts    : 124      (Analyzed: 124)
+Time         : 47.572s (Solving: 1.65s 1st Model: 1.64s Unsat: 0.00s)
+CPU Time     : 47.484s
+Choices      : 18589    (Domain: 1071)
+Conflicts    : 93       (Analyzed: 93)
 %%%%%
 %hNodeCost.lp
 %%%%%
 SATISFIABLE
-Time         : 15.909s (Solving: 0.42s 1st Model: 0.41s Unsat: 0.00s)
-CPU Time     : 15.906s
-Choices      : 1777     (Domain: 539)
-Conflicts    : 81       (Analyzed: 81)
+Time         : 48.992s (Solving: 3.58s 1st Model: 3.58s Unsat: 0.00s)
+CPU Time     : 48.141s
+Choices      : 38170    (Domain: 32566)
+Conflicts    : 170      (Analyzed: 170)
 %%%%%
 %hPathArea.lp
 %%%%%
 SATISFIABLE
-Time         : 17.528s (Solving: 1.40s 1st Model: 1.40s Unsat: 0.00s)
-CPU Time     : 17.453s
-Choices      : 6891    
-Conflicts    : 130      (Analyzed: 130)
+Time         : 55.761s (Solving: 4.46s 1st Model: 4.46s Unsat: 0.00s)
+CPU Time     : 54.578s
+Choices      : 11948    (Domain: 11948)
+Conflicts    : 415      (Analyzed: 415)
 %%%%%
 %hStrange.lp
 %%%%%
 SATISFIABLE
-Time         : 19.815s (Solving: 1.06s 1st Model: 1.06s Unsat: 0.00s)
-CPU Time     : 19.766s
-Choices      : 3138     (Domain: 3138)
-Conflicts    : 107      (Analyzed: 107)
+Time         : 60.800s (Solving: 11.77s 1st Model: 11.77s Unsat: 0.00s)
+CPU Time     : 59.719s
+Choices      : 25806    (Domain: 25806)
+Conflicts    : 584      (Analyzed: 584)
 
 %%%%%%%%%%%%%%%
 Instanz: resultx46_y15_n690_r23_s320_ps10_pr320_u320_o23_N014.lp
@@ -1009,72 +1009,72 @@ Instanz: resultx46_y15_n690_r23_s320_ps10_pr320_u320_o23_N014.lp
 %Standard
 %%%%%
 UNSATISFIABLE
-Time         : 13.420s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 13.250s
+Time         : 36.903s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 35.688s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hDirectionalNarrowNode.lp
 %%%%%
 UNSATISFIABLE
-Time         : 14.165s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 13.891s
+Time         : 35.980s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 35.781s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hDistance.lp
 %%%%%
 UNSATISFIABLE
-Time         : 11.937s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.812s
+Time         : 34.596s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 34.562s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hForbiddenNode.lp
 %%%%%
 UNSATISFIABLE
-Time         : 12.232s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 12.094s
+Time         : 34.877s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 34.812s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hNaivePathDistance.lp
 %%%%%
 UNSATISFIABLE
-Time         : 12.500s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 12.406s
+Time         : 34.423s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 34.344s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hNarrowNode.lp
 %%%%%
 UNSATISFIABLE
-Time         : 13.443s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 13.266s
+Time         : 32.148s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 31.969s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hNodeCost.lp
 %%%%%
 UNSATISFIABLE
-Time         : 12.623s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 12.422s
+Time         : 37.434s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 37.141s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hPathArea.lp
 %%%%%
 UNSATISFIABLE
-Time         : 12.752s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 12.688s
+Time         : 36.595s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 36.453s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hStrange.lp
 %%%%%
 UNSATISFIABLE
-Time         : 13.967s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 13.781s
+Time         : 35.642s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 35.500s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 
@@ -1086,72 +1086,72 @@ Instanz: resultx46_y15_n690_r23_s320_ps10_pr320_u320_o23_N015.lp
 %Standard
 %%%%%
 UNSATISFIABLE
-Time         : 13.258s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 13.219s
+Time         : 37.971s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 37.109s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hDirectionalNarrowNode.lp
 %%%%%
 UNSATISFIABLE
-Time         : 13.713s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 13.609s
+Time         : 35.329s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 35.250s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hDistance.lp
 %%%%%
 UNSATISFIABLE
-Time         : 14.677s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 14.500s
+Time         : 36.909s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 36.625s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hForbiddenNode.lp
 %%%%%
 UNSATISFIABLE
-Time         : 14.143s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 13.953s
+Time         : 36.580s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 36.453s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hNaivePathDistance.lp
 %%%%%
 UNSATISFIABLE
-Time         : 12.359s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 12.312s
+Time         : 36.910s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 36.484s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hNarrowNode.lp
 %%%%%
 UNSATISFIABLE
-Time         : 13.212s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 13.125s
+Time         : 33.686s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 32.859s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hNodeCost.lp
 %%%%%
 UNSATISFIABLE
-Time         : 14.046s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 13.891s
+Time         : 30.917s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 30.094s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hPathArea.lp
 %%%%%
 UNSATISFIABLE
-Time         : 12.453s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 12.328s
+Time         : 31.182s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 30.562s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hStrange.lp
 %%%%%
 UNSATISFIABLE
-Time         : 14.237s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 14.125s
+Time         : 36.707s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 36.219s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 
@@ -1162,75 +1162,75 @@ Instanz: resultx46_y15_n690_r23_s320_ps10_pr320_u320_o23_N016.lp
 %%%%%
 %Standard
 %%%%%
-UNSATISFIABLE
-Time         : 13.641s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 13.453s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 57.393s (Solving: 9.34s 1st Model: 9.34s Unsat: 0.00s)
+CPU Time     : 57.047s
+Choices      : 41427   
+Conflicts    : 203      (Analyzed: 203)
 %%%%%
 %hDirectionalNarrowNode.lp
 %%%%%
-UNSATISFIABLE
-Time         : 14.352s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 14.219s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 56.384s (Solving: 8.21s 1st Model: 8.20s Unsat: 0.00s)
+CPU Time     : 54.719s
+Choices      : 40969    (Domain: 344)
+Conflicts    : 202      (Analyzed: 202)
 %%%%%
 %hDistance.lp
 %%%%%
-UNSATISFIABLE
-Time         : 13.559s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 13.547s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 47.907s (Solving: 0.98s 1st Model: 0.98s Unsat: 0.00s)
+CPU Time     : 47.000s
+Choices      : 1935     (Domain: 1935)
+Conflicts    : 62       (Analyzed: 62)
 %%%%%
 %hForbiddenNode.lp
 %%%%%
-UNSATISFIABLE
-Time         : 12.197s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 12.062s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 62.984s (Solving: 16.77s 1st Model: 16.77s Unsat: 0.00s)
+CPU Time     : 62.891s
+Choices      : 42188    (Domain: 9276)
+Conflicts    : 597      (Analyzed: 597)
 %%%%%
 %hNaivePathDistance.lp
 %%%%%
-UNSATISFIABLE
-Time         : 14.048s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 13.828s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 46.490s (Solving: 0.56s 1st Model: 0.55s Unsat: 0.00s)
+CPU Time     : 46.031s
+Choices      : 1131     (Domain: 295)
+Conflicts    : 11       (Analyzed: 11)
 %%%%%
 %hNarrowNode.lp
 %%%%%
-UNSATISFIABLE
-Time         : 14.196s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 14.109s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 49.628s (Solving: 4.80s 1st Model: 4.80s Unsat: 0.00s)
+CPU Time     : 49.250s
+Choices      : 83196    (Domain: 4605)
+Conflicts    : 174      (Analyzed: 174)
 %%%%%
 %hNodeCost.lp
 %%%%%
-UNSATISFIABLE
-Time         : 13.590s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 13.484s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 60.392s (Solving: 10.32s 1st Model: 10.31s Unsat: 0.00s)
+CPU Time     : 59.844s
+Choices      : 44248    (Domain: 22289)
+Conflicts    : 219      (Analyzed: 219)
 %%%%%
 %hPathArea.lp
 %%%%%
-UNSATISFIABLE
-Time         : 11.930s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.938s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 47.172s (Solving: 0.54s 1st Model: 0.54s Unsat: 0.00s)
+CPU Time     : 46.938s
+Choices      : 824      (Domain: 824)
+Conflicts    : 38       (Analyzed: 38)
 %%%%%
 %hStrange.lp
 %%%%%
-UNSATISFIABLE
-Time         : 11.148s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.141s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 56.624s (Solving: 6.50s 1st Model: 6.50s Unsat: 0.00s)
+CPU Time     : 56.484s
+Choices      : 14679    (Domain: 14679)
+Conflicts    : 522      (Analyzed: 522)
 
 %%%%%%%%%%%%%%%
 Instanz: resultx46_y15_n690_r23_s320_ps10_pr320_u320_o23_N017.lp
@@ -1239,75 +1239,75 @@ Instanz: resultx46_y15_n690_r23_s320_ps10_pr320_u320_o23_N017.lp
 %%%%%
 %Standard
 %%%%%
-UNSATISFIABLE
-Time         : 11.091s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.078s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 59.810s (Solving: 14.10s 1st Model: 14.09s Unsat: 0.00s)
+CPU Time     : 59.516s
+Choices      : 100644  
+Conflicts    : 349      (Analyzed: 349)
 %%%%%
 %hDirectionalNarrowNode.lp
 %%%%%
-UNSATISFIABLE
-Time         : 11.095s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.094s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 58.935s (Solving: 15.21s 1st Model: 15.21s Unsat: 0.00s)
+CPU Time     : 58.469s
+Choices      : 91894    (Domain: 338)
+Conflicts    : 345      (Analyzed: 345)
 %%%%%
 %hDistance.lp
 %%%%%
-UNSATISFIABLE
-Time         : 11.035s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.031s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 47.538s (Solving: 1.33s 1st Model: 1.32s Unsat: 0.00s)
+CPU Time     : 47.062s
+Choices      : 2908     (Domain: 2908)
+Conflicts    : 126      (Analyzed: 126)
 %%%%%
 %hForbiddenNode.lp
 %%%%%
-UNSATISFIABLE
-Time         : 11.202s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.203s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 62.644s (Solving: 18.06s 1st Model: 18.05s Unsat: 0.00s)
+CPU Time     : 62.266s
+Choices      : 41311    (Domain: 10615)
+Conflicts    : 581      (Analyzed: 581)
 %%%%%
 %hNaivePathDistance.lp
 %%%%%
-UNSATISFIABLE
-Time         : 11.034s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.031s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 46.198s (Solving: 0.52s 1st Model: 0.52s Unsat: 0.00s)
+CPU Time     : 45.672s
+Choices      : 1396     (Domain: 281)
+Conflicts    : 28       (Analyzed: 28)
 %%%%%
 %hNarrowNode.lp
 %%%%%
-UNSATISFIABLE
-Time         : 11.231s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.234s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 65.049s (Solving: 15.33s 1st Model: 15.33s Unsat: 0.00s)
+CPU Time     : 64.297s
+Choices      : 160744   (Domain: 5364)
+Conflicts    : 320      (Analyzed: 320)
 %%%%%
 %hNodeCost.lp
 %%%%%
-UNSATISFIABLE
-Time         : 11.081s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.094s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 68.659s (Solving: 21.73s 1st Model: 21.72s Unsat: 0.00s)
+CPU Time     : 67.891s
+Choices      : 90399    (Domain: 50166)
+Conflicts    : 346      (Analyzed: 346)
 %%%%%
 %hPathArea.lp
 %%%%%
-UNSATISFIABLE
-Time         : 11.073s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.062s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 48.573s (Solving: 0.81s 1st Model: 0.80s Unsat: 0.00s)
+CPU Time     : 48.328s
+Choices      : 1437     (Domain: 1437)
+Conflicts    : 84       (Analyzed: 84)
 %%%%%
 %hStrange.lp
 %%%%%
-UNSATISFIABLE
-Time         : 11.406s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.375s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 53.896s (Solving: 9.84s 1st Model: 9.83s Unsat: 0.00s)
+CPU Time     : 53.359s
+Choices      : 21184    (Domain: 21184)
+Conflicts    : 567      (Analyzed: 567)
 
 %%%%%%%%%%%%%%%
 Instanz: resultx46_y15_n690_r23_s320_ps10_pr320_u320_o23_N018.lp
@@ -1317,72 +1317,72 @@ Instanz: resultx46_y15_n690_r23_s320_ps10_pr320_u320_o23_N018.lp
 %Standard
 %%%%%
 UNSATISFIABLE
-Time         : 11.240s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.234s
+Time         : 29.431s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 29.156s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hDirectionalNarrowNode.lp
 %%%%%
 UNSATISFIABLE
-Time         : 11.182s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.188s
+Time         : 32.672s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 32.500s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hDistance.lp
 %%%%%
 UNSATISFIABLE
-Time         : 11.096s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.094s
+Time         : 34.355s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 34.016s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hForbiddenNode.lp
 %%%%%
 UNSATISFIABLE
-Time         : 11.011s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.000s
+Time         : 31.164s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 30.688s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hNaivePathDistance.lp
 %%%%%
 UNSATISFIABLE
-Time         : 11.120s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.125s
+Time         : 4888.429s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 45.719s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hNarrowNode.lp
 %%%%%
 UNSATISFIABLE
-Time         : 11.041s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.047s
+Time         : 39.844s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 37.438s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hNodeCost.lp
 %%%%%
 UNSATISFIABLE
-Time         : 11.036s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.031s
+Time         : 35.806s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 34.359s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hPathArea.lp
 %%%%%
 UNSATISFIABLE
-Time         : 11.150s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.141s
+Time         : 31.852s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 31.016s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hStrange.lp
 %%%%%
 UNSATISFIABLE
-Time         : 11.128s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.125s
+Time         : 33.057s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 32.047s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 
@@ -1393,75 +1393,75 @@ Instanz: resultx46_y15_n690_r23_s320_ps10_pr320_u320_o23_N019.lp
 %%%%%
 %Standard
 %%%%%
-UNSATISFIABLE
-Time         : 11.188s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.188s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 53.864s (Solving: 8.94s 1st Model: 8.94s Unsat: 0.00s)
+CPU Time     : 52.594s
+Choices      : 42241   
+Conflicts    : 199      (Analyzed: 199)
 %%%%%
 %hDirectionalNarrowNode.lp
 %%%%%
-UNSATISFIABLE
-Time         : 11.071s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.078s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 55.756s (Solving: 9.83s 1st Model: 9.82s Unsat: 0.00s)
+CPU Time     : 53.453s
+Choices      : 53567    (Domain: 344)
+Conflicts    : 209      (Analyzed: 209)
 %%%%%
 %hDistance.lp
 %%%%%
-UNSATISFIABLE
-Time         : 11.098s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.078s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 50.190s (Solving: 0.92s 1st Model: 0.92s Unsat: 0.00s)
+CPU Time     : 48.469s
+Choices      : 2013     (Domain: 2013)
+Conflicts    : 63       (Analyzed: 63)
 %%%%%
 %hForbiddenNode.lp
 %%%%%
-UNSATISFIABLE
-Time         : 11.110s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.109s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 53.810s (Solving: 14.08s 1st Model: 14.08s Unsat: 0.00s)
+CPU Time     : 52.625s
+Choices      : 49195    (Domain: 10909)
+Conflicts    : 652      (Analyzed: 652)
 %%%%%
 %hNaivePathDistance.lp
 %%%%%
-UNSATISFIABLE
-Time         : 11.060s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.062s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 44.218s (Solving: 0.66s 1st Model: 0.65s Unsat: 0.00s)
+CPU Time     : 42.906s
+Choices      : 1351     (Domain: 311)
+Conflicts    : 13       (Analyzed: 13)
 %%%%%
 %hNarrowNode.lp
 %%%%%
-UNSATISFIABLE
-Time         : 11.043s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.047s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 51.407s (Solving: 4.56s 1st Model: 4.56s Unsat: 0.00s)
+CPU Time     : 50.656s
+Choices      : 67450    (Domain: 4605)
+Conflicts    : 194      (Analyzed: 194)
 %%%%%
 %hNodeCost.lp
 %%%%%
-UNSATISFIABLE
-Time         : 11.111s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.094s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 56.817s (Solving: 9.15s 1st Model: 9.15s Unsat: 0.00s)
+CPU Time     : 56.328s
+Choices      : 42383    (Domain: 21114)
+Conflicts    : 212      (Analyzed: 212)
 %%%%%
 %hPathArea.lp
 %%%%%
-UNSATISFIABLE
-Time         : 11.085s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.078s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 42.269s (Solving: 0.45s 1st Model: 0.45s Unsat: 0.00s)
+CPU Time     : 41.469s
+Choices      : 821      (Domain: 821)
+Conflicts    : 38       (Analyzed: 38)
 %%%%%
 %hStrange.lp
 %%%%%
-UNSATISFIABLE
-Time         : 11.046s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.047s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 56.906s (Solving: 12.92s 1st Model: 12.92s Unsat: 0.00s)
+CPU Time     : 55.828s
+Choices      : 26500    (Domain: 26500)
+Conflicts    : 613      (Analyzed: 613)
 
 %%%%%%%%%%%%%%%
 Instanz: resultx46_y15_n690_r23_s320_ps10_pr320_u320_o23_N020.lp
@@ -1471,74 +1471,74 @@ Instanz: resultx46_y15_n690_r23_s320_ps10_pr320_u320_o23_N020.lp
 %Standard
 %%%%%
 SATISFIABLE
-Time         : 17.133s (Solving: 2.22s 1st Model: 2.22s Unsat: 0.00s)
-CPU Time     : 17.141s
-Choices      : 22198   
-Conflicts    : 108      (Analyzed: 108)
+Time         : 46.993s (Solving: 2.22s 1st Model: 2.21s Unsat: 0.00s)
+CPU Time     : 46.219s
+Choices      : 14965   
+Conflicts    : 98       (Analyzed: 98)
 %%%%%
 %hDirectionalNarrowNode.lp
 %%%%%
 SATISFIABLE
-Time         : 16.824s (Solving: 2.21s 1st Model: 2.21s Unsat: 0.00s)
-CPU Time     : 16.828s
-Choices      : 21932   
-Conflicts    : 108      (Analyzed: 108)
+Time         : 51.629s (Solving: 2.85s 1st Model: 2.85s Unsat: 0.00s)
+CPU Time     : 50.266s
+Choices      : 20529    (Domain: 76)
+Conflicts    : 104      (Analyzed: 104)
 %%%%%
 %hDistance.lp
 %%%%%
 SATISFIABLE
-Time         : 17.162s (Solving: 2.28s 1st Model: 2.28s Unsat: 0.00s)
-CPU Time     : 17.172s
-Choices      : 21942   
-Conflicts    : 108      (Analyzed: 108)
+Time         : 48.847s (Solving: 0.72s 1st Model: 0.71s Unsat: 0.00s)
+CPU Time     : 48.672s
+Choices      : 1399     (Domain: 1399)
+Conflicts    : 18       (Analyzed: 18)
 %%%%%
 %hForbiddenNode.lp
 %%%%%
 SATISFIABLE
-Time         : 17.310s (Solving: 2.16s 1st Model: 2.16s Unsat: 0.00s)
-CPU Time     : 17.312s
-Choices      : 21942   
-Conflicts    : 108      (Analyzed: 108)
+Time         : 73.160s (Solving: 24.94s 1st Model: 24.94s Unsat: 0.00s)
+CPU Time     : 72.734s
+Choices      : 85410    (Domain: 24906)
+Conflicts    : 1308     (Analyzed: 1308)
 %%%%%
 %hNaivePathDistance.lp
 %%%%%
 SATISFIABLE
-Time         : 16.528s (Solving: 1.79s 1st Model: 1.78s Unsat: 0.00s)
-CPU Time     : 16.516s
-Choices      : 11253   
-Conflicts    : 130      (Analyzed: 130)
+Time         : 47.269s (Solving: 0.39s 1st Model: 0.38s Unsat: 0.00s)
+CPU Time     : 46.594s
+Choices      : 880      (Domain: 291)
+Conflicts    : 0        (Analyzed: 0)
 %%%%%
 %hNarrowNode.lp
 %%%%%
 SATISFIABLE
-Time         : 17.102s (Solving: 2.28s 1st Model: 2.28s Unsat: 0.00s)
-CPU Time     : 17.109s
-Choices      : 23200   
-Conflicts    : 111      (Analyzed: 111)
+Time         : 44.803s (Solving: 2.78s 1st Model: 2.78s Unsat: 0.00s)
+CPU Time     : 44.266s
+Choices      : 25170    (Domain: 1031)
+Conflicts    : 99       (Analyzed: 99)
 %%%%%
 %hNodeCost.lp
 %%%%%
 SATISFIABLE
-Time         : 15.209s (Solving: 0.43s 1st Model: 0.43s Unsat: 0.00s)
-CPU Time     : 15.219s
-Choices      : 1909     (Domain: 579)
-Conflicts    : 87       (Analyzed: 87)
+Time         : 47.753s (Solving: 2.13s 1st Model: 2.12s Unsat: 0.00s)
+CPU Time     : 46.656s
+Choices      : 21709    (Domain: 15398)
+Conflicts    : 103      (Analyzed: 103)
 %%%%%
 %hPathArea.lp
 %%%%%
 SATISFIABLE
-Time         : 16.275s (Solving: 1.42s 1st Model: 1.42s Unsat: 0.00s)
-CPU Time     : 16.281s
-Choices      : 9020    
-Conflicts    : 134      (Analyzed: 134)
+Time         : 52.908s (Solving: 0.84s 1st Model: 0.84s Unsat: 0.00s)
+CPU Time     : 51.344s
+Choices      : 1663     (Domain: 1663)
+Conflicts    : 96       (Analyzed: 96)
 %%%%%
 %hStrange.lp
 %%%%%
 SATISFIABLE
-Time         : 15.226s (Solving: 0.41s 1st Model: 0.41s Unsat: 0.00s)
-CPU Time     : 15.219s
-Choices      : 1516     (Domain: 1516)
-Conflicts    : 62       (Analyzed: 62)
+Time         : 55.975s (Solving: 9.68s 1st Model: 9.67s Unsat: 0.00s)
+CPU Time     : 55.734s
+Choices      : 25753    (Domain: 25753)
+Conflicts    : 567      (Analyzed: 567)
 
 %%%%%%%%%%%%%%%
 Instanz: resultx46_y15_n690_r23_s320_ps10_pr320_u320_o23_N021.lp
@@ -1548,74 +1548,28 @@ Instanz: resultx46_y15_n690_r23_s320_ps10_pr320_u320_o23_N021.lp
 %Standard
 %%%%%
 UNSATISFIABLE
-Time         : 11.053s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.047s
+Time         : 33.375s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 33.172s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hDirectionalNarrowNode.lp
 %%%%%
 UNSATISFIABLE
-Time         : 11.011s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.016s
+Time         : 28.550s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 28.266s
 Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+Conflicts    : 0        (Analyzed: 0)
 %%%%%
 %hDistance.lp
 %%%%%
-UNSATISFIABLE
-Time         : 10.992s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 10.984s
+Time         : 0.459s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.453s
 Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+Conflicts    : 0        (Analyzed: 0)
 %%%%%
 %hForbiddenNode.lp
 %%%%%
-UNSATISFIABLE
-Time         : 11.064s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.062s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
-%%%%%
-%hNaivePathDistance.lp
-%%%%%
-UNSATISFIABLE
-Time         : 10.996s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.000s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
-%%%%%
-%hNarrowNode.lp
-%%%%%
-UNSATISFIABLE
-Time         : 11.103s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.094s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
-%%%%%
-%hNodeCost.lp
-%%%%%
-UNSATISFIABLE
-Time         : 11.054s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.062s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
-%%%%%
-%hPathArea.lp
-%%%%%
-UNSATISFIABLE
-Time         : 11.045s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.047s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
-%%%%%
-%hStrange.lp
-%%%%%
-UNSATISFIABLE
-Time         : 11.075s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.062s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
 
 %%%%%%%%%%%%%%%
 Instanz: resultx46_y15_n690_r23_s320_ps10_pr320_u320_o23_N022.lp
@@ -1625,74 +1579,74 @@ Instanz: resultx46_y15_n690_r23_s320_ps10_pr320_u320_o23_N022.lp
 %Standard
 %%%%%
 SATISFIABLE
-Time         : 16.045s (Solving: 1.33s 1st Model: 1.32s Unsat: 0.00s)
-CPU Time     : 16.047s
-Choices      : 15175   
-Conflicts    : 86       (Analyzed: 86)
+Time         : 37.890s (Solving: 0.86s 1st Model: 0.86s Unsat: 0.00s)
+CPU Time     : 37.891s
+Choices      : 7923    
+Conflicts    : 96       (Analyzed: 96)
 %%%%%
 %hDirectionalNarrowNode.lp
 %%%%%
 SATISFIABLE
-Time         : 16.227s (Solving: 1.34s 1st Model: 1.33s Unsat: 0.00s)
-CPU Time     : 16.219s
-Choices      : 14400   
-Conflicts    : 85       (Analyzed: 85)
+Time         : 38.001s (Solving: 0.89s 1st Model: 0.88s Unsat: 0.00s)
+CPU Time     : 37.984s
+Choices      : 8822    
+Conflicts    : 98       (Analyzed: 98)
 %%%%%
 %hDistance.lp
 %%%%%
 SATISFIABLE
-Time         : 16.088s (Solving: 1.36s 1st Model: 1.36s Unsat: 0.00s)
-CPU Time     : 16.094s
-Choices      : 14400   
-Conflicts    : 85       (Analyzed: 85)
+Time         : 37.935s (Solving: 0.88s 1st Model: 0.88s Unsat: 0.00s)
+CPU Time     : 37.922s
+Choices      : 8822    
+Conflicts    : 98       (Analyzed: 98)
 %%%%%
 %hForbiddenNode.lp
 %%%%%
 SATISFIABLE
-Time         : 16.128s (Solving: 1.32s 1st Model: 1.32s Unsat: 0.00s)
-CPU Time     : 16.109s
-Choices      : 14400   
-Conflicts    : 85       (Analyzed: 85)
+Time         : 38.307s (Solving: 0.91s 1st Model: 0.91s Unsat: 0.00s)
+CPU Time     : 38.281s
+Choices      : 8822    
+Conflicts    : 98       (Analyzed: 98)
 %%%%%
 %hNaivePathDistance.lp
 %%%%%
 SATISFIABLE
-Time         : 16.506s (Solving: 1.75s 1st Model: 1.75s Unsat: 0.00s)
-CPU Time     : 16.500s
-Choices      : 33433   
-Conflicts    : 147      (Analyzed: 147)
+Time         : 39.704s (Solving: 2.55s 1st Model: 2.55s Unsat: 0.00s)
+CPU Time     : 39.703s
+Choices      : 27894   
+Conflicts    : 170      (Analyzed: 170)
 %%%%%
 %hNarrowNode.lp
 %%%%%
 SATISFIABLE
-Time         : 15.910s (Solving: 1.15s 1st Model: 1.15s Unsat: 0.00s)
-CPU Time     : 15.906s
-Choices      : 15595   
-Conflicts    : 82       (Analyzed: 82)
+Time         : 39.156s (Solving: 1.66s 1st Model: 1.66s Unsat: 0.00s)
+CPU Time     : 39.156s
+Choices      : 18963   
+Conflicts    : 109      (Analyzed: 109)
 %%%%%
 %hNodeCost.lp
 %%%%%
 SATISFIABLE
-Time         : 15.196s (Solving: 0.39s 1st Model: 0.39s Unsat: 0.00s)
-CPU Time     : 15.188s
-Choices      : 2401     (Domain: 418)
-Conflicts    : 81       (Analyzed: 81)
+Time         : 38.174s (Solving: 0.58s 1st Model: 0.57s Unsat: 0.00s)
+CPU Time     : 38.172s
+Choices      : 2633     (Domain: 377)
+Conflicts    : 72       (Analyzed: 72)
 %%%%%
 %hPathArea.lp
 %%%%%
 SATISFIABLE
-Time         : 15.905s (Solving: 1.02s 1st Model: 1.02s Unsat: 0.00s)
-CPU Time     : 15.906s
-Choices      : 5364    
-Conflicts    : 118      (Analyzed: 118)
+Time         : 39.227s (Solving: 1.46s 1st Model: 1.45s Unsat: 0.00s)
+CPU Time     : 39.234s
+Choices      : 7119    
+Conflicts    : 125      (Analyzed: 125)
 %%%%%
 %hStrange.lp
 %%%%%
 SATISFIABLE
-Time         : 15.841s (Solving: 1.05s 1st Model: 1.05s Unsat: 0.00s)
-CPU Time     : 15.844s
-Choices      : 3904     (Domain: 3904)
-Conflicts    : 157      (Analyzed: 157)
+Time         : 47.570s (Solving: 10.13s 1st Model: 10.12s Unsat: 0.00s)
+CPU Time     : 47.562s
+Choices      : 29575    (Domain: 29575)
+Conflicts    : 680      (Analyzed: 680)
 
 %%%%%%%%%%%%%%%
 Instanz: resultx46_y15_n690_r23_s320_ps10_pr320_u320_o23_N023.lp
@@ -1701,75 +1655,75 @@ Instanz: resultx46_y15_n690_r23_s320_ps10_pr320_u320_o23_N023.lp
 %%%%%
 %Standard
 %%%%%
-UNSATISFIABLE
-Time         : 11.104s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.109s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 40.016s (Solving: 2.31s 1st Model: 2.31s Unsat: 0.00s)
+CPU Time     : 40.016s
+Choices      : 23293   
+Conflicts    : 102      (Analyzed: 102)
 %%%%%
 %hDirectionalNarrowNode.lp
 %%%%%
-UNSATISFIABLE
-Time         : 11.030s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.016s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 39.177s (Solving: 2.22s 1st Model: 2.21s Unsat: 0.00s)
+CPU Time     : 39.141s
+Choices      : 19413   
+Conflicts    : 107      (Analyzed: 107)
 %%%%%
 %hDistance.lp
 %%%%%
-UNSATISFIABLE
-Time         : 11.039s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.031s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 39.109s (Solving: 2.25s 1st Model: 2.24s Unsat: 0.00s)
+CPU Time     : 39.094s
+Choices      : 19413   
+Conflicts    : 107      (Analyzed: 107)
 %%%%%
 %hForbiddenNode.lp
 %%%%%
-UNSATISFIABLE
-Time         : 11.059s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.047s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 39.455s (Solving: 2.27s 1st Model: 2.27s Unsat: 0.00s)
+CPU Time     : 39.453s
+Choices      : 19413   
+Conflicts    : 107      (Analyzed: 107)
 %%%%%
 %hNaivePathDistance.lp
 %%%%%
-UNSATISFIABLE
-Time         : 11.198s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.172s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 40.228s (Solving: 3.13s 1st Model: 3.12s Unsat: 0.00s)
+CPU Time     : 40.234s
+Choices      : 35290   
+Conflicts    : 133      (Analyzed: 133)
 %%%%%
 %hNarrowNode.lp
 %%%%%
-UNSATISFIABLE
-Time         : 11.075s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.062s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 39.815s (Solving: 2.46s 1st Model: 2.45s Unsat: 0.00s)
+CPU Time     : 39.797s
+Choices      : 20263   
+Conflicts    : 107      (Analyzed: 107)
 %%%%%
 %hNodeCost.lp
 %%%%%
-UNSATISFIABLE
-Time         : 11.118s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.125s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 46.478s (Solving: 8.91s 1st Model: 8.91s Unsat: 0.00s)
+CPU Time     : 46.453s
+Choices      : 30630    (Domain: 2523)
+Conflicts    : 107      (Analyzed: 107)
 %%%%%
 %hPathArea.lp
 %%%%%
-UNSATISFIABLE
-Time         : 11.080s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.094s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 44.476s (Solving: 7.01s 1st Model: 7.00s Unsat: 0.00s)
+CPU Time     : 44.484s
+Choices      : 34509   
+Conflicts    : 132      (Analyzed: 132)
 %%%%%
 %hStrange.lp
 %%%%%
-UNSATISFIABLE
-Time         : 11.425s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.422s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 48.847s (Solving: 11.25s 1st Model: 11.25s Unsat: 0.00s)
+CPU Time     : 48.812s
+Choices      : 26890    (Domain: 26890)
+Conflicts    : 560      (Analyzed: 560)
 
 %%%%%%%%%%%%%%%
 Instanz: resultx46_y15_n690_r23_s320_ps10_pr320_u320_o23_N024.lp
@@ -1779,74 +1733,74 @@ Instanz: resultx46_y15_n690_r23_s320_ps10_pr320_u320_o23_N024.lp
 %Standard
 %%%%%
 SATISFIABLE
-Time         : 15.806s (Solving: 0.94s 1st Model: 0.94s Unsat: 0.00s)
-CPU Time     : 15.797s
-Choices      : 7209    
-Conflicts    : 76       (Analyzed: 76)
+Time         : 38.689s (Solving: 1.67s 1st Model: 1.66s Unsat: 0.00s)
+CPU Time     : 38.672s
+Choices      : 14046   
+Conflicts    : 87       (Analyzed: 87)
 %%%%%
 %hDirectionalNarrowNode.lp
 %%%%%
 SATISFIABLE
-Time         : 15.693s (Solving: 0.97s 1st Model: 0.97s Unsat: 0.00s)
-CPU Time     : 15.688s
-Choices      : 7225    
-Conflicts    : 76       (Analyzed: 76)
+Time         : 38.774s (Solving: 1.71s 1st Model: 1.71s Unsat: 0.00s)
+CPU Time     : 38.781s
+Choices      : 14141   
+Conflicts    : 87       (Analyzed: 87)
 %%%%%
 %hDistance.lp
 %%%%%
 SATISFIABLE
-Time         : 15.669s (Solving: 0.95s 1st Model: 0.95s Unsat: 0.00s)
-CPU Time     : 15.672s
-Choices      : 7202    
-Conflicts    : 76       (Analyzed: 76)
+Time         : 38.590s (Solving: 1.69s 1st Model: 1.68s Unsat: 0.00s)
+CPU Time     : 38.578s
+Choices      : 14164   
+Conflicts    : 87       (Analyzed: 87)
 %%%%%
 %hForbiddenNode.lp
 %%%%%
 SATISFIABLE
-Time         : 15.824s (Solving: 0.98s 1st Model: 0.97s Unsat: 0.00s)
-CPU Time     : 15.812s
-Choices      : 7202    
-Conflicts    : 76       (Analyzed: 76)
+Time         : 39.224s (Solving: 1.73s 1st Model: 1.73s Unsat: 0.00s)
+CPU Time     : 39.219s
+Choices      : 14164   
+Conflicts    : 87       (Analyzed: 87)
 %%%%%
 %hNaivePathDistance.lp
 %%%%%
 SATISFIABLE
-Time         : 16.949s (Solving: 1.83s 1st Model: 1.82s Unsat: 0.00s)
-CPU Time     : 16.922s
-Choices      : 24891   
-Conflicts    : 133      (Analyzed: 133)
+Time         : 39.210s (Solving: 2.12s 1st Model: 2.12s Unsat: 0.00s)
+CPU Time     : 39.203s
+Choices      : 11173   
+Conflicts    : 120      (Analyzed: 120)
 %%%%%
 %hNarrowNode.lp
 %%%%%
 SATISFIABLE
-Time         : 15.716s (Solving: 0.97s 1st Model: 0.97s Unsat: 0.00s)
-CPU Time     : 15.719s
-Choices      : 8545    
-Conflicts    : 76       (Analyzed: 76)
+Time         : 39.881s (Solving: 1.74s 1st Model: 1.73s Unsat: 0.00s)
+CPU Time     : 39.875s
+Choices      : 13971   
+Conflicts    : 87       (Analyzed: 87)
 %%%%%
 %hNodeCost.lp
 %%%%%
 SATISFIABLE
-Time         : 15.129s (Solving: 0.30s 1st Model: 0.30s Unsat: 0.00s)
-CPU Time     : 15.125s
-Choices      : 1075     (Domain: 479)
-Conflicts    : 68       (Analyzed: 68)
+Time         : 38.376s (Solving: 0.72s 1st Model: 0.72s Unsat: 0.00s)
+CPU Time     : 38.375s
+Choices      : 4667     (Domain: 677)
+Conflicts    : 90       (Analyzed: 90)
 %%%%%
 %hPathArea.lp
 %%%%%
 SATISFIABLE
-Time         : 16.915s (Solving: 1.90s 1st Model: 1.90s Unsat: 0.00s)
-CPU Time     : 16.922s
-Choices      : 45277   
-Conflicts    : 135      (Analyzed: 135)
+Time         : 39.593s (Solving: 1.64s 1st Model: 1.64s Unsat: 0.00s)
+CPU Time     : 39.578s
+Choices      : 7756    
+Conflicts    : 114      (Analyzed: 114)
 %%%%%
 %hStrange.lp
 %%%%%
 SATISFIABLE
-Time         : 16.421s (Solving: 1.21s 1st Model: 1.20s Unsat: 0.00s)
-CPU Time     : 16.406s
-Choices      : 4394     (Domain: 4394)
-Conflicts    : 164      (Analyzed: 164)
+Time         : 45.610s (Solving: 7.78s 1st Model: 7.77s Unsat: 0.00s)
+CPU Time     : 45.547s
+Choices      : 19834    (Domain: 19834)
+Conflicts    : 454      (Analyzed: 454)
 
 %%%%%%%%%%%%%%%
 Instanz: resultx46_y15_n690_r23_s320_ps10_pr320_u320_o23_N025.lp
@@ -1855,75 +1809,75 @@ Instanz: resultx46_y15_n690_r23_s320_ps10_pr320_u320_o23_N025.lp
 %%%%%
 %Standard
 %%%%%
-UNSATISFIABLE
-Time         : 11.231s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.203s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 46.932s (Solving: 9.90s 1st Model: 9.90s Unsat: 0.00s)
+CPU Time     : 46.922s
+Choices      : 64157   
+Conflicts    : 229      (Analyzed: 229)
 %%%%%
 %hDirectionalNarrowNode.lp
 %%%%%
-UNSATISFIABLE
-Time         : 11.138s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.141s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 41.556s (Solving: 4.47s 1st Model: 4.47s Unsat: 0.00s)
+CPU Time     : 41.531s
+Choices      : 38089   
+Conflicts    : 243      (Analyzed: 243)
 %%%%%
 %hDistance.lp
 %%%%%
-UNSATISFIABLE
-Time         : 10.953s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 10.953s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 41.141s (Solving: 3.99s 1st Model: 3.99s Unsat: 0.00s)
+CPU Time     : 41.125s
+Choices      : 34780   
+Conflicts    : 240      (Analyzed: 240)
 %%%%%
 %hForbiddenNode.lp
 %%%%%
-UNSATISFIABLE
-Time         : 11.200s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.203s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 41.082s (Solving: 3.94s 1st Model: 3.94s Unsat: 0.00s)
+CPU Time     : 41.047s
+Choices      : 34780   
+Conflicts    : 240      (Analyzed: 240)
 %%%%%
 %hNaivePathDistance.lp
 %%%%%
-UNSATISFIABLE
-Time         : 11.130s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.125s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 44.062s (Solving: 6.99s 1st Model: 6.98s Unsat: 0.00s)
+CPU Time     : 44.062s
+Choices      : 27516   
+Conflicts    : 165      (Analyzed: 165)
 %%%%%
 %hNarrowNode.lp
 %%%%%
-UNSATISFIABLE
-Time         : 10.928s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 10.922s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 40.882s (Solving: 3.57s 1st Model: 3.57s Unsat: 0.00s)
+CPU Time     : 40.875s
+Choices      : 48044   
+Conflicts    : 206      (Analyzed: 206)
 %%%%%
 %hNodeCost.lp
 %%%%%
-UNSATISFIABLE
-Time         : 11.198s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.188s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 38.809s (Solving: 1.12s 1st Model: 1.11s Unsat: 0.00s)
+CPU Time     : 38.797s
+Choices      : 5446     (Domain: 701)
+Conflicts    : 177      (Analyzed: 177)
 %%%%%
 %hPathArea.lp
 %%%%%
-UNSATISFIABLE
-Time         : 11.136s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.125s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 46.453s (Solving: 8.56s 1st Model: 8.56s Unsat: 0.00s)
+CPU Time     : 46.453s
+Choices      : 33777   
+Conflicts    : 180      (Analyzed: 180)
 %%%%%
 %hStrange.lp
 %%%%%
-UNSATISFIABLE
-Time         : 11.133s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.125s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 41.679s (Solving: 3.95s 1st Model: 3.94s Unsat: 0.00s)
+CPU Time     : 41.672s
+Choices      : 8601     (Domain: 8601)
+Conflicts    : 319      (Analyzed: 319)
 
 %%%%%%%%%%%%%%%
 Instanz: resultx46_y15_n690_r23_s320_ps10_pr320_u320_o23_N026.lp
@@ -1932,75 +1886,75 @@ Instanz: resultx46_y15_n690_r23_s320_ps10_pr320_u320_o23_N026.lp
 %%%%%
 %Standard
 %%%%%
-UNSATISFIABLE
-Time         : 11.088s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.078s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 41.958s (Solving: 4.73s 1st Model: 4.73s Unsat: 0.00s)
+CPU Time     : 41.953s
+Choices      : 34996   
+Conflicts    : 141      (Analyzed: 141)
 %%%%%
 %hDirectionalNarrowNode.lp
 %%%%%
-UNSATISFIABLE
-Time         : 11.055s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.047s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 42.329s (Solving: 4.46s 1st Model: 4.46s Unsat: 0.00s)
+CPU Time     : 42.328s
+Choices      : 38121   
+Conflicts    : 139      (Analyzed: 139)
 %%%%%
 %hDistance.lp
 %%%%%
-UNSATISFIABLE
-Time         : 11.018s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.016s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 42.008s (Solving: 4.71s 1st Model: 4.71s Unsat: 0.00s)
+CPU Time     : 41.984s
+Choices      : 35547   
+Conflicts    : 141      (Analyzed: 141)
 %%%%%
 %hForbiddenNode.lp
 %%%%%
-UNSATISFIABLE
-Time         : 11.073s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.078s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 41.994s (Solving: 4.71s 1st Model: 4.70s Unsat: 0.00s)
+CPU Time     : 41.969s
+Choices      : 35547   
+Conflicts    : 141      (Analyzed: 141)
 %%%%%
 %hNaivePathDistance.lp
 %%%%%
-UNSATISFIABLE
-Time         : 11.051s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.047s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 41.641s (Solving: 4.49s 1st Model: 4.48s Unsat: 0.00s)
+CPU Time     : 41.609s
+Choices      : 22495   
+Conflicts    : 129      (Analyzed: 129)
 %%%%%
 %hNarrowNode.lp
 %%%%%
-UNSATISFIABLE
-Time         : 11.156s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.125s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 40.833s (Solving: 3.60s 1st Model: 3.59s Unsat: 0.00s)
+CPU Time     : 40.797s
+Choices      : 29411   
+Conflicts    : 115      (Analyzed: 115)
 %%%%%
 %hNodeCost.lp
 %%%%%
-UNSATISFIABLE
-Time         : 11.090s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.078s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 41.858s (Solving: 3.17s 1st Model: 3.17s Unsat: 0.00s)
+CPU Time     : 41.641s
+Choices      : 33396    (Domain: 1687)
+Conflicts    : 198      (Analyzed: 198)
 %%%%%
 %hPathArea.lp
 %%%%%
-UNSATISFIABLE
-Time         : 11.202s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.203s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 41.529s (Solving: 3.23s 1st Model: 3.23s Unsat: 0.00s)
+CPU Time     : 41.500s
+Choices      : 15874   
+Conflicts    : 120      (Analyzed: 120)
 %%%%%
 %hStrange.lp
 %%%%%
-UNSATISFIABLE
-Time         : 11.105s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.094s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 45.645s (Solving: 7.29s 1st Model: 7.28s Unsat: 0.00s)
+CPU Time     : 45.594s
+Choices      : 19493    (Domain: 19493)
+Conflicts    : 503      (Analyzed: 503)
 
 %%%%%%%%%%%%%%%
 Instanz: resultx46_y15_n690_r23_s320_ps10_pr320_u320_o23_N027.lp
@@ -2010,72 +1964,72 @@ Instanz: resultx46_y15_n690_r23_s320_ps10_pr320_u320_o23_N027.lp
 %Standard
 %%%%%
 UNSATISFIABLE
-Time         : 11.002s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.000s
+Time         : 27.868s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 27.828s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hDirectionalNarrowNode.lp
 %%%%%
 UNSATISFIABLE
-Time         : 11.057s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.062s
+Time         : 27.750s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 27.734s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hDistance.lp
 %%%%%
 UNSATISFIABLE
-Time         : 11.034s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.031s
+Time         : 27.567s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 27.547s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hForbiddenNode.lp
 %%%%%
 UNSATISFIABLE
-Time         : 11.081s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.094s
+Time         : 27.865s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 27.859s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hNaivePathDistance.lp
 %%%%%
 UNSATISFIABLE
-Time         : 11.117s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.109s
+Time         : 27.867s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 27.859s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hNarrowNode.lp
 %%%%%
 UNSATISFIABLE
-Time         : 11.062s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.062s
+Time         : 27.472s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 27.438s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hNodeCost.lp
 %%%%%
 UNSATISFIABLE
-Time         : 11.093s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.094s
+Time         : 28.215s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 28.172s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hPathArea.lp
 %%%%%
 UNSATISFIABLE
-Time         : 11.073s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.062s
+Time         : 28.219s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 28.188s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 %%%%%
 %hStrange.lp
 %%%%%
 UNSATISFIABLE
-Time         : 11.121s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.125s
+Time         : 28.723s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 28.641s
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
 
@@ -2086,75 +2040,75 @@ Instanz: resultx46_y15_n690_r23_s320_ps10_pr320_u320_o23_N028.lp
 %%%%%
 %Standard
 %%%%%
-UNSATISFIABLE
-Time         : 11.070s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.078s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 44.940s (Solving: 7.29s 1st Model: 7.29s Unsat: 0.00s)
+CPU Time     : 44.922s
+Choices      : 39315   
+Conflicts    : 213      (Analyzed: 213)
 %%%%%
 %hDirectionalNarrowNode.lp
 %%%%%
-UNSATISFIABLE
-Time         : 11.102s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.109s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 45.171s (Solving: 7.48s 1st Model: 7.47s Unsat: 0.00s)
+CPU Time     : 45.125s
+Choices      : 38510   
+Conflicts    : 217      (Analyzed: 217)
 %%%%%
 %hDistance.lp
 %%%%%
-UNSATISFIABLE
-Time         : 11.057s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.062s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 46.847s (Solving: 7.60s 1st Model: 7.60s Unsat: 0.00s)
+CPU Time     : 46.594s
+Choices      : 41814   
+Conflicts    : 216      (Analyzed: 216)
 %%%%%
 %hForbiddenNode.lp
 %%%%%
-UNSATISFIABLE
-Time         : 11.446s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.422s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 45.660s (Solving: 7.84s 1st Model: 7.83s Unsat: 0.00s)
+CPU Time     : 45.469s
+Choices      : 41814   
+Conflicts    : 216      (Analyzed: 216)
 %%%%%
 %hNaivePathDistance.lp
 %%%%%
-UNSATISFIABLE
-Time         : 11.209s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.188s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 54.267s (Solving: 7.87s 1st Model: 7.87s Unsat: 0.00s)
+CPU Time     : 53.031s
+Choices      : 25909   
+Conflicts    : 164      (Analyzed: 164)
 %%%%%
 %hNarrowNode.lp
 %%%%%
-UNSATISFIABLE
-Time         : 11.000s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.000s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 43.409s (Solving: 4.25s 1st Model: 4.25s Unsat: 0.00s)
+CPU Time     : 43.266s
+Choices      : 74856   
+Conflicts    : 246      (Analyzed: 246)
 %%%%%
 %hNodeCost.lp
 %%%%%
-UNSATISFIABLE
-Time         : 11.203s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.203s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 40.628s (Solving: 4.36s 1st Model: 4.35s Unsat: 0.00s)
+CPU Time     : 40.594s
+Choices      : 24800    (Domain: 3101)
+Conflicts    : 191      (Analyzed: 191)
 %%%%%
 %hPathArea.lp
 %%%%%
-UNSATISFIABLE
-Time         : 11.001s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 10.984s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 43.408s (Solving: 6.84s 1st Model: 6.84s Unsat: 0.00s)
+CPU Time     : 43.328s
+Choices      : 29719   
+Conflicts    : 161      (Analyzed: 161)
 %%%%%
 %hStrange.lp
 %%%%%
-UNSATISFIABLE
-Time         : 11.068s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.078s
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+SATISFIABLE
+Time         : 38.945s (Solving: 2.26s 1st Model: 2.26s Unsat: 0.00s)
+CPU Time     : 38.938s
+Choices      : 4728     (Domain: 4728)
+Conflicts    : 306      (Analyzed: 306)
 
 %%%%%%%%%%%%%%%
 Instanz: resultx46_y15_n690_r23_s320_ps10_pr320_u320_o23_N029.lp
@@ -2164,74 +2118,74 @@ Instanz: resultx46_y15_n690_r23_s320_ps10_pr320_u320_o23_N029.lp
 %Standard
 %%%%%
 SATISFIABLE
-Time         : 15.412s (Solving: 0.77s 1st Model: 0.77s Unsat: 0.00s)
-CPU Time     : 15.406s
-Choices      : 8499    
-Conflicts    : 117      (Analyzed: 117)
+Time         : 37.527s (Solving: 1.80s 1st Model: 1.79s Unsat: 0.00s)
+CPU Time     : 37.531s
+Choices      : 15415   
+Conflicts    : 93       (Analyzed: 93)
 %%%%%
 %hDirectionalNarrowNode.lp
 %%%%%
 SATISFIABLE
-Time         : 15.609s (Solving: 0.91s 1st Model: 0.91s Unsat: 0.00s)
-CPU Time     : 15.609s
-Choices      : 8221    
-Conflicts    : 117      (Analyzed: 117)
+Time         : 40.264s (Solving: 1.89s 1st Model: 1.88s Unsat: 0.00s)
+CPU Time     : 40.172s
+Choices      : 15247   
+Conflicts    : 93       (Analyzed: 93)
 %%%%%
 %hDistance.lp
 %%%%%
 SATISFIABLE
-Time         : 15.848s (Solving: 1.12s 1st Model: 1.12s Unsat: 0.00s)
-CPU Time     : 15.859s
-Choices      : 10999   
-Conflicts    : 134      (Analyzed: 134)
+Time         : 38.740s (Solving: 1.87s 1st Model: 1.86s Unsat: 0.00s)
+CPU Time     : 38.688s
+Choices      : 15274   
+Conflicts    : 93       (Analyzed: 93)
 %%%%%
 %hForbiddenNode.lp
 %%%%%
 SATISFIABLE
-Time         : 15.926s (Solving: 1.15s 1st Model: 1.14s Unsat: 0.00s)
-CPU Time     : 15.938s
-Choices      : 10999   
-Conflicts    : 134      (Analyzed: 134)
+Time         : 37.946s (Solving: 1.76s 1st Model: 1.76s Unsat: 0.00s)
+CPU Time     : 37.938s
+Choices      : 15274   
+Conflicts    : 93       (Analyzed: 93)
 %%%%%
 %hNaivePathDistance.lp
 %%%%%
 SATISFIABLE
-Time         : 16.586s (Solving: 1.85s 1st Model: 1.85s Unsat: 0.00s)
-CPU Time     : 16.594s
-Choices      : 26439   
-Conflicts    : 133      (Analyzed: 133)
+Time         : 39.919s (Solving: 2.51s 1st Model: 2.51s Unsat: 0.00s)
+CPU Time     : 39.875s
+Choices      : 12066   
+Conflicts    : 119      (Analyzed: 119)
 %%%%%
 %hNarrowNode.lp
 %%%%%
 SATISFIABLE
-Time         : 15.885s (Solving: 1.15s 1st Model: 1.15s Unsat: 0.00s)
-CPU Time     : 15.891s
-Choices      : 11143   
-Conflicts    : 118      (Analyzed: 118)
+Time         : 38.452s (Solving: 1.90s 1st Model: 1.90s Unsat: 0.00s)
+CPU Time     : 38.422s
+Choices      : 15809   
+Conflicts    : 95       (Analyzed: 95)
 %%%%%
 %hNodeCost.lp
 %%%%%
 SATISFIABLE
-Time         : 15.017s (Solving: 0.30s 1st Model: 0.30s Unsat: 0.00s)
-CPU Time     : 15.016s
-Choices      : 1135     (Domain: 530)
-Conflicts    : 71       (Analyzed: 71)
+Time         : 37.807s (Solving: 0.55s 1st Model: 0.54s Unsat: 0.00s)
+CPU Time     : 37.734s
+Choices      : 8538     (Domain: 504)
+Conflicts    : 80       (Analyzed: 80)
 %%%%%
 %hPathArea.lp
 %%%%%
 SATISFIABLE
-Time         : 16.238s (Solving: 1.47s 1st Model: 1.47s Unsat: 0.00s)
-CPU Time     : 16.234s
-Choices      : 20093   
-Conflicts    : 125      (Analyzed: 125)
+Time         : 38.232s (Solving: 1.76s 1st Model: 1.76s Unsat: 0.00s)
+CPU Time     : 38.172s
+Choices      : 8434    
+Conflicts    : 118      (Analyzed: 118)
 %%%%%
 %hStrange.lp
 %%%%%
 SATISFIABLE
-Time         : 16.082s (Solving: 1.38s 1st Model: 1.37s Unsat: 0.00s)
-CPU Time     : 16.078s
-Choices      : 5044     (Domain: 5044)
-Conflicts    : 153      (Analyzed: 153)
+Time         : 48.545s (Solving: 11.61s 1st Model: 11.61s Unsat: 0.00s)
+CPU Time     : 48.531s
+Choices      : 30812    (Domain: 30812)
+Conflicts    : 605      (Analyzed: 605)
 
 %%%%%%%%%%%%%%%
 Instanz: resultx46_y15_n690_r23_s320_ps10_pr320_u320_o23_N030.lp
@@ -2241,71 +2195,71 @@ Instanz: resultx46_y15_n690_r23_s320_ps10_pr320_u320_o23_N030.lp
 %Standard
 %%%%%
 SATISFIABLE
-Time         : 16.151s (Solving: 1.45s 1st Model: 1.45s Unsat: 0.00s)
-CPU Time     : 16.156s
-Choices      : 11602   
-Conflicts    : 84       (Analyzed: 84)
+Time         : 38.396s (Solving: 2.69s 1st Model: 2.69s Unsat: 0.00s)
+CPU Time     : 38.406s
+Choices      : 22922   
+Conflicts    : 100      (Analyzed: 100)
 %%%%%
 %hDirectionalNarrowNode.lp
 %%%%%
 SATISFIABLE
-Time         : 16.196s (Solving: 1.44s 1st Model: 1.44s Unsat: 0.00s)
-CPU Time     : 16.188s
-Choices      : 11732   
-Conflicts    : 84       (Analyzed: 84)
+Time         : 38.995s (Solving: 2.74s 1st Model: 2.74s Unsat: 0.00s)
+CPU Time     : 38.984s
+Choices      : 22695   
+Conflicts    : 100      (Analyzed: 100)
 %%%%%
 %hDistance.lp
 %%%%%
 SATISFIABLE
-Time         : 16.996s (Solving: 1.42s 1st Model: 1.42s Unsat: 0.00s)
-CPU Time     : 17.000s
-Choices      : 11135   
-Conflicts    : 83       (Analyzed: 83)
+Time         : 38.894s (Solving: 2.68s 1st Model: 2.68s Unsat: 0.00s)
+CPU Time     : 38.875s
+Choices      : 22738   
+Conflicts    : 100      (Analyzed: 100)
 %%%%%
 %hForbiddenNode.lp
 %%%%%
 SATISFIABLE
-Time         : 16.173s (Solving: 1.42s 1st Model: 1.41s Unsat: 0.00s)
-CPU Time     : 16.172s
-Choices      : 11135   
-Conflicts    : 83       (Analyzed: 83)
+Time         : 38.864s (Solving: 2.68s 1st Model: 2.67s Unsat: 0.00s)
+CPU Time     : 38.844s
+Choices      : 22738   
+Conflicts    : 100      (Analyzed: 100)
 %%%%%
 %hNaivePathDistance.lp
 %%%%%
 SATISFIABLE
-Time         : 16.986s (Solving: 2.23s 1st Model: 2.23s Unsat: 0.00s)
-CPU Time     : 17.000s
-Choices      : 13457   
-Conflicts    : 137      (Analyzed: 137)
+Time         : 37.992s (Solving: 1.82s 1st Model: 1.81s Unsat: 0.00s)
+CPU Time     : 37.906s
+Choices      : 10241   
+Conflicts    : 115      (Analyzed: 115)
 %%%%%
 %hNarrowNode.lp
 %%%%%
 SATISFIABLE
-Time         : 16.193s (Solving: 1.42s 1st Model: 1.42s Unsat: 0.00s)
-CPU Time     : 16.188s
-Choices      : 12385   
-Conflicts    : 83       (Analyzed: 83)
+Time         : 38.573s (Solving: 2.79s 1st Model: 2.79s Unsat: 0.00s)
+CPU Time     : 38.531s
+Choices      : 22456   
+Conflicts    : 100      (Analyzed: 100)
 %%%%%
 %hNodeCost.lp
 %%%%%
 SATISFIABLE
-Time         : 15.193s (Solving: 0.38s 1st Model: 0.38s Unsat: 0.00s)
-CPU Time     : 15.188s
-Choices      : 1315     (Domain: 561)
-Conflicts    : 76       (Analyzed: 76)
+Time         : 37.474s (Solving: 0.75s 1st Model: 0.75s Unsat: 0.00s)
+CPU Time     : 37.344s
+Choices      : 2513     (Domain: 725)
+Conflicts    : 89       (Analyzed: 89)
 %%%%%
 %hPathArea.lp
 %%%%%
 SATISFIABLE
-Time         : 16.977s (Solving: 2.00s 1st Model: 2.00s Unsat: 0.00s)
-CPU Time     : 16.984s
-Choices      : 54224   
-Conflicts    : 143      (Analyzed: 143)
+Time         : 40.664s (Solving: 1.70s 1st Model: 1.69s Unsat: 0.00s)
+CPU Time     : 40.391s
+Choices      : 7520    
+Conflicts    : 116      (Analyzed: 116)
 %%%%%
 %hStrange.lp
 %%%%%
 SATISFIABLE
-Time         : 15.618s (Solving: 0.89s 1st Model: 0.89s Unsat: 0.00s)
-CPU Time     : 15.609s
-Choices      : 3100     (Domain: 3100)
-Conflicts    : 109      (Analyzed: 109)
+Time         : 45.677s (Solving: 8.64s 1st Model: 8.63s Unsat: 0.00s)
+CPU Time     : 45.609s
+Choices      : 26611    (Domain: 26611)
+Conflicts    : 563      (Analyzed: 563)

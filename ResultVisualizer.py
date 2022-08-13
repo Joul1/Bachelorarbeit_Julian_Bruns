@@ -7,7 +7,8 @@ import numpy as np
 import os
 
 path=r"./instances/moo/structured/1x2x4/100sc/r02/transformedResults/transformedResult.lp"
-path=r"./instances/moo/structured/2x3x5/100sc/r19/transformedResults/transformedResult.lp"
+#path=r"./instances/moo/structured/2x3x5/100sc/r15/transformedResults/transformedResult.lp"
+#path=r"./instances/moo/structured/4x5x8/100sc/r12/transformedResults/transformedResult.lp"
 
 hpath=r"./hEncoding"
 hname=[]
@@ -56,6 +57,7 @@ for m in l:
         new.append(rep)
 
 #print(l)
+#print(new)
 
 for i in range(0,len(new)):
     #print(i)
@@ -87,19 +89,19 @@ for n in range(0,4):
     print()
     
     if n==0:
-        print("Time: ")
+        print("Average Time: ")
         plt.title("Time")
         result=time
     elif n==1:
-        print("SolvingTime: ")
+        print("Average SolvingTime: ")
         plt.title("SolvingTime")
         result=solvingTime
     elif n==2:
-        print("Choices: ")
+        print("Average Choices: ")
         plt.title("Choices")
         result=choices
     elif n==3:
-        print("Conflicts: ")
+        print("Average Conflicts: ")
         plt.title("Conflicts")
         result=conflicts
     

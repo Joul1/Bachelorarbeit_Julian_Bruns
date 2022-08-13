@@ -5,8 +5,8 @@ UNSATISFIABLE
 
 Models       : 0
 Calls        : 1
-Time         : 11.419s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.250s
+Time         : 28.241s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 28.234s
 
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
@@ -22,9 +22,9 @@ Backjumps    : 0        (Average:  0.00 Max:   0 Sum:      0)
   Executed   : 0        (Average:  0.00 Max:   0 Sum:      0 Ratio:   0.00%)
   Bounded    : 0        (Average:  0.00 Max:   0 Sum:      0 Ratio: 100.00%)
 
-Rules        : 2707329 
+Rules        : 6249119 
 Atoms        : 0       
-Bodies       : 1490570 
+Bodies       : 3818400 
 Tight        : Yes
 Variables    : 0        (Eliminated:    0 Frozen:    0)
 Constraints  : 0        (Binary:   0.0% Ternary:   0.0% Other:   0.0%)
@@ -36,8 +36,8 @@ UNSATISFIABLE
 
 Models       : 0
 Calls        : 1
-Time         : 12.717s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 12.531s
+Time         : 27.251s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 27.250s
 
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
@@ -53,10 +53,10 @@ Backjumps    : 0        (Average:  0.00 Max:   0 Sum:      0)
   Executed   : 0        (Average:  0.00 Max:   0 Sum:      0 Ratio:   0.00%)
   Bounded    : 0        (Average:  0.00 Max:   0 Sum:      0 Ratio: 100.00%)
 
-Rules        : 2708029  (Original: 2708258)
-  Heuristic  : 0        (Original: 229)
+Rules        : 6249819  (Original: 6250428)
+  Heuristic  : 0        (Original: 609)
 Atoms        : 0       
-Bodies       : 1490570 
+Bodies       : 3818400 
 Tight        : Yes
 Variables    : 0        (Eliminated:    0 Frozen:    0)
 Constraints  : 0        (Binary:   0.0% Ternary:   0.0% Other:   0.0%)
@@ -68,8 +68,8 @@ UNSATISFIABLE
 
 Models       : 0
 Calls        : 1
-Time         : 11.526s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 11.484s
+Time         : 27.476s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 27.484s
 
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
@@ -85,9 +85,10 @@ Backjumps    : 0        (Average:  0.00 Max:   0 Sum:      0)
   Executed   : 0        (Average:  0.00 Max:   0 Sum:      0 Ratio:   0.00%)
   Bounded    : 0        (Average:  0.00 Max:   0 Sum:      0 Ratio: 100.00%)
 
-Rules        : 2708052 
+Rules        : 6249842  (Original: 6552167)
+  Heuristic  : 0        (Original: 302325)
 Atoms        : 0       
-Bodies       : 1490570 
+Bodies       : 3818400 
 Tight        : Yes
 Variables    : 0        (Eliminated:    0 Frozen:    0)
 Constraints  : 0        (Binary:   0.0% Ternary:   0.0% Other:   0.0%)
@@ -99,8 +100,8 @@ UNSATISFIABLE
 
 Models       : 0
 Calls        : 1
-Time         : 13.738s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 13.547s
+Time         : 34.175s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 33.828s
 
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
@@ -116,9 +117,10 @@ Backjumps    : 0        (Average:  0.00 Max:   0 Sum:      0)
   Executed   : 0        (Average:  0.00 Max:   0 Sum:      0 Ratio:   0.00%)
   Bounded    : 0        (Average:  0.00 Max:   0 Sum:      0 Ratio: 100.00%)
 
-Rules        : 2708052 
+Rules        : 6249842  (Original: 6552167)
+  Heuristic  : 0        (Original: 302325)
 Atoms        : 0       
-Bodies       : 1490570 
+Bodies       : 3818400 
 Tight        : Yes
 Variables    : 0        (Eliminated:    0 Frozen:    0)
 Constraints  : 0        (Binary:   0.0% Ternary:   0.0% Other:   0.0%)
@@ -130,8 +132,8 @@ UNSATISFIABLE
 
 Models       : 0
 Calls        : 1
-Time         : 15.326s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 15.000s
+Time         : 34.628s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 34.484s
 
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
@@ -147,10 +149,10 @@ Backjumps    : 0        (Average:  0.00 Max:   0 Sum:      0)
   Executed   : 0        (Average:  0.00 Max:   0 Sum:      0 Ratio:   0.00%)
   Bounded    : 0        (Average:  0.00 Max:   0 Sum:      0 Ratio: 100.00%)
 
-Rules        : 2708451  (Original: 2752606)
+Rules        : 6250241  (Original: 6294396)
   Heuristic  : 0        (Original: 44155)
 Atoms        : 0       
-Bodies       : 1490570 
+Bodies       : 3818400 
 Tight        : Yes
 Variables    : 0        (Eliminated:    0 Frozen:    0)
 Constraints  : 0        (Binary:   0.0% Ternary:   0.0% Other:   0.0%)
@@ -162,8 +164,8 @@ UNSATISFIABLE
 
 Models       : 0
 Calls        : 1
-Time         : 14.493s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 14.359s
+Time         : 32.600s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 32.469s
 
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
@@ -179,10 +181,10 @@ Backjumps    : 0        (Average:  0.00 Max:   0 Sum:      0)
   Executed   : 0        (Average:  0.00 Max:   0 Sum:      0 Ratio:   0.00%)
   Bounded    : 0        (Average:  0.00 Max:   0 Sum:      0 Ratio: 100.00%)
 
-Rules        : 2708029  (Original: 2711143)
-  Heuristic  : 0        (Original: 3114)
+Rules        : 6249819  (Original: 6257653)
+  Heuristic  : 0        (Original: 7834)
 Atoms        : 0       
-Bodies       : 1490570 
+Bodies       : 3818400 
 Tight        : Yes
 Variables    : 0        (Eliminated:    0 Frozen:    0)
 Constraints  : 0        (Binary:   0.0% Ternary:   0.0% Other:   0.0%)
@@ -194,8 +196,8 @@ UNSATISFIABLE
 
 Models       : 0
 Calls        : 1
-Time         : 14.545s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 14.469s
+Time         : 34.818s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 34.266s
 
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
@@ -211,10 +213,10 @@ Backjumps    : 0        (Average:  0.00 Max:   0 Sum:      0)
   Executed   : 0        (Average:  0.00 Max:   0 Sum:      0 Ratio:   0.00%)
   Bounded    : 0        (Average:  0.00 Max:   0 Sum:      0 Ratio: 100.00%)
 
-Rules        : 2708075  (Original: 2773350)
-  Heuristic  : 0        (Original: 65275)
+Rules        : 6249843  (Original: 6552168)
+  Heuristic  : 0        (Original: 302325)
 Atoms        : 0       
-Bodies       : 1490570 
+Bodies       : 3818400 
 Tight        : Yes
 Variables    : 0        (Eliminated:    0 Frozen:    0)
 Constraints  : 0        (Binary:   0.0% Ternary:   0.0% Other:   0.0%)
@@ -226,8 +228,8 @@ UNSATISFIABLE
 
 Models       : 0
 Calls        : 1
-Time         : 14.746s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 14.625s
+Time         : 32.856s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 32.797s
 
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
@@ -243,10 +245,10 @@ Backjumps    : 0        (Average:  0.00 Max:   0 Sum:      0)
   Executed   : 0        (Average:  0.00 Max:   0 Sum:      0 Ratio:   0.00%)
   Bounded    : 0        (Average:  0.00 Max:   0 Sum:      0 Ratio: 100.00%)
 
-Rules        : 2708029  (Original: 2773304)
-  Heuristic  : 0        (Original: 65275)
+Rules        : 6249819  (Original: 6552144)
+  Heuristic  : 0        (Original: 302325)
 Atoms        : 0       
-Bodies       : 1490570 
+Bodies       : 3818400 
 Tight        : Yes
 Variables    : 0        (Eliminated:    0 Frozen:    0)
 Constraints  : 0        (Binary:   0.0% Ternary:   0.0% Other:   0.0%)
@@ -258,8 +260,8 @@ UNSATISFIABLE
 
 Models       : 0
 Calls        : 1
-Time         : 14.355s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 14.266s
+Time         : 31.581s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 31.500s
 
 Choices      : 0       
 Conflicts    : 1        (Analyzed: 0)
@@ -275,10 +277,10 @@ Backjumps    : 0        (Average:  0.00 Max:   0 Sum:      0)
   Executed   : 0        (Average:  0.00 Max:   0 Sum:      0 Ratio:   0.00%)
   Bounded    : 0        (Average:  0.00 Max:   0 Sum:      0 Ratio: 100.00%)
 
-Rules        : 2708029  (Original: 2773304)
-  Heuristic  : 0        (Original: 65275)
+Rules        : 6249819  (Original: 6552144)
+  Heuristic  : 0        (Original: 302325)
 Atoms        : 0       
-Bodies       : 1490570 
+Bodies       : 3818400 
 Tight        : Yes
 Variables    : 0        (Eliminated:    0 Frozen:    0)
 Constraints  : 0        (Binary:   0.0% Ternary:   0.0% Other:   0.0%)

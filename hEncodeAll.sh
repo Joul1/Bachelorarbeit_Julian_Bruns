@@ -26,7 +26,7 @@ echo >${f}/results/result${base}
 echo %%%%% >${f}/results/result${base}
 echo %Standard >>${f}/results/result${base}
 echo %%%%% >>${f}/results/result${base}
-clingo ./encoding/mif.lp ${f}/converted/converted${base} -c horizon=20 --time=300 --out-atomf=%s. --out-ifs="\n" -V0 --stats >>${f}/results/result${base}
+clingo ./encoding/mif.lp ${f}/converted/converted${base} -c horizon=40 --time=900 --out-atomf=%s. --out-ifs="\n" -V0 --stats >>${f}/results/result${base}
 
 
 for k in ./hEncoding/*
@@ -37,7 +37,7 @@ basek=$(basename $k)
 echo %%%%% >>${f}/results/result${base}
 echo %${basek} >>${f}/results/result${base}
 echo %%%%% >>${f}/results/result${base}
-clingo ./hEncoding/${basek} ${f}/hGenerated/hGenerated${base} ./encoding/mif.lp ${f}/converted/converted${base} --heuristic=Domain -c horizon=20 --time=300 --out-atomf=%s. --out-ifs="\n" -V0 --stats >>${f}/results/result${base}
+clingo ./hEncoding/${basek} ${f}/hGenerated/hGenerated${base} ./encoding/mif.lp ${f}/converted/converted${base} --heuristic=Domain -c horizon=40 --time=900 --out-atomf=%s. --out-ifs="\n" -V0 --stats >>${f}/results/result${base}
 
 done
 
