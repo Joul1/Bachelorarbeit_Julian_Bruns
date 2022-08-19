@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "./clingo.py", line 3, in <module>
+    import gringo, sys, json, signal, threading, argparse, StringIO
+ImportError: No module named gringo

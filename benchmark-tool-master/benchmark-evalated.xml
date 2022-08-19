@@ -1,7 +1,7 @@
 <result>
 	<machine name="zuse" cpu="24x8xE5520@2.27GHz" memory="24GB"/>
 	<config name="seq-generic" template="templates/seq-generic.sh"/>
-	<system name="clingo" version="1" measures="clingo" config="seq-generic">
+	<system name="clingo" version="1" measures="clasp" config="seq-generic">
 		<setting name="setting-1" cmdline="--stats --quiet=1,0" tag="basic" pbstemplate="templates/single.pbs"/>
 	</system>
 	<pbsjob name="pbs-gen" timeout="1200" runs="1" script_mode="timeout" walltime="86399" cpt="5" partition="kr"/>
@@ -31,6 +31,5 @@
 	<project name="clingo-pbs-job" job="pbs-gen">
 		<runspec machine="zuse" system="clingo" version="1" benchmark="no-pigeons" setting="setting-1">
 			<class id="0">
-				<instance id="2">
+				<instance id="1">
 					<run number="1">
-parse

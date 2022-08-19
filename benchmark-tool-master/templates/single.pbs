@@ -11,6 +11,10 @@ set -e
 # Load environment modules for your application here.
 source ~/.bashrc
 
+eval "$(conda shell.bash hook)"
+conda activate clingoEnv
+
+
 # Run jobs
 jobs="{jobs}"
 echo running jobs@$(hostname)...
