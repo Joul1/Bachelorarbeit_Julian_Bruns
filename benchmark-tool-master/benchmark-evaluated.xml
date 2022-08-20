@@ -2,35 +2,28 @@
 	<machine name="zuse" cpu="24x8xE5520@2.27GHz" memory="24GB"/>
 	<config name="seq-generic" template="templates/seq-generic.sh"/>
 	<system name="clingo" version="1" measures="clingo" config="seq-generic">
-		<setting name="setting-1" cmdline="--stats --quiet=1,0" tag="basic" pbstemplate="templates/single.pbs"/>
+		<setting name="setting-1" cmdline="~/encoding/mif.lp ~/benchmark-tool-master/heuristics/hDistance.lp --stats --quiet=1,0" tag="basic" pbstemplate="templates/single.pbs"/>
+		<setting name="setting-2" cmdline="~/encoding/mif.lp ~/benchmark-tool-master/heuristics/hForbiddenNode.lp --stats --quiet=1,0" tag="basic" pbstemplate="templates/single.pbs"/>
+		<setting name="setting-3" cmdline="~/encoding/mif.lp ~/benchmark-tool-master/heuristics/hNaivePathDistance.lp --stats --quiet=1,0" tag="basic" pbstemplate="templates/single.pbs"/>
+		<setting name="setting-4" cmdline="~/encoding/mif.lp ~/benchmark-tool-master/heuristics/hNodeCost.lp --stats --quiet=1,0" tag="basic" pbstemplate="templates/single.pbs"/>
+		<setting name="setting-5" cmdline="~/encoding/mif.lp ~/benchmark-tool-master/heuristics/hPathArea.lp --stats --quiet=1,0" tag="basic" pbstemplate="templates/single.pbs"/>
+		<setting name="setting-6" cmdline="~/encoding/mif.lp ~/benchmark-tool-master/heuristics/hStrange.lp --stats --quiet=1,0" tag="basic" pbstemplate="templates/single.pbs"/>
 	</system>
 	<pbsjob name="pbs-gen" timeout="1200" runs="1" script_mode="timeout" walltime="86399" cpt="5" partition="kr"/>
-	<benchmark name="no-pigeons">
-		<class name="blocked-queens" id="0">
-			<instance name="blocked-n-queens_decision-156.48.1960.36.1721259656.lp" id="0"/>
-			<instance name="blocked-n-queens_decision-156.48.1960.36.1721330060.lp" id="1"/>
-			<instance name="blocked-n-queens_decision-156.48.1960.36.1721351180.lp" id="2"/>
-		</class>
-		<class name="eqtest" id="1">
-			<instance name="qeq.12.lp" id="0"/>
-		</class>
-		<class name="random" id="2">
-			<instance name="n60-unsat-b10.lp" id="0"/>
-			<instance name="n60-unsat-b12.lp" id="1"/>
-			<instance name="n60-unsat-b15.lp" id="2"/>
-			<instance name="n60-unsat-b16.lp" id="3"/>
-			<instance name="n60-unsat-b18.lp" id="4"/>
-			<instance name="n60-unsat-b2.lp" id="5"/>
-			<instance name="n60-unsat-b20.lp" id="6"/>
-			<instance name="n60-unsat-b3.lp" id="7"/>
-			<instance name="n60-unsat-b5.lp" id="8"/>
-			<instance name="n60-unsat-b8.lp" id="9"/>
-			<instance name="n60-unsat-b9.lp" id="10"/>
-		</class>
+	<benchmark name="heuristic">
 	</benchmark>
 	<project name="clingo-pbs-job" job="pbs-gen">
-		<runspec machine="zuse" system="clingo" version="1" benchmark="no-pigeons" setting="setting-1">
-			<class id="0">
-				<instance id="2">
-					<run number="1">
-parse
+		<runspec machine="zuse" system="clingo" version="1" benchmark="heuristic" setting="setting-1">
+		</runspec>
+		<runspec machine="zuse" system="clingo" version="1" benchmark="heuristic" setting="setting-2">
+		</runspec>
+		<runspec machine="zuse" system="clingo" version="1" benchmark="heuristic" setting="setting-3">
+		</runspec>
+		<runspec machine="zuse" system="clingo" version="1" benchmark="heuristic" setting="setting-4">
+		</runspec>
+		<runspec machine="zuse" system="clingo" version="1" benchmark="heuristic" setting="setting-5">
+		</runspec>
+		<runspec machine="zuse" system="clingo" version="1" benchmark="heuristic" setting="setting-6">
+		</runspec>
+	</project>
+</result>
