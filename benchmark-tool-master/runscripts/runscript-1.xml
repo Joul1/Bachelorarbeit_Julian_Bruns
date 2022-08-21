@@ -6,19 +6,19 @@
   
 	<system name="clingo" version="1" measures="clingo" config="seq-generic">
 
-		<setting name="setting-1" cmdline="~/encoding/mif.lp ~/benchmark-tool-master/heuristics/hDistance.lp --stats --quiet=1,0" tag="basic" />
-		<setting name="setting-2" cmdline="~/encoding/mif.lp ~/benchmark-tool-master/heuristics/hForbiddenNode.lp --stats --quiet=1,0" tag="basic" />
-		<setting name="setting-3" cmdline="~/encoding/mif.lp ~/benchmark-tool-master/heuristics/hNaivePathDistance.lp --stats --quiet=1,0" tag="basic" />
-		<setting name="setting-4" cmdline="~/encoding/mif.lp ~/benchmark-tool-master/heuristics/hNodeCost.lp --stats --quiet=1,0" tag="basic" />
-		<setting name="setting-5" cmdline="~/encoding/mif.lp ~/benchmark-tool-master/heuristics/hPathArea.lp --stats --quiet=1,0" tag="basic" />
-		<setting name="setting-6" cmdline="~/encoding/mif.lp ~/benchmark-tool-master/heuristics/hStrange.lp --stats --quiet=1,0" tag="basic" />
+		<setting name="setting-hDistance" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hDistance.lp --stats --quiet=1,0" tag="basic" />
+		<setting name="setting-hForbiddenNode" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hForbiddenNode.lp --stats --quiet=1,0" tag="basic" />
+		<setting name="setting-hNaivePathDistance" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hNaivePathDistance.lp --stats --quiet=1,0" tag="basic" />
+		<setting name="setting-hNodeCost" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hNodeCost.lp --stats --quiet=1,0" tag="basic" />
+		<setting name="setting-hPathArea" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hPathArea.lp --stats --quiet=1,0" tag="basic" />
+		<setting name="setting-hStrange" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hStrange.lp --stats --quiet=1,0" tag="basic" />
 
     </system>
 
-	      	<pbsjob name="pbs-gen" timeout="1200" runs="1" script_mode="timeout" walltime="23:59:59" cpt="5"/>
+	      	<pbsjob name="pbs-gen" timeout="1200" runs="1" script_mode="timeout" walltime="00:25:00" cpt="5"/>
 
 	<benchmark name="heuristic">
-		<folder path="~/benchmark-tool-master/benchmarks/instances"><ignore prefix="leavHereForLater"/></folder>
+		<folder path="/mnt/beegfs/home/jubruns/benchmark-tool-master/benchmarks/instances/"><ignore prefix="leaveHereForLater"/></folder>
 	</benchmark>
 
 	<project name="clingo-pbs-job" job="pbs-gen">
