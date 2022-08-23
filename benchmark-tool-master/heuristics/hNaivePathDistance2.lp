@@ -2,40 +2,30 @@
 
 
 
-time(0..horizon).
 
-move(1,0).
-move(-1,0).
-move(0,1).
-move(0,-1).
+at(R,P,0) :- start(R,P).
 
 
-
-%Jeder step ist genau ein Schritt groß
-:-step(X1,Y1,X2,Y2,R,T),|X1-X2|+|Y1-Y2|!=1,agent(R),time(T).
+#const horizon=1.
 
 
+time(1..horizon).
 
-%Mann kann nicht auserhalb des Bereiches wandern
+{ move(R,U,V,T) : edge(U,V)} 1 :- agent(R), time(T).
 
-:-step(X1,Y1,X2,Y2,R,T),not vertex((X1,Y1)).
-:-step(X1,Y1,X2,Y2,R,T),not vertex((X2,Y2)).
+% - move ------------------------------------------------------------------
+at(R,V,T) :- move(R,U,V,T), at(R,U,T-1), edge(U,V).
 
+% - inertia ---------------------------------------------------------------
+at(R,V,T) :- at(R,V,T-1), not move(R,_,_,T), agent(R), time(T).
 
-%Genau ein Schritt geht aus start aus und genau ein Schritt geht in goal ein
-{step(X,Y,X+Xm,Y+Ym,R,0):move(Xm,Ym)}=1:-start(R,(X,Y)).
-{step(X2+Xm,Y2+Ym,X2,Y2,R,0):move(Xm,Ym)}=1:-goal(R,(X2,Y2)).
-
-
-%Jeder Schritt, außer der letzte, hat genau einen Nachfolger
-{step(X2,Y2,X2+Xm,Y2+Ym,R,T+1):move(Xm,Ym)}=1:-step(X1,Y1,X2,Y2,R,T),not goal(R,(X2,Y2)),vertex((X1,Y1)),vertex((X2,Y2)),agent(R),time(T),not T>=horizon.
-%Jeder Schritt, außer der erste, hat genau einen Vorgänger
-{step(X1+Xm,Y1+Ym,X1,Y1,R,T-1):move(Xm,Ym)}=1:-step(X1,Y1,X2,Y2,R,T),not start(R,(X1,Y1)),vertex((X1,Y1)),vertex((X2,Y2)),agent(R),time(T), not T<=0.
+% - auxiliaries -------------------------------------------- redundant ----
+ :- { at(R,V,T) } != 1, agent(R), time(T),                               pc=1.
 
 
-%Verhindern von zwei getrennten Kreisen am Anfan und am Ziel
-:-step(X1,Y1,X2,Y2,R,T),start(R,(X2,Y2)),agent(R),time(T).
+ % - query -----------------------------------------------------------------
 
+:- goal(R,V), not at(R,V,horizon),                                       gc=1.
 
 
 
@@ -51,4 +41,4 @@ move(0,-1).
 
 
 %Naive Pfade
-hStep(X1,Y1,X2,Y2,R,T):-step(X1,Y1,X2,Y2,R,T).
+hStep(X1,Y1,X2,Y2,R,T):-move(R,(X1,Y1),(X2,Y2),T).
