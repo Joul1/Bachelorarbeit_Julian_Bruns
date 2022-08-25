@@ -1,0 +1,47 @@
+[runlim] version:		2.0.0rc6
+[runlim] host:			kr-node4
+[runlim] time limit:		1200 seconds
+[runlim] real time limit:	311040000 seconds
+[runlim] space limit:		16000 MB
+[runlim] argv[0]:		../../../../../../../../../programs/clingo-1
+[runlim] argv[1]:		/mnt/beegfs/home/jubruns/encoding/mif.lp
+[runlim] argv[2]:		/mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hNaivePathDistance.lp
+[runlim] argv[3]:		--heuristic=Domain
+[runlim] argv[4]:		-c
+[runlim] argv[5]:		horizon=20
+[runlim] argv[6]:		--stats
+[runlim] argv[7]:		--quiet=1,0
+[runlim] argv[8]:		../../../../../../../../../benchmarks/instances/maze/maze_s50_a30.lp
+[runlim] start:			Tue Aug 23 23:08:29 2022
+[runlim] child:			31235
+[runlim] sample:		9.82 time, 10.01 real, 1217 MB, 1.07 load
+[runlim] sample:		19.81 time, 20.01 real, 2492 MB, 1.06 load
+[runlim] sample:		29.81 time, 30.01 real, 2965 MB, 1.05 load
+[runlim] sample:		39.80 time, 40.01 real, 3801 MB, 1.04 load
+[runlim] sample:		49.80 time, 50.01 real, 4617 MB, 1.03 load
+[runlim] sample:		59.80 time, 60.01 real, 5433 MB, 1.03 load
+[runlim] sample:		69.80 time, 70.01 real, 6123 MB, 1.10 load
+[runlim] sample:		79.79 time, 80.01 real, 7838 MB, 1.08 load
+[runlim] sample:		89.78 time, 90.01 real, 9594 MB, 1.07 load
+[runlim] sample:		99.76 time, 100.01 real, 10725 MB, 1.06 load
+[runlim] sample:		109.75 time, 110.01 real, 11426 MB, 1.05 load
+[runlim] sample:		119.75 time, 120.01 real, 11473 MB, 1.04 load
+[runlim] sample:		129.75 time, 130.01 real, 11475 MB, 1.03 load
+[runlim] sample:		139.74 time, 140.01 real, 11477 MB, 1.03 load
+[runlim] sample:		149.74 time, 150.01 real, 11479 MB, 1.02 load
+[runlim] sample:		159.73 time, 160.01 real, 11481 MB, 1.02 load
+[runlim] sample:		169.73 time, 170.01 real, 11483 MB, 1.10 load
+[runlim] sample:		179.72 time, 180.01 real, 11640 MB, 1.08 load
+[runlim] sample:		189.72 time, 190.01 real, 11940 MB, 1.22 load
+[runlim] sample:		199.71 time, 200.01 real, 11890 MB, 1.19 load
+[runlim] sample:		209.71 time, 210.01 real, 11197 MB, 1.16 load
+[runlim] end:			Tue Aug 23 23:12:10 2022
+[runlim] status:		ok
+[runlim] result:		20
+[runlim] children:		2
+[runlim] processes:		31
+[runlim] real:			219.62 seconds
+[runlim] time:			219.30 seconds
+[runlim] space:			12145 MB
+[runlim] load:			1.22 maximum
+[runlim] samples:		2196

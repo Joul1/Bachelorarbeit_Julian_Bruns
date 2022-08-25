@@ -1,0 +1,28 @@
+[runlim] version:		2.0.0rc6
+[runlim] host:			kr-node2
+[runlim] time limit:		1200 seconds
+[runlim] real time limit:	311040000 seconds
+[runlim] space limit:		16000 MB
+[runlim] argv[0]:		../../../../../../../../../programs/clingo-1
+[runlim] argv[1]:		/mnt/beegfs/home/jubruns/encoding/mif.lp
+[runlim] argv[2]:		/mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hForbiddenNode.lp
+[runlim] argv[3]:		--heuristic=Domain
+[runlim] argv[4]:		-c
+[runlim] argv[5]:		horizon=20
+[runlim] argv[6]:		--stats
+[runlim] argv[7]:		--quiet=1,0
+[runlim] argv[8]:		../../../../../../../../../benchmarks/instances/random/random_s60_a40_c55.lp
+[runlim] start:			Tue Aug 23 22:57:14 2022
+[runlim] child:			3091
+[runlim] sample:		9.85 time, 10.01 real, 1452 MB, 1.94 load
+[runlim] sample:		19.84 time, 20.01 real, 1750 MB, 1.95 load
+[runlim] end:			Tue Aug 23 22:57:40 2022
+[runlim] status:		ok
+[runlim] result:		20
+[runlim] children:		2
+[runlim] processes:		33
+[runlim] real:			24.94 seconds
+[runlim] time:			24.75 seconds
+[runlim] space:			1752 MB
+[runlim] load:			1.96 maximum
+[runlim] samples:		249

@@ -1,0 +1,32 @@
+running jobs@kr-node6...
+
+jobs: results/heuristic/clingo-1-setting-hPathArea/maze/maze_s34_a14.lp/run1/start.sh results/heuristic/clingo-1-setting-hPathArea/maze/maze_s56_a36.lp/run1/start.sh results/heuristic/clingo-1-setting-hPathArea/maze/maze_s48_a28.lp/run1/start.sh results/heuristic/clingo-1-setting-hPathArea/maze/maze_s40_a20.lp/run1/start.sh results/heuristic/clingo-1-setting-hPathArea/maze/maze_s42_a22.lp/run1/start.sh results/heuristic/clingo-1-setting-hPathArea/maze/maze_s54_a34.lp/run1/start.sh results/heuristic/clingo-1-setting-hPathArea/maze/maze_s66_a46.lp/run1/start.sh results/heuristic/clingo-1-setting-hPathArea/maze/maze_s44_a24.lp/run1/start.sh results/heuristic/clingo-1-setting-hPathArea/maze/maze_s46_a26.lp/run1/start.sh results/heuristic/clingo-1-setting-hPathArea/maze/maze_s52_a32.lp/run1/start.sh results/heuristic/clingo-1-setting-hPathArea/maze/maze_s36_a16.lp/run1/start.sh results/heuristic/clingo-1-setting-hPathArea/maze/maze_s62_a42.lp/run1/start.sh results/heuristic/clingo-1-setting-hPathArea/maze/maze_s38_a18.lp/run1/start.sh results/heuristic/clingo-1-setting-hPathArea/maze/maze_s58_a38.lp/run1/start.sh results/heuristic/clingo-1-setting-hPathArea/maze/maze_s70_a50.lp/run1/start.sh results/heuristic/clingo-1-setting-hPathArea/maze/maze_s60_a40.lp/run1/start.sh results/heuristic/clingo-1-setting-hPathArea/maze/maze_s50_a30.lp/run1/start.sh results/heuristic/clingo-1-setting-hPathArea/maze/maze_s68_a48.lp/run1/start.sh results/heuristic/clingo-1-setting-hPathArea/maze/maze_s32_a12.lp/run1/start.sh results/heuristic/clingo-1-setting-hPathArea/maze/maze_s64_a44.lp/run1/start.sh results/heuristic/clingo-1-setting-hStrange/random/random_s54_a34_c52.lp/run1/start.sh results/heuristic/clingo-1-setting-hStrange/random/random_s32_a12_c41.lp/run1/start.sh results/heuristic/clingo-1-setting-hStrange/random/random_s36_a16_c43.lp/run1/start.sh results/heuristic/clingo-1-setting-hStrange/random/random_s24_a4_c37.lp/run1/start.sh results/heuristic/clingo-1-setting-hStrange/random/random_s56_a36_c53.lp/run1/start.sh results/heuristic/clingo-1-setting-hStrange/random/random_s30_a10_c40.lp/run1/start.sh results/heuristic/clingo-1-setting-hStrange/random/random_s44_a24_c47.lp/run1/start.sh results/heuristic/clingo-1-setting-hStrange/random/random_s34_a14_c42.lp/run1/start.sh
+
+running  results/heuristic/clingo-1-setting-hPathArea/maze/maze_s34_a14.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hPathArea/maze/maze_s56_a36.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hPathArea/maze/maze_s48_a28.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hPathArea/maze/maze_s40_a20.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hPathArea/maze/maze_s42_a22.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hPathArea/maze/maze_s54_a34.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hPathArea/maze/maze_s66_a46.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hPathArea/maze/maze_s44_a24.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hPathArea/maze/maze_s46_a26.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hPathArea/maze/maze_s52_a32.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hPathArea/maze/maze_s36_a16.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hPathArea/maze/maze_s62_a42.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hPathArea/maze/maze_s38_a18.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hPathArea/maze/maze_s58_a38.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hPathArea/maze/maze_s70_a50.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hPathArea/maze/maze_s60_a40.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hPathArea/maze/maze_s50_a30.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hPathArea/maze/maze_s68_a48.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hPathArea/maze/maze_s32_a12.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hPathArea/maze/maze_s64_a44.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hStrange/random/random_s54_a34_c52.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hStrange/random/random_s32_a12_c41.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hStrange/random/random_s36_a16_c43.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hStrange/random/random_s24_a4_c37.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hStrange/random/random_s56_a36_c53.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hStrange/random/random_s30_a10_c40.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hStrange/random/random_s44_a24_c47.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hStrange/random/random_s34_a14_c42.lp/run1/start.sh

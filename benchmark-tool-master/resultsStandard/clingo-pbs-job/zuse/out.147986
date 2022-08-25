@@ -1,0 +1,32 @@
+running jobs@kr-node6...
+
+jobs: results/heuristic/clingo-1-setting-hStrange/random/random_s38_a18_c44.lp/run1/start.sh results/heuristic/clingo-1-setting-hStrange/random/random_s42_a22_c46.lp/run1/start.sh results/heuristic/clingo-1-setting-hStrange/random/random_s46_a26_c48.lp/run1/start.sh results/heuristic/clingo-1-setting-hStrange/random/random_s50_a30_c50.lp/run1/start.sh results/heuristic/clingo-1-setting-hStrange/random/random_s60_a40_c55.lp/run1/start.sh results/heuristic/clingo-1-setting-hStrange/random/random_s58_a38_c54.lp/run1/start.sh results/heuristic/clingo-1-setting-hStrange/random/random_s48_a28_c49.lp/run1/start.sh results/heuristic/clingo-1-setting-hStrange/random/random_s40_a20_c45.lp/run1/start.sh results/heuristic/clingo-1-setting-hStrange/random/random_s26_a6_c38.lp/run1/start.sh results/heuristic/clingo-1-setting-hStrange/random/random_s52_a32_c51.lp/run1/start.sh results/heuristic/clingo-1-setting-hStrange/random/random_s28_a8_c39.lp/run1/start.sh results/heuristic/clingo-1-setting-hStrange/random/random_s62_a42_c56.lp/run1/start.sh results/heuristic/clingo-1-setting-hStrange/room/room_s48_a28_w5.lp/run1/start.sh results/heuristic/clingo-1-setting-hStrange/room/room_s58_a38_w6.lp/run1/start.sh results/heuristic/clingo-1-setting-hStrange/room/room_s36_a16_w4.lp/run1/start.sh results/heuristic/clingo-1-setting-hStrange/room/room_s70_a50_w7.lp/run1/start.sh results/heuristic/clingo-1-setting-hStrange/room/room_s56_a36_w6.lp/run1/start.sh results/heuristic/clingo-1-setting-hStrange/room/room_s66_a46_w7.lp/run1/start.sh results/heuristic/clingo-1-setting-hStrange/room/room_s38_a18_w4.lp/run1/start.sh results/heuristic/clingo-1-setting-hStrange/room/room_s68_a48_w7.lp/run1/start.sh results/heuristic/clingo-1-setting-hStrange/room/room_s52_a32_w5.lp/run1/start.sh results/heuristic/clingo-1-setting-hStrange/room/room_s42_a22_w5.lp/run1/start.sh results/heuristic/clingo-1-setting-hStrange/room/room_s64_a44_w6.lp/run1/start.sh results/heuristic/clingo-1-setting-hStrange/room/room_s54_a34_w6.lp/run1/start.sh results/heuristic/clingo-1-setting-hStrange/room/room_s60_a40_w6.lp/run1/start.sh results/heuristic/clingo-1-setting-hStrange/room/room_s44_a24_w5.lp/run1/start.sh results/heuristic/clingo-1-setting-hStrange/room/room_s40_a20_w4.lp/run1/start.sh results/heuristic/clingo-1-setting-hStrange/room/room_s50_a30_w5.lp/run1/start.sh
+
+running  results/heuristic/clingo-1-setting-hStrange/random/random_s38_a18_c44.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hStrange/random/random_s42_a22_c46.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hStrange/random/random_s46_a26_c48.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hStrange/random/random_s50_a30_c50.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hStrange/random/random_s60_a40_c55.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hStrange/random/random_s58_a38_c54.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hStrange/random/random_s48_a28_c49.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hStrange/random/random_s40_a20_c45.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hStrange/random/random_s26_a6_c38.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hStrange/random/random_s52_a32_c51.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hStrange/random/random_s28_a8_c39.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hStrange/random/random_s62_a42_c56.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hStrange/room/room_s48_a28_w5.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hStrange/room/room_s58_a38_w6.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hStrange/room/room_s36_a16_w4.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hStrange/room/room_s70_a50_w7.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hStrange/room/room_s56_a36_w6.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hStrange/room/room_s66_a46_w7.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hStrange/room/room_s38_a18_w4.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hStrange/room/room_s68_a48_w7.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hStrange/room/room_s52_a32_w5.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hStrange/room/room_s42_a22_w5.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hStrange/room/room_s64_a44_w6.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hStrange/room/room_s54_a34_w6.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hStrange/room/room_s60_a40_w6.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hStrange/room/room_s44_a24_w5.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hStrange/room/room_s40_a20_w4.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hStrange/room/room_s50_a30_w5.lp/run1/start.sh

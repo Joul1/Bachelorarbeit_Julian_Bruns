@@ -1,31 +1,39 @@
 clingo version 5.5.2
 Reading from ...nt/beegfs/home/jubruns/encoding/mif.lp ...
 Solving...
-UNSATISFIABLE
+Answer: 1
+move(1,(1,9),(2,9),1) move(1,(2,9),(3,9),2) move(1,(3,9),(4,9),3) move(1,(4,9),(5,9),4) move(1,(5,9),(6,9),5) move(1,(6,9),(7,9),6) move(1,(7,9),(8,9),7) move(1,(8,9),(9,9),8) move(1,(9,9),(9,8),9) move(1,(9,8),(9,7),10) move(1,(9,7),(9,6),11) move(2,(2,9),(2,8),1) move(2,(2,8),(2,7),2) move(2,(2,7),(2,6),3) move(3,(3,9),(3,8),1) move(3,(3,8),(3,7),2) move(3,(3,7),(3,6),3) move(3,(3,6),(3,5),4) move(3,(3,5),(3,4),5) move(3,(3,4),(3,3),6) move(3,(3,3),(3,2),8) move(3,(3,2),(4,2),9) move(3,(4,2),(4,3),10) move(4,(4,9),(5,9),1) move(4,(5,9),(6,9),2) move(4,(6,9),(7,9),3) move(4,(7,9),(8,9),4) move(4,(8,9),(9,9),5) move(4,(9,9),(10,9),6) move(4,(10,9),(11,9),7) move(4,(11,9),(12,9),8) move(4,(12,9),(13,9),9) move(4,(13,9),(14,9),10) move(4,(14,9),(15,9),11) move(4,(15,9),(16,9),12) move(4,(16,9),(17,9),13) move(4,(17,9),(17,8),14) move(4,(17,8),(17,7),15) move(4,(17,7),(17,6),16) move(5,(5,9),(5,8),1) move(5,(5,8),(5,7),2) move(5,(5,7),(5,6),3) move(5,(5,6),(5,5),4) move(5,(5,5),(5,4),5) move(5,(5,4),(6,4),6) move(5,(6,4),(7,4),8) move(5,(7,4),(8,4),9)
+SATISFIABLE
 
-Models       : 0
+Models       : 1+
 Calls        : 1
-Time         : 0.061s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 0.025s
+Time         : 0.611s (Solving: 0.02s 1st Model: 0.02s Unsat: 0.00s)
+CPU Time     : 0.573s
 
-Choices      : 0       
-Conflicts    : 1        (Analyzed: 0)
+Choices      : 837      (Domain: 727)
+Conflicts    : 14       (Analyzed: 14)
 Restarts     : 0       
-Problems     : 0        (Average Length: 0.00 Splits: 0)
-Lemmas       : 0        (Deleted: 0)
-  Binary     : 0        (Ratio:   0.00%)
+Model-Level  : 527.0   
+Problems     : 1        (Average Length: 0.00 Splits: 0)
+Lemmas       : 14       (Deleted: 0)
+  Binary     : 3        (Ratio:  21.43%)
   Ternary    : 0        (Ratio:   0.00%)
-  Conflict   : 0        (Average Length:    0.0 Ratio:   0.00%) 
+  Conflict   : 14       (Average Length:   54.9 Ratio: 100.00%) 
   Loop       : 0        (Average Length:    0.0 Ratio:   0.00%) 
   Other      : 0        (Average Length:    0.0 Ratio:   0.00%) 
-Backjumps    : 0        (Average:  0.00 Max:   0 Sum:      0)
-  Executed   : 0        (Average:  0.00 Max:   0 Sum:      0 Ratio:   0.00%)
-  Bounded    : 0        (Average:  0.00 Max:   0 Sum:      0 Ratio: 100.00%)
+Backjumps    : 14       (Average: 22.14 Max: 109 Sum:    310)
+  Executed   : 14       (Average: 22.14 Max: 109 Sum:    310 Ratio: 100.00%)
+  Bounded    : 0        (Average:  0.00 Max:   0 Sum:      0 Ratio:   0.00%)
 
-Rules        : 7125    
-Atoms        : 0       
-Bodies       : 3146    
+Rules        : 231376   (Original: 180506)
+  Choice     : 100     
+  Heuristic  : 8226     (Original: 8260)
+Atoms        : 101665   (Original: 86955 Auxiliary: 14710)
+Disjunctions : 0        (Original: 1)
+Bodies       : 142496   (Original: 106392)
+  Count      : 104      (Original: 1957)
+Equivalences : 71514    (Atom=Atom: 113 Body=Body: 119 Other: 71282)
 Tight        : Yes
-Variables    : 0        (Eliminated:    0 Frozen:    0)
-Constraints  : 0        (Binary:   0.0% Ternary:   0.0% Other:   0.0%)
+Variables    : 133311   (Eliminated:    0 Frozen: 63450)
+Constraints  : 334791   (Binary:  82.6% Ternary:  11.6% Other:   5.8%)
 

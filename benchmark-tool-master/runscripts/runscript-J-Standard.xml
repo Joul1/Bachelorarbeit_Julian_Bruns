@@ -15,7 +15,7 @@
 
     </system>
 
-	      	<pbsjob name="pbs-gen" timeout="1200" runs="1" script_mode="timeout" walltime="12:00:00" cpt="10"/>
+	      	<pbsjob name="pbs-gen" timeout="1200" runs="1" script_mode="timeout" walltime="12:00:00" cpt="4"/>
 
 	<benchmark name="heuristic">
 		<folder path="/mnt/beegfs/home/jubruns/benchmark-tool-master/benchmarks/instances/"><ignore prefix="leaveHereForLater"/></folder>

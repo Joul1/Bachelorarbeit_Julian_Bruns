@@ -1,0 +1,32 @@
+running jobs@kr-node3...
+
+jobs: results/heuristic/clingo-1-setting-hNaivePathDistance/room/room_s48_a28_w5.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance/room/room_s58_a38_w6.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance/room/room_s36_a16_w4.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance/room/room_s70_a50_w7.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance/room/room_s56_a36_w6.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance/room/room_s66_a46_w7.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance/room/room_s38_a18_w4.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance/room/room_s68_a48_w7.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance/room/room_s52_a32_w5.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance/room/room_s42_a22_w5.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance/room/room_s64_a44_w6.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance/room/room_s54_a34_w6.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance/room/room_s60_a40_w6.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance/room/room_s44_a24_w5.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance/room/room_s40_a20_w4.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance/room/room_s50_a30_w5.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance/room/room_s34_a14_w4.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance/room/room_s46_a26_w5.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance/room/room_s62_a42_w6.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance/room/room_s32_a12_w4.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance/maze/maze_s34_a14.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance/maze/maze_s56_a36.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance/maze/maze_s48_a28.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance/maze/maze_s40_a20.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance/maze/maze_s42_a22.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance/maze/maze_s54_a34.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance/maze/maze_s66_a46.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance/maze/maze_s44_a24.lp/run1/start.sh
+
+running  results/heuristic/clingo-1-setting-hNaivePathDistance/room/room_s48_a28_w5.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance/room/room_s58_a38_w6.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance/room/room_s36_a16_w4.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance/room/room_s70_a50_w7.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance/room/room_s56_a36_w6.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance/room/room_s66_a46_w7.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance/room/room_s38_a18_w4.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance/room/room_s68_a48_w7.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance/room/room_s52_a32_w5.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance/room/room_s42_a22_w5.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance/room/room_s64_a44_w6.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance/room/room_s54_a34_w6.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance/room/room_s60_a40_w6.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance/room/room_s44_a24_w5.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance/room/room_s40_a20_w4.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance/room/room_s50_a30_w5.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance/room/room_s34_a14_w4.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance/room/room_s46_a26_w5.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance/room/room_s62_a42_w6.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance/room/room_s32_a12_w4.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance/maze/maze_s34_a14.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance/maze/maze_s56_a36.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance/maze/maze_s48_a28.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance/maze/maze_s40_a20.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance/maze/maze_s42_a22.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance/maze/maze_s54_a34.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance/maze/maze_s66_a46.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance/maze/maze_s44_a24.lp/run1/start.sh

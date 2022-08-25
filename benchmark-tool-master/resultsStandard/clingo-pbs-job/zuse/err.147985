@@ -1,0 +1,60 @@
+/mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hPathArea.lp:8:9-23: info: atom does not occur in any rule head:
+  start(R,(M,#Anon0))
+
+/mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hPathArea.lp:8:26-39: info: atom does not occur in any rule head:
+  goal(R,(M,#Anon1))
+
+/mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hPathArea.lp:9:9-23: info: atom does not occur in any rule head:
+  start(R,(#Anon2,M))
+
+/mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hPathArea.lp:9:26-39: info: atom does not occur in any rule head:
+  goal(R,(#Anon3,M))
+
+/mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hPathArea.lp:10:9-23: info: atom does not occur in any rule head:
+  start(R,(M,#Anon4))
+
+/mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hPathArea.lp:10:26-39: info: atom does not occur in any rule head:
+  goal(R,(M,#Anon5))
+
+/mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hPathArea.lp:11:9-23: info: atom does not occur in any rule head:
+  start(R,(#Anon6,M))
+
+/mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hPathArea.lp:11:26-39: info: atom does not occur in any rule head:
+  goal(R,(#Anon7,M))
+
+/mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hPathArea.lp:11:46-54: info: atom does not occur in any rule head:
+  agent(R)
+
+/mnt/beegfs/home/jubruns/encoding/mif.lp:3:14-24: info: atom does not occur in any rule head:
+  start(R,P)
+
+/mnt/beegfs/home/jubruns/encoding/mif.lp:16:35-43: info: atom does not occur in any rule head:
+  agent(R)
+
+/mnt/beegfs/home/jubruns/encoding/mif.lp:22:46-54: info: atom does not occur in any rule head:
+  agent(R)
+
+/mnt/beegfs/home/jubruns/encoding/options.lp:3:19-27: info: atom does not occur in any rule head:
+  agent(R)
+
+/mnt/beegfs/home/jubruns/encoding/options.lp:11:25-33: info: atom does not occur in any rule head:
+  agent(R)
+
+/mnt/beegfs/home/jubruns/encoding/options.lp:12:25-33: info: atom does not occur in any rule head:
+  agent(R)
+
+/mnt/beegfs/home/jubruns/encoding/options.lp:16:4-13: info: atom does not occur in any rule head:
+  goal(R,V)
+
+/mnt/beegfs/home/jubruns/encoding/options.lp:18:24-33: info: atom does not occur in any rule head:
+  goal(R,V)
+
+/mnt/beegfs/home/jubruns/encoding/options.lp:21:15-24: info: atom does not occur in any rule head:
+  goal(R,V)
+
+/mnt/beegfs/home/jubruns/encoding/options.lp:22:31-39: info: atom does not occur in any rule head:
+  agent(R)
+
+/mnt/beegfs/home/jubruns/encoding/options.lp:24:4-13: info: atom does not occur in any rule head:
+  goal(R,V)
+

@@ -1,0 +1,44 @@
+[runlim] version:		2.0.0rc6
+[runlim] host:			kr-node3
+[runlim] time limit:		1200 seconds
+[runlim] real time limit:	311040000 seconds
+[runlim] space limit:		16000 MB
+[runlim] argv[0]:		../../../../../../../../../programs/clingo-1
+[runlim] argv[1]:		/mnt/beegfs/home/jubruns/encoding/mif.lp
+[runlim] argv[2]:		/mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hNaivePathDistance.lp
+[runlim] argv[3]:		--heuristic=Domain
+[runlim] argv[4]:		-c
+[runlim] argv[5]:		horizon=20
+[runlim] argv[6]:		--stats
+[runlim] argv[7]:		--quiet=1,0
+[runlim] argv[8]:		../../../../../../../../../benchmarks/instances/room/room_s56_a36_w6.lp
+[runlim] start:			Tue Aug 23 23:03:43 2022
+[runlim] child:			20638
+[runlim] sample:		9.83 time, 10.01 real, 1158 MB, 2.01 load
+[runlim] sample:		19.80 time, 20.01 real, 2395 MB, 2.00 load
+[runlim] sample:		29.80 time, 30.01 real, 2878 MB, 2.00 load
+[runlim] sample:		39.76 time, 40.01 real, 3670 MB, 1.92 load
+[runlim] sample:		49.77 time, 50.01 real, 4465 MB, 1.93 load
+[runlim] sample:		59.76 time, 60.01 real, 6029 MB, 1.95 load
+[runlim] sample:		69.76 time, 70.01 real, 6837 MB, 1.88 load
+[runlim] sample:		79.76 time, 80.01 real, 6858 MB, 1.90 load
+[runlim] sample:		89.76 time, 90.01 real, 6858 MB, 1.91 load
+[runlim] sample:		99.73 time, 100.01 real, 6857 MB, 1.93 load
+[runlim] sample:		109.73 time, 110.01 real, 6857 MB, 1.94 load
+[runlim] sample:		119.73 time, 120.01 real, 6857 MB, 1.95 load
+[runlim] sample:		129.73 time, 130.01 real, 6857 MB, 1.96 load
+[runlim] sample:		139.73 time, 140.01 real, 6857 MB, 2.04 load
+[runlim] sample:		149.70 time, 150.01 real, 6857 MB, 2.03 load
+[runlim] sample:		159.70 time, 160.01 real, 6928 MB, 2.03 load
+[runlim] sample:		169.70 time, 170.01 real, 7145 MB, 2.02 load
+[runlim] sample:		179.71 time, 180.01 real, 7052 MB, 2.02 load
+[runlim] end:			Tue Aug 23 23:06:51 2022
+[runlim] status:		ok
+[runlim] result:		20
+[runlim] children:		2
+[runlim] processes:		33
+[runlim] real:			187.17 seconds
+[runlim] time:			186.80 seconds
+[runlim] space:			7194 MB
+[runlim] load:			2.04 maximum
+[runlim] samples:		1871

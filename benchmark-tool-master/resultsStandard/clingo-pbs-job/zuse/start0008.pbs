@@ -1,0 +1,56 @@
+#!/bin/bash
+#SBATCH --output=out.%j
+#SBATCH --error=err.%j
+#SBATCH --time=12:00:00        # walltime
+#SBATCH --cpus-per-task=4    # number of processor cores (i.e. tasks)
+#SBATCH --partition=kr
+
+# Good Idea to stop operation on first error.
+set -e
+
+# Load environment modules for your application here.
+source ~/.bashrc
+
+eval "$(conda shell.bash hook)"
+conda activate clingoEnv
+
+
+# Run jobs
+jobs="results/heuristic/clingo-1-setting-hNodeCost/maze/maze_s42_a22.lp/run1/start.sh
+results/heuristic/clingo-1-setting-hNodeCost/maze/maze_s54_a34.lp/run1/start.sh
+results/heuristic/clingo-1-setting-hNodeCost/maze/maze_s66_a46.lp/run1/start.sh
+results/heuristic/clingo-1-setting-hNodeCost/maze/maze_s44_a24.lp/run1/start.sh
+results/heuristic/clingo-1-setting-hNodeCost/maze/maze_s46_a26.lp/run1/start.sh
+results/heuristic/clingo-1-setting-hNodeCost/maze/maze_s52_a32.lp/run1/start.sh
+results/heuristic/clingo-1-setting-hNodeCost/maze/maze_s36_a16.lp/run1/start.sh
+results/heuristic/clingo-1-setting-hNodeCost/maze/maze_s62_a42.lp/run1/start.sh
+results/heuristic/clingo-1-setting-hNodeCost/maze/maze_s38_a18.lp/run1/start.sh
+results/heuristic/clingo-1-setting-hNodeCost/maze/maze_s58_a38.lp/run1/start.sh
+results/heuristic/clingo-1-setting-hNodeCost/maze/maze_s70_a50.lp/run1/start.sh
+results/heuristic/clingo-1-setting-hNodeCost/maze/maze_s60_a40.lp/run1/start.sh
+results/heuristic/clingo-1-setting-hNodeCost/maze/maze_s50_a30.lp/run1/start.sh
+results/heuristic/clingo-1-setting-hNodeCost/maze/maze_s68_a48.lp/run1/start.sh
+results/heuristic/clingo-1-setting-hNodeCost/maze/maze_s32_a12.lp/run1/start.sh
+results/heuristic/clingo-1-setting-hNodeCost/maze/maze_s64_a44.lp/run1/start.sh
+results/heuristic/clingo-1-setting-hPathArea/random/random_s54_a34_c52.lp/run1/start.sh
+results/heuristic/clingo-1-setting-hPathArea/random/random_s32_a12_c41.lp/run1/start.sh
+results/heuristic/clingo-1-setting-hPathArea/random/random_s36_a16_c43.lp/run1/start.sh
+results/heuristic/clingo-1-setting-hPathArea/random/random_s24_a4_c37.lp/run1/start.sh
+results/heuristic/clingo-1-setting-hPathArea/random/random_s56_a36_c53.lp/run1/start.sh
+results/heuristic/clingo-1-setting-hPathArea/random/random_s30_a10_c40.lp/run1/start.sh
+results/heuristic/clingo-1-setting-hPathArea/random/random_s44_a24_c47.lp/run1/start.sh
+results/heuristic/clingo-1-setting-hPathArea/random/random_s34_a14_c42.lp/run1/start.sh
+results/heuristic/clingo-1-setting-hPathArea/random/random_s38_a18_c44.lp/run1/start.sh
+results/heuristic/clingo-1-setting-hPathArea/random/random_s42_a22_c46.lp/run1/start.sh
+results/heuristic/clingo-1-setting-hPathArea/random/random_s46_a26_c48.lp/run1/start.sh
+results/heuristic/clingo-1-setting-hPathArea/random/random_s50_a30_c50.lp/run1/start.sh
+"
+echo running jobs@$(hostname)...
+echo ""
+echo "jobs:" $jobs
+echo ""
+for i in $jobs
+do
+    echo "running " $i
+    $i
+done
