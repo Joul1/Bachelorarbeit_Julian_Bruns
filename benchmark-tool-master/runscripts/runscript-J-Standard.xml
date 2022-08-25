@@ -12,6 +12,7 @@
 		<setting name="setting-hNodeCost" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hNodeCost.lp --heuristic=Domain -c horizon=20 --stats --quiet=1,0" tag="basic" />
 		<setting name="setting-hPathArea" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hPathArea.lp --heuristic=Domain -c horizon=20 --stats --quiet=1,0" tag="basic" />
 		<setting name="setting-hStrange" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hStrange.lp --heuristic=Domain -c horizon=20 --stats --quiet=1,0" tag="basic" />
+		<setting name="setting-hDistance" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp horizon=20 --stats --quiet=1,0" tag="basic" />
 
     </system>
 
