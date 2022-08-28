@@ -1,0 +1,29 @@
+[runlim] version:		2.0.0rc6
+[runlim] host:			kr-node4
+[runlim] time limit:		21600 seconds
+[runlim] real time limit:	311040000 seconds
+[runlim] space limit:		32000 MB
+[runlim] argv[0]:		../../../../../../../../../programs/clingo-1
+[runlim] argv[1]:		/mnt/beegfs/home/jubruns/encoding/mifHorizon.lp
+[runlim] argv[2]:		--quiet=1,0
+[runlim] argv[3]:		../../../../../../../../../benchmarks/instances/room/room_s38_a18_w4.lp
+[runlim] start:			Thu Aug 25 17:25:56 2022
+[runlim] child:			15838
+[runlim] sample:		9.83 time, 10.01 real, 751 MB, 1.02 load
+[runlim] sample:		19.83 time, 20.01 real, 1205 MB, 1.01 load
+[runlim] sample:		29.83 time, 30.01 real, 1578 MB, 1.01 load
+[runlim] sample:		39.82 time, 40.01 real, 1947 MB, 1.01 load
+[runlim] sample:		49.82 time, 50.01 real, 2239 MB, 1.01 load
+[runlim] sample:		59.82 time, 60.01 real, 2521 MB, 1.01 load
+[runlim] sample:		69.81 time, 70.01 real, 2733 MB, 1.00 load
+[runlim] sample:		79.81 time, 80.01 real, 2907 MB, 1.00 load
+[runlim] end:			Thu Aug 25 17:27:18 2022
+[runlim] status:		ok
+[runlim] result:		10
+[runlim] children:		2
+[runlim] processes:		31
+[runlim] real:			80.85 seconds
+[runlim] time:			80.60 seconds
+[runlim] space:			3539 MB
+[runlim] load:			1.02 maximum
+[runlim] samples:		808

@@ -1,0 +1,11 @@
+clingo version 5.5.2
+Reading from ...fs/home/jubruns/encoding/mifHorizon.lp ...
+Solving...
+Answer: 1
+query(0)
+SATISFIABLE
+
+Models       : 1+
+Calls        : 1
+Time         : 0.199s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.169s

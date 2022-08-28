@@ -1,0 +1,44 @@
+[runlim] version:		2.0.0rc6
+[runlim] host:			kr-node4
+[runlim] time limit:		21600 seconds
+[runlim] real time limit:	311040000 seconds
+[runlim] space limit:		32000 MB
+[runlim] argv[0]:		../../../../../../../../../programs/clingo-1
+[runlim] argv[1]:		/mnt/beegfs/home/jubruns/encoding/mifHorizon.lp
+[runlim] argv[2]:		--quiet=1,0
+[runlim] argv[3]:		../../../../../../../../../benchmarks/instances/room/room_s48_a28_w5.lp
+[runlim] start:			Thu Aug 25 17:03:14 2022
+[runlim] child:			15689
+[runlim] sample:		9.83 time, 10.01 real, 921 MB, 1.00 load
+[runlim] sample:		19.82 time, 20.01 real, 1494 MB, 1.00 load
+[runlim] sample:		29.83 time, 30.01 real, 2018 MB, 1.00 load
+[runlim] sample:		39.82 time, 40.01 real, 2553 MB, 1.00 load
+[runlim] sample:		49.83 time, 50.01 real, 2793 MB, 1.00 load
+[runlim] sample:		59.82 time, 60.01 real, 3061 MB, 1.00 load
+[runlim] sample:		69.82 time, 70.01 real, 3455 MB, 1.00 load
+[runlim] sample:		79.83 time, 80.01 real, 3772 MB, 1.00 load
+[runlim] sample:		89.82 time, 90.01 real, 4097 MB, 1.00 load
+[runlim] sample:		99.82 time, 100.01 real, 4405 MB, 1.00 load
+[runlim] sample:		109.82 time, 110.01 real, 4734 MB, 1.00 load
+[runlim] sample:		119.82 time, 120.01 real, 5965 MB, 1.00 load
+[runlim] sample:		129.82 time, 130.01 real, 5227 MB, 1.00 load
+[runlim] sample:		139.82 time, 140.01 real, 5501 MB, 1.00 load
+[runlim] sample:		149.82 time, 150.01 real, 5693 MB, 1.00 load
+[runlim] sample:		159.82 time, 160.01 real, 5976 MB, 1.00 load
+[runlim] sample:		169.82 time, 170.01 real, 6072 MB, 1.00 load
+[runlim] sample:		179.81 time, 180.01 real, 6358 MB, 1.00 load
+[runlim] sample:		189.82 time, 190.01 real, 6858 MB, 1.00 load
+[runlim] sample:		199.81 time, 200.01 real, 8268 MB, 1.00 load
+[runlim] sample:		209.82 time, 210.01 real, 6934 MB, 1.00 load
+[runlim] sample:		219.82 time, 220.01 real, 7199 MB, 1.00 load
+[runlim] sample:		229.82 time, 230.01 real, 7537 MB, 1.00 load
+[runlim] end:			Thu Aug 25 17:07:11 2022
+[runlim] status:		ok
+[runlim] result:		10
+[runlim] children:		2
+[runlim] processes:		31
+[runlim] real:			235.79 seconds
+[runlim] time:			235.51 seconds
+[runlim] space:			9060 MB
+[runlim] load:			1.00 maximum
+[runlim] samples:		2357
