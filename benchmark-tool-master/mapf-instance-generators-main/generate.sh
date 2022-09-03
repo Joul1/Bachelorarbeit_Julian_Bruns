@@ -7,12 +7,12 @@
 
 
 
-for i in `seq 20 -1 1`
+for i in `seq 1 20`
 do 
 
-	size=$((20+i))
+	size=$((10+i))
 	agent=$((10+2*i))
-	cover=$((40+i))
+	cover=$((60+i))
 	width=$((4+(i/6)))
 
 	

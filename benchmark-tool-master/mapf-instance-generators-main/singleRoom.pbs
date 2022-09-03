@@ -1,0 +1,23 @@
+#!/bin/bash
+#SBATCH --output=out.%j
+#SBATCH --error=err.%j
+#SBATCH --time=24:00:00        # walltime
+#SBATCH --exclusive
+#SBATCH --cpus-per-task=4    # number of processor cores (i.e. tasks)
+#SBATCH --partition=long
+
+# Good Idea to stop operation on first error.
+set -e
+
+# Load environment modules for your application here.
+source ~/.bashrc
+
+eval "$(conda shell.bash hook)"
+conda activate clingoEnv
+
+
+# Run jobs
+/mnt/beegfs/home/jubruns/benchmark-tool-master/mapf-instance-generators-main/generateRoom.sh
+
+
+
