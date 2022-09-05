@@ -16,7 +16,7 @@ conda activate clingoEnv
 
 
 # Run jobs
-jobs="results/heuristic/clingo-1-setting-hDistance/room/room_s66_a46_w7.lp/run1/start.sh
+jobs="results/heuristic/clingo-1-setting-hDistance/room/room_s42_a22_w5.lp/run1/start.sh
 "
 echo running jobs@$(hostname)...
 echo ""

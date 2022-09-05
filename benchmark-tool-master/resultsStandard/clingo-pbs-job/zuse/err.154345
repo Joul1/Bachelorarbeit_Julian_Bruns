@@ -1,0 +1,5 @@
+/mnt/beegfs/home/jubruns/encoding/mif.lp:6:1-18: error: redefinition of constant:
+  #const horizon=1.
+../../../../../../../../../benchmarks/instances/room/room_s28_a1_w5_h37.lp:2584:1-19: note: constant also defined here
+
+*** ERROR: (clingo): parsing failed

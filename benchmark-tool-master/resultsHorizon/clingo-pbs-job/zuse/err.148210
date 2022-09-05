@@ -1,0 +1,8 @@
+/mnt/beegfs/home/jubruns/encoding/mifHorizon.lp:18:31-44: info: atom does not occur in any rule head:
+  move(#X0,#P1,#P2,#X3)
+
+/mnt/beegfs/home/jubruns/encoding/mifHorizon.lp:33:5-18: info: atom does not occur in any rule head:
+  move(#P0,#X1,#X2,#X3)
+
+../../../../../../../../../programs/clingo-1: line 3: 14848 Killed                  clingo $@
+slurmstepd-kr-node5: error: Detected 1 oom-kill event(s) in step 148210.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.

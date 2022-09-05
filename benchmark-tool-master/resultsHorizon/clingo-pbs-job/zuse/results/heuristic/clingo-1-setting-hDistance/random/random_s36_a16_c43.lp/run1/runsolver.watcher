@@ -1,34 +1,34 @@
 [runlim] version:		2.0.0rc6
-[runlim] host:			kr-node4
+[runlim] host:			kr-node6
 [runlim] time limit:		21600 seconds
 [runlim] real time limit:	311040000 seconds
-[runlim] space limit:		32000 MB
+[runlim] space limit:		160000 MB
 [runlim] argv[0]:		../../../../../../../../../programs/clingo-1
 [runlim] argv[1]:		/mnt/beegfs/home/jubruns/encoding/mifHorizon.lp
 [runlim] argv[2]:		--quiet=1,0
 [runlim] argv[3]:		../../../../../../../../../benchmarks/instances/random/random_s36_a16_c43.lp
-[runlim] start:			Thu Aug 25 16:53:55 2022
-[runlim] child:			15594
-[runlim] sample:		9.83 time, 10.01 real, 739 MB, 0.74 load
-[runlim] sample:		19.82 time, 20.01 real, 919 MB, 0.78 load
-[runlim] sample:		29.82 time, 30.01 real, 1225 MB, 0.82 load
-[runlim] sample:		39.82 time, 40.01 real, 1501 MB, 0.84 load
-[runlim] sample:		49.81 time, 50.01 real, 1573 MB, 0.87 load
-[runlim] sample:		59.80 time, 60.01 real, 1763 MB, 0.89 load
-[runlim] sample:		69.80 time, 70.01 real, 2421 MB, 0.91 load
-[runlim] sample:		79.80 time, 80.01 real, 2609 MB, 0.92 load
-[runlim] sample:		89.79 time, 90.01 real, 2286 MB, 0.93 load
-[runlim] sample:		99.79 time, 100.01 real, 2465 MB, 1.02 load
-[runlim] sample:		109.78 time, 110.01 real, 2643 MB, 1.02 load
-[runlim] sample:		119.77 time, 120.01 real, 2780 MB, 1.02 load
-[runlim] sample:		129.77 time, 130.01 real, 3570 MB, 1.01 load
-[runlim] end:			Thu Aug 25 16:56:11 2022
+[runlim] start:			Sun Aug 28 16:58:37 2022
+[runlim] child:			17244
+[runlim] sample:		9.79 time, 10.01 real, 607 MB, 0.22 load
+[runlim] sample:		19.79 time, 20.01 real, 956 MB, 0.34 load
+[runlim] sample:		29.79 time, 30.01 real, 1146 MB, 0.44 load
+[runlim] sample:		39.79 time, 40.01 real, 1415 MB, 0.53 load
+[runlim] sample:		49.79 time, 50.01 real, 1549 MB, 0.60 load
+[runlim] sample:		59.78 time, 60.01 real, 1794 MB, 0.66 load
+[runlim] sample:		69.79 time, 70.01 real, 1935 MB, 0.71 load
+[runlim] sample:		79.79 time, 80.01 real, 2070 MB, 0.76 load
+[runlim] sample:		89.78 time, 90.01 real, 2254 MB, 0.80 load
+[runlim] sample:		99.79 time, 100.01 real, 2427 MB, 0.83 load
+[runlim] sample:		109.79 time, 110.01 real, 2629 MB, 0.85 load
+[runlim] sample:		119.79 time, 120.01 real, 2746 MB, 0.88 load
+[runlim] sample:		129.79 time, 130.01 real, 2904 MB, 0.90 load
+[runlim] end:			Sun Aug 28 17:00:54 2022
 [runlim] status:		ok
 [runlim] result:		10
 [runlim] children:		2
 [runlim] processes:		31
-[runlim] real:			134.91 seconds
-[runlim] time:			134.56 seconds
-[runlim] space:			3570 MB
-[runlim] load:			1.02 maximum
-[runlim] samples:		1348
+[runlim] real:			136.25 seconds
+[runlim] time:			135.99 seconds
+[runlim] space:			3569 MB
+[runlim] load:			0.91 maximum
+[runlim] samples:		1362

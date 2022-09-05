@@ -61,5 +61,5 @@ SATISFIABLE
 
 Models       : 1+
 Calls        : 55
-Time         : 7.275s (Solving: 0.07s 1st Model: 0.07s Unsat: 0.00s)
-CPU Time     : 7.240s
+Time         : 7.474s (Solving: 0.08s 1st Model: 0.07s Unsat: 0.00s)
+CPU Time     : 7.448s

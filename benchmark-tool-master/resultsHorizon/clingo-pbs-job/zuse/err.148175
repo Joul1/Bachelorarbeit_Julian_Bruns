@@ -1,0 +1,9 @@
+/mnt/beegfs/home/jubruns/encoding/mifHorizon.lp:18:31-44: info: atom does not occur in any rule head:
+  move(#X0,#P1,#P2,#X3)
+
+/mnt/beegfs/home/jubruns/encoding/mifHorizon.lp:33:5-18: info: atom does not occur in any rule head:
+  move(#P0,#X1,#X2,#X3)
+
+*** Info : (clingo): Sending shutdown signal...
+*** ERROR: (clingo): solving stopped by signal
+*** Info : (clingo): Shutdown completed in 0.108 seconds

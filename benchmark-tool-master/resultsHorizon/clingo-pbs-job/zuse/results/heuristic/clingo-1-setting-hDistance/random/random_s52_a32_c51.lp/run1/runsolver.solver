@@ -131,5 +131,5 @@ UNKNOWN
 INTERRUPTED  : 1
 Models       : 0+
 Calls        : 126
-Time         : 21534.786s (Solving: 20694.50s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 21532.962s
+Time         : 21534.657s (Solving: 20705.52s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 21533.691s

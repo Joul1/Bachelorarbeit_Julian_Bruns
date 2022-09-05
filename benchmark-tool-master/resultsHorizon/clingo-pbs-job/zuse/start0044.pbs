@@ -16,7 +16,7 @@ conda activate clingoEnv
 
 
 # Run jobs
-jobs="results/heuristic/clingo-1-setting-hDistance/maze/maze_s48_a28.lp/run1/start.sh
+jobs="results/heuristic/clingo-1-setting-hDistance/maze/maze_s58_a38.lp/run1/start.sh
 "
 echo running jobs@$(hostname)...
 echo ""

@@ -6,7 +6,7 @@ cd "$(dirname $0)"
 #top -n 1 -b > top.txt
 
 [[ -e .finished ]] || "../../../../../../../../../programs/runlim" \
-	--output-file=runsolver.watcher --space-limit=32000 \
+	--output-file=runsolver.watcher --space-limit=160000 \
 	--time-limit=21600 \
 	"../../../../../../../../../programs/clingo-1" /mnt/beegfs/home/jubruns/encoding/mifHorizon.lp --quiet=1,0 ../../../../../../../../../benchmarks/instances/random/random_s58_a38_c54.lp > runsolver.solver 
 
