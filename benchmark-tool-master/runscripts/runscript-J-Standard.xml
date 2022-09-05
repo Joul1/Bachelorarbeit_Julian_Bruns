@@ -6,6 +6,7 @@
   
 	<system name="clingo" version="1" measures="clingo" config="seq-generic">
 
+<<<<<<< HEAD
 		<setting name="setting-hDistance" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hDistance.lp --heuristic=Domain --stats --quiet=1,0" tag="basic" />
 		<setting name="setting-hForbiddenNode" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hForbiddenNode.lp --heuristic=Domain --stats --quiet=1,0" tag="basic" />
 		<setting name="setting-hNaivePathDistance" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hNaivePathDistance.lp --heuristic=Domain --stats --quiet=1,0" tag="basic" />
@@ -13,6 +14,16 @@
 		<setting name="setting-hPathArea" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hPathArea.lp --heuristic=Domain --stats --quiet=1,0" tag="basic" />
 		<setting name="setting-hStrange" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hStrange.lp --heuristic=Domain --stats --quiet=1,0" tag="basic" />
 		<setting name="setting-Standard" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp --stats --quiet=1,0" tag="basic" />
+=======
+		<setting name="setting-hDistance" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hDistance.lp --heuristic=Domain -c horizon=20 --stats --quiet=1,0" tag="basic" />
+		<setting name="setting-hForbiddenNode" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hForbiddenNode.lp --heuristic=Domain -c horizon=20 --stats --quiet=1,0" tag="basic" />
+		<setting name="setting-hNaivePathDistance" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hNaivePathDistance.lp --heuristic=Domain -c horizon=20 --stats --quiet=1,0" tag="basic" />
+		<setting name="setting-hNaivePathDistance2" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hNaivePathDistance2.lp --heuristic=Domain -c horizon=20 --stats --quiet=1,0" tag="basic" />
+		<setting name="setting-hNodeCost" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hNodeCost.lp --heuristic=Domain -c horizon=20 --stats --quiet=1,0" tag="basic" />
+		<setting name="setting-hPathArea" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hPathArea.lp --heuristic=Domain -c horizon=20 --stats --quiet=1,0" tag="basic" />
+		<setting name="setting-hStrange" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hStrange.lp --heuristic=Domain -c horizon=20 --stats --quiet=1,0" tag="basic" />
+		<setting name="setting-hDistance" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp --stats --quiet=1,0" tag="basic" />
+>>>>>>> 8a7c7b7fc16cacd0c3238b2fbd9768eb5a69a9d6
 
     </system>
 

@@ -1,5 +1,0 @@
-../../../../../../../../../benchmarks/instances/random/random_s2_a14_c42_h0.lp:11:17-18: error: syntax error, unexpected .
-
-../../../../../../../../../benchmarks/instances/random/random_s2_a14_c42_h0.lp:11:23-24: error: syntax error, unexpected :
-
-*** ERROR: (clingo): parsing failed
