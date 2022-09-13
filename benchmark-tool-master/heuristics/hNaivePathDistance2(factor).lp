@@ -6,7 +6,7 @@
 at(R,P,0) :- start(R,P).
 
 
-#const horizon=1.
+%#const horizon=1.
 
 
 time(1..horizon).
