@@ -1,0 +1,32 @@
+running jobs@kr-node9...
+
+jobs: results/heuristic/clingo-1-setting-hForbiddenNode-factor/room/room_s22_a2_w5_h8.lp/run1/start.sh results/heuristic/clingo-1-setting-hForbiddenNode-factor/room/room_s24_a2_w5_h29.lp/run1/start.sh results/heuristic/clingo-1-setting-hForbiddenNode-factor/room/room_s25_a1_w5_h14.lp/run1/start.sh results/heuristic/clingo-1-setting-hForbiddenNode-factor/room/room_s28_a3_w5_h31.lp/run1/start.sh results/heuristic/clingo-1-setting-hForbiddenNode-factor/room/room_s24_a3_w5_h8.lp/run1/start.sh results/heuristic/clingo-1-setting-hForbiddenNode-factor/room/room_s17_a1_w5_h1.lp/run1/start.sh results/heuristic/clingo-1-setting-hForbiddenNode-factor/room/room_s23_a2_w5_h19.lp/run1/start.sh results/heuristic/clingo-1-setting-hForbiddenNode-factor/room/room_s17_a3_w5_h13.lp/run1/start.sh results/heuristic/clingo-1-setting-hForbiddenNode-factor/room/room_s18_a2_w5_h15.lp/run1/start.sh results/heuristic/clingo-1-setting-hForbiddenNode-factor/room/room_s20_a2_w5_h35.lp/run1/start.sh results/heuristic/clingo-1-setting-hForbiddenNode-factor/room/room_s29_a1_w5_h11.lp/run1/start.sh results/heuristic/clingo-1-setting-hForbiddenNode-factor/room/room_s21_a2_w5_h25.lp/run1/start.sh results/heuristic/clingo-1-setting-hForbiddenNode-factor/maze/maze_s9_a4_h20.lp/run1/start.sh results/heuristic/clingo-1-setting-hForbiddenNode-factor/maze/maze_s8_a4_h16.lp/run1/start.sh results/heuristic/clingo-1-setting-hForbiddenNode-factor/maze/maze_s7_a4_h22.lp/run1/start.sh results/heuristic/clingo-1-setting-hForbiddenNode-factor/maze/maze_s8_a1_h2.lp/run1/start.sh results/heuristic/clingo-1-setting-hForbiddenNode-factor/maze/maze_s9_a7_h43.lp/run1/start.sh results/heuristic/clingo-1-setting-hForbiddenNode-factor/maze/maze_s8_a5_h19.lp/run1/start.sh results/heuristic/clingo-1-setting-hForbiddenNode-factor/maze/maze_s7_a6_h28.lp/run1/start.sh results/heuristic/clingo-1-setting-hForbiddenNode-factor/maze/maze_s9_a9_h42.lp/run1/start.sh results/heuristic/clingo-1-setting-hForbiddenNode-factor/maze/maze_s9_a10_h49.lp/run1/start.sh results/heuristic/clingo-1-setting-hForbiddenNode-factor/maze/maze_s8_a2_h24.lp/run1/start.sh results/heuristic/clingo-1-setting-hForbiddenNode-factor/maze/maze_s9_a2_h4.lp/run1/start.sh results/heuristic/clingo-1-setting-hForbiddenNode-factor/maze/maze_s10_a2_h15.lp/run1/start.sh results/heuristic/clingo-1-setting-hForbiddenNode-factor/maze/maze_s8_a10_h26.lp/run1/start.sh results/heuristic/clingo-1-setting-hForbiddenNode-factor/maze/maze_s9_a1_h4.lp/run1/start.sh results/heuristic/clingo-1-setting-hForbiddenNode-factor/maze/maze_s7_a9_h38.lp/run1/start.sh results/heuristic/clingo-1-setting-hForbiddenNode-factor/maze/maze_s8_a3_h36.lp/run1/start.sh
+
+running  results/heuristic/clingo-1-setting-hForbiddenNode-factor/room/room_s22_a2_w5_h8.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hForbiddenNode-factor/room/room_s24_a2_w5_h29.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hForbiddenNode-factor/room/room_s25_a1_w5_h14.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hForbiddenNode-factor/room/room_s28_a3_w5_h31.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hForbiddenNode-factor/room/room_s24_a3_w5_h8.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hForbiddenNode-factor/room/room_s17_a1_w5_h1.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hForbiddenNode-factor/room/room_s23_a2_w5_h19.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hForbiddenNode-factor/room/room_s17_a3_w5_h13.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hForbiddenNode-factor/room/room_s18_a2_w5_h15.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hForbiddenNode-factor/room/room_s20_a2_w5_h35.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hForbiddenNode-factor/room/room_s29_a1_w5_h11.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hForbiddenNode-factor/room/room_s21_a2_w5_h25.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hForbiddenNode-factor/maze/maze_s9_a4_h20.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hForbiddenNode-factor/maze/maze_s8_a4_h16.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hForbiddenNode-factor/maze/maze_s7_a4_h22.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hForbiddenNode-factor/maze/maze_s8_a1_h2.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hForbiddenNode-factor/maze/maze_s9_a7_h43.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hForbiddenNode-factor/maze/maze_s8_a5_h19.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hForbiddenNode-factor/maze/maze_s7_a6_h28.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hForbiddenNode-factor/maze/maze_s9_a9_h42.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hForbiddenNode-factor/maze/maze_s9_a10_h49.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hForbiddenNode-factor/maze/maze_s8_a2_h24.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hForbiddenNode-factor/maze/maze_s9_a2_h4.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hForbiddenNode-factor/maze/maze_s10_a2_h15.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hForbiddenNode-factor/maze/maze_s8_a10_h26.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hForbiddenNode-factor/maze/maze_s9_a1_h4.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hForbiddenNode-factor/maze/maze_s7_a9_h38.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hForbiddenNode-factor/maze/maze_s8_a3_h36.lp/run1/start.sh

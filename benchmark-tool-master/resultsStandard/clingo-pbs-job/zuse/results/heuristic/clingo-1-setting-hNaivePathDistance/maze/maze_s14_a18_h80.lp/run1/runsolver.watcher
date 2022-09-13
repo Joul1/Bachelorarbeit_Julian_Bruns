@@ -1,0 +1,42 @@
+[runlim] version:		2.0.0rc6
+[runlim] host:			kr-node2
+[runlim] time limit:		21600 seconds
+[runlim] real time limit:	311040000 seconds
+[runlim] space limit:		160000 MB
+[runlim] argv[0]:		../../../../../../../../../programs/clingo-1
+[runlim] argv[1]:		/mnt/beegfs/home/jubruns/encoding/mif.lp
+[runlim] argv[2]:		/mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hNaivePathDistance.lp
+[runlim] argv[3]:		--heuristic=Domain
+[runlim] argv[4]:		--stats
+[runlim] argv[5]:		--quiet=1,0
+[runlim] argv[6]:		../../../../../../../../../benchmarks/instances/maze/maze_s14_a18_h80.lp
+[runlim] start:			Tue Sep  6 00:40:42 2022
+[runlim] child:			6198
+[runlim] sample:		9.85 time, 10.01 real, 925 MB, 1.24 load
+[runlim] sample:		19.85 time, 20.01 real, 2183 MB, 1.36 load
+[runlim] sample:		29.85 time, 30.01 real, 2524 MB, 1.46 load
+[runlim] sample:		39.85 time, 40.01 real, 2724 MB, 1.54 load
+[runlim] sample:		49.85 time, 50.01 real, 2925 MB, 1.61 load
+[runlim] sample:		59.85 time, 60.01 real, 3127 MB, 1.67 load
+[runlim] sample:		69.85 time, 70.01 real, 3324 MB, 1.72 load
+[runlim] sample:		79.85 time, 80.01 real, 3523 MB, 1.77 load
+[runlim] sample:		89.85 time, 90.01 real, 3725 MB, 1.80 load
+[runlim] sample:		99.85 time, 100.01 real, 4110 MB, 1.83 load
+[runlim] sample:		109.85 time, 110.01 real, 4630 MB, 1.86 load
+[runlim] sample:		119.85 time, 120.01 real, 6370 MB, 1.95 load
+[runlim] sample:		129.84 time, 130.01 real, 5924 MB, 2.04 load
+[runlim] sample:		139.85 time, 140.01 real, 6331 MB, 2.04 load
+[runlim] sample:		149.85 time, 150.01 real, 6331 MB, 2.03 load
+[runlim] sample:		159.85 time, 160.01 real, 6331 MB, 2.02 load
+[runlim] sample:		169.85 time, 170.01 real, 6331 MB, 2.02 load
+[runlim] sample:		179.85 time, 180.01 real, 6331 MB, 2.02 load
+[runlim] end:			Tue Sep  6 00:43:49 2022
+[runlim] status:		ok
+[runlim] result:		10
+[runlim] children:		2
+[runlim] processes:		33
+[runlim] real:			186.50 seconds
+[runlim] time:			186.24 seconds
+[runlim] space:			6980 MB
+[runlim] load:			2.04 maximum
+[runlim] samples:		1864

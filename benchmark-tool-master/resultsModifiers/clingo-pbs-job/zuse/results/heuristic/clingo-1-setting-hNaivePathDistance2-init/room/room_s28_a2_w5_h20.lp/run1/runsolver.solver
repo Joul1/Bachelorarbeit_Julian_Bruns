@@ -1,0 +1,38 @@
+clingo version 5.5.2
+Reading from ...nt/beegfs/home/jubruns/encoding/mif.lp ...
+Solving...
+Answer: 1
+move(1,(6,17),(7,17),1) move(1,(7,17),(8,17),2) move(1,(8,17),(9,17),3) move(1,(9,17),(10,17),4) move(1,(10,17),(11,17),5) move(1,(11,17),(11,16),6) move(1,(11,16),(12,16),7) move(1,(12,16),(13,16),8) move(1,(13,16),(14,16),9) move(1,(14,16),(15,16),10) move(1,(15,16),(16,16),11) move(1,(16,16),(17,16),12) move(1,(17,16),(18,16),13) move(1,(18,16),(19,16),14) move(1,(19,16),(19,15),15) move(1,(19,15),(19,14),16) move(1,(19,14),(19,13),17) move(1,(19,13),(20,13),18) move(1,(20,13),(21,13),19) move(1,(21,13),(21,12),20) move(2,(1,19),(1,20),2)
+SATISFIABLE
+
+Models       : 1+
+Calls        : 1
+Time         : 3.730s (Solving: 0.32s 1st Model: 0.32s Unsat: 0.00s)
+CPU Time     : 3.709s
+
+Choices      : 18619   
+Conflicts    : 4        (Analyzed: 4)
+Restarts     : 0       
+Model-Level  : 18434.0 
+Problems     : 1        (Average Length: 0.00 Splits: 0)
+Lemmas       : 57       (Deleted: 0)
+  Binary     : 1        (Ratio:   1.75%)
+  Ternary    : 1        (Ratio:   1.75%)
+  Conflict   : 4        (Average Length:   11.5 Ratio:   7.02%) 
+  Loop       : 53       (Average Length:  329.5 Ratio:  92.98%) 
+  Other      : 0        (Average Length:    0.0 Ratio:   0.00%) 
+Backjumps    : 4        (Average: 46.25 Max: 169 Sum:    185)
+  Executed   : 4        (Average: 46.25 Max: 169 Sum:    185 Ratio: 100.00%)
+  Bounded    : 0        (Average:  0.00 Max:   0 Sum:      0 Ratio:   0.00%)
+
+Rules        : 2101397  (Original: 2566997)
+  Choice     : 24405   
+  Heuristic  : 1400069  (Original: 2018523)
+Atoms        : 381620   (Original: 368706 Auxiliary: 12914)
+Bodies       : 425962   (Original: 364350)
+  Count      : 41       (Original: 44686)
+Equivalences : 304641   (Atom=Atom: 41167 Body=Body: 41167 Other: 222307)
+Tight        : No       (SCCs: 2 Non-Hcfs: 0 Nodes: 130877 Gammas: 0)
+Variables    : 397765   (Eliminated:    0 Frozen: 143840)
+Constraints  : 1103136  (Binary:  73.0% Ternary:  20.3% Other:   6.7%)
+

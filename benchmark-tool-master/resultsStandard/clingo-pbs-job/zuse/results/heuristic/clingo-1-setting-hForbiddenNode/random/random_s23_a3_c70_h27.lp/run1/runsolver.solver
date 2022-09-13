@@ -1,0 +1,38 @@
+clingo version 5.5.2
+Reading from ...nt/beegfs/home/jubruns/encoding/mif.lp ...
+Solving...
+Answer: 1
+move(1,(22,18),(22,17),2) move(1,(22,17),(22,16),3) move(1,(22,16),(22,15),4) move(1,(22,15),(21,15),5) move(1,(21,15),(20,15),6) move(1,(20,15),(20,14),7) move(1,(20,14),(20,13),9) move(1,(20,13),(19,13),10) move(1,(19,13),(19,12),11) move(1,(19,12),(20,12),12) move(1,(20,12),(20,11),13) move(1,(20,11),(20,10),15) move(1,(20,10),(20,11),16) move(1,(20,11),(21,11),17) move(1,(21,11),(21,10),18) move(1,(21,10),(21,9),20) move(1,(21,9),(20,9),21) move(1,(20,9),(21,9),22) move(1,(21,9),(20,9),23) move(1,(20,9),(21,9),24) move(1,(21,9),(21,10),25) move(1,(21,10),(22,10),27) move(2,(13,11),(14,11),1) move(2,(14,11),(15,11),2) move(2,(15,11),(16,11),3) move(2,(16,11),(17,11),4) move(2,(17,11),(18,11),5) move(2,(18,11),(18,12),6) move(2,(18,12),(18,13),7) move(2,(18,13),(18,14),8) move(2,(18,14),(18,15),9) move(2,(18,15),(19,15),10) move(2,(19,15),(19,16),11) move(2,(19,16),(19,17),12) move(2,(19,17),(19,18),13) move(2,(19,18),(20,18),14) move(2,(20,18),(20,19),15) move(2,(20,19),(20,20),16) move(2,(20,20),(20,21),17) move(2,(20,21),(20,22),18) move(2,(20,22),(19,22),19) move(2,(19,22),(18,22),20) move(2,(18,22),(17,22),21) move(2,(17,22),(17,23),22) move(2,(17,23),(16,23),23) move(2,(16,23),(15,23),24) move(2,(15,23),(14,23),25) move(2,(14,23),(13,23),26) move(2,(13,23),(12,23),27) move(3,(23,10),(22,10),2) move(3,(22,10),(21,10),3) move(3,(21,10),(21,11),4) move(3,(21,11),(20,11),5) move(3,(20,11),(19,11),6) move(3,(19,11),(20,11),7) move(3,(20,11),(20,12),8) move(3,(20,12),(19,12),9) move(3,(19,12),(19,11),11) move(3,(19,11),(20,11),12) move(3,(20,11),(20,10),13) move(3,(20,10),(20,9),14) move(3,(20,9),(21,9),15) move(3,(21,9),(20,9),16) move(3,(20,9),(21,9),17) move(3,(21,9),(20,9),18) move(3,(20,9),(21,9),19) move(3,(21,9),(21,8),20) move(3,(21,8),(21,9),21) move(3,(21,9),(21,10),22) move(3,(21,10),(22,10),24) move(3,(22,10),(23,10),25) move(3,(23,10),(23,11),26) move(3,(23,11),(23,12),27)
+SATISFIABLE
+
+Models       : 1+
+Calls        : 1
+Time         : 0.968s (Solving: 0.02s 1st Model: 0.02s Unsat: 0.00s)
+CPU Time     : 0.939s
+
+Choices      : 88       (Domain: 88)
+Conflicts    : 12       (Analyzed: 12)
+Restarts     : 0       
+Model-Level  : 49.0    
+Problems     : 1        (Average Length: 0.00 Splits: 0)
+Lemmas       : 12       (Deleted: 0)
+  Binary     : 2        (Ratio:  16.67%)
+  Ternary    : 1        (Ratio:   8.33%)
+  Conflict   : 12       (Average Length:    7.4 Ratio: 100.00%) 
+  Loop       : 0        (Average Length:    0.0 Ratio:   0.00%) 
+  Other      : 0        (Average Length:    0.0 Ratio:   0.00%) 
+Backjumps    : 12       (Average:  3.25 Max:  16 Sum:     39)
+  Executed   : 12       (Average:  3.25 Max:  16 Sum:     39 Ratio: 100.00%)
+  Bounded    : 0        (Average:  0.00 Max:   0 Sum:      0 Ratio:   0.00%)
+
+Rules        : 298056   (Original: 251810)
+  Choice     : 81      
+  Heuristic  : 12263    (Original: 12641)
+Atoms        : 145958   (Original: 131488 Auxiliary: 14470)
+Bodies       : 180898   (Original: 148792)
+  Count      : 111      (Original: 2773)
+Equivalences : 98227    (Atom=Atom: 91 Body=Body: 97 Other: 98039)
+Tight        : Yes
+Variables    : 184872   (Eliminated:    0 Frozen: 88585)
+Constraints  : 435036   (Binary:  80.1% Ternary:  11.5% Other:   8.5%)
+

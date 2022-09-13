@@ -1,0 +1,38 @@
+clingo version 5.5.2
+Reading from ...nt/beegfs/home/jubruns/encoding/mif.lp ...
+Solving...
+Answer: 1
+move(1,(15,15),(16,15),1) move(1,(16,15),(17,15),2) move(1,(17,15),(17,16),3) move(1,(17,16),(18,16),4) move(1,(18,16),(19,16),5) move(1,(19,16),(20,16),6) move(1,(20,16),(21,16),7) move(1,(21,16),(21,17),8) move(1,(21,17),(22,17),9) move(1,(22,17),(22,18),10) move(1,(22,18),(22,19),11) move(1,(22,19),(22,20),12) move(1,(22,20),(21,20),13) move(1,(21,20),(20,20),14) move(1,(20,20),(19,20),15) move(1,(19,20),(18,20),16) move(1,(18,20),(18,19),17) move(1,(18,19),(17,19),18) move(1,(17,19),(16,19),19) move(1,(16,19),(16,20),20) move(1,(16,20),(15,20),21)
+SATISFIABLE
+
+Models       : 1+
+Calls        : 1
+Time         : 1.112s (Solving: 0.12s 1st Model: 0.12s Unsat: 0.00s)
+CPU Time     : 1.082s
+
+Choices      : 2387     (Domain: 78)
+Conflicts    : 6        (Analyzed: 6)
+Restarts     : 0       
+Model-Level  : 2362.0  
+Problems     : 1        (Average Length: 0.00 Splits: 0)
+Lemmas       : 16       (Deleted: 0)
+  Binary     : 1        (Ratio:   6.25%)
+  Ternary    : 1        (Ratio:   6.25%)
+  Conflict   : 6        (Average Length:   13.7 Ratio:  37.50%) 
+  Loop       : 10       (Average Length:  461.6 Ratio:  62.50%) 
+  Other      : 0        (Average Length:    0.0 Ratio:   0.00%) 
+Backjumps    : 6        (Average:  4.17 Max:  19 Sum:     25)
+  Executed   : 6        (Average:  4.17 Max:  19 Sum:     25 Ratio: 100.00%)
+  Bounded    : 0        (Average:  0.00 Max:   0 Sum:      0 Ratio:   0.00%)
+
+Rules        : 359288   (Original: 369796)
+  Choice     : 8464    
+  Heuristic  : 113565   (Original: 184292)
+Atoms        : 151718   (Original: 137361 Auxiliary: 14357)
+Bodies       : 148065   (Original: 124953)
+  Count      : 16       (Original: 13163)
+Equivalences : 203112   (Atom=Atom: 38961 Body=Body: 13510 Other: 150641)
+Tight        : No       (SCCs: 1 Non-Hcfs: 0 Nodes: 40096 Gammas: 0)
+Variables    : 110041   (Eliminated:    0 Frozen: 36759)
+Constraints  : 302780   (Binary:  74.7% Ternary:  19.0% Other:   6.3%)
+

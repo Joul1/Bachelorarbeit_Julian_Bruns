@@ -1,0 +1,60 @@
+/mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hNaivePathDistance.lp:15:44-52: info: atom does not occur in any rule head:
+  agent(R)
+
+/mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hNaivePathDistance.lp:21:29-44: info: atom does not occur in any rule head:
+  vertex((X1,Y1))
+
+/mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hNaivePathDistance.lp:22:29-44: info: atom does not occur in any rule head:
+  vertex((X2,Y2))
+
+/mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hNaivePathDistance.lp:26:42-56: info: atom does not occur in any rule head:
+  start(R,(X,Y))
+
+/mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hNaivePathDistance.lp:27:46-61: info: atom does not occur in any rule head:
+  goal(R,(X2,Y2))
+
+/mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hNaivePathDistance.lp:31:74-89: info: atom does not occur in any rule head:
+  goal(R,(X2,Y2))
+
+/mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hNaivePathDistance.lp:31:90-105: info: atom does not occur in any rule head:
+  vertex((X1,Y1))
+
+/mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hNaivePathDistance.lp:31:106-121: info: atom does not occur in any rule head:
+  vertex((X2,Y2))
+
+/mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hNaivePathDistance.lp:31:122-130: info: atom does not occur in any rule head:
+  agent(R)
+
+/mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hNaivePathDistance.lp:33:74-90: info: atom does not occur in any rule head:
+  start(R,(X1,Y1))
+
+/mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hNaivePathDistance.lp:33:91-106: info: atom does not occur in any rule head:
+  vertex((X1,Y1))
+
+/mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hNaivePathDistance.lp:33:107-122: info: atom does not occur in any rule head:
+  vertex((X2,Y2))
+
+/mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hNaivePathDistance.lp:33:123-131: info: atom does not occur in any rule head:
+  agent(R)
+
+/mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hNaivePathDistance.lp:37:25-41: info: atom does not occur in any rule head:
+  start(R,(X2,Y2))
+
+/mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hNaivePathDistance.lp:37:42-50: info: atom does not occur in any rule head:
+  agent(R)
+
+/mnt/beegfs/home/jubruns/encoding/mif.lp:3:14-24: info: atom does not occur in any rule head:
+  start(R,P)
+
+/mnt/beegfs/home/jubruns/encoding/mif.lp:16:19-28: info: atom does not occur in any rule head:
+  edge(U,V)
+
+/mnt/beegfs/home/jubruns/encoding/mif.lp:16:35-43: info: atom does not occur in any rule head:
+  agent(R)
+
+/mnt/beegfs/home/jubruns/encoding/mif.lp:19:42-51: info: atom does not occur in any rule head:
+  edge(U,V)
+
+/mnt/beegfs/home/jubruns/encoding/mif.lp:22:46-54: info: atom does not occur in any rule head:
+  agent(R)
+

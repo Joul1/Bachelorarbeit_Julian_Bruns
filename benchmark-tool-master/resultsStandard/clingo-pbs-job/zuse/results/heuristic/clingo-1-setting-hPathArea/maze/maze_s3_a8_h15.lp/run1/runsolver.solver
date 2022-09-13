@@ -1,0 +1,38 @@
+clingo version 5.5.2
+Reading from ...nt/beegfs/home/jubruns/encoding/mif.lp ...
+Solving...
+Answer: 1
+move(1,(3,2),(3,3),3) move(1,(3,3),(3,4),4) move(1,(3,4),(3,5),5) move(1,(3,5),(3,4),7) move(1,(3,4),(3,3),8) move(1,(3,3),(4,3),9) move(1,(4,3),(5,3),10) move(1,(5,3),(5,2),11) move(2,(3,4),(3,3),1) move(2,(3,3),(3,4),3) move(2,(3,4),(3,5),4) move(2,(3,5),(4,5),5) move(2,(4,5),(3,5),8) move(2,(3,5),(2,5),9) move(2,(2,5),(3,5),11) move(2,(3,5),(3,4),12) move(2,(3,4),(3,3),14) move(2,(3,3),(4,3),15) move(3,(2,5),(1,5),3) move(3,(1,5),(2,5),7) move(3,(2,5),(1,5),9) move(3,(1,5),(2,5),11) move(3,(2,5),(3,5),14) move(3,(3,5),(4,5),15) move(4,(3,3),(4,3),1) move(4,(4,3),(5,3),2) move(4,(5,3),(4,3),4) move(4,(4,3),(3,3),5) move(4,(3,3),(3,2),6) move(4,(3,2),(3,1),7) move(4,(3,1),(3,2),9) move(4,(3,2),(3,3),10) move(4,(3,3),(4,3),11) move(4,(4,3),(5,3),12) move(4,(5,3),(4,3),13) move(4,(4,3),(5,3),14) move(5,(1,1),(2,1),1) move(5,(2,1),(3,1),2) move(5,(3,1),(3,2),3) move(5,(3,2),(3,3),4) move(5,(3,3),(3,4),5) move(5,(3,4),(3,3),7) move(5,(3,3),(4,3),8) move(5,(4,3),(5,3),9) move(5,(5,3),(5,2),10) move(5,(5,2),(5,1),11) move(6,(5,2),(5,3),4) move(6,(5,3),(4,3),5) move(6,(4,3),(3,3),6) move(6,(3,3),(3,2),7) move(6,(3,2),(3,3),9) move(6,(3,3),(3,4),10) move(6,(3,4),(3,3),11) move(6,(3,3),(4,3),12) move(6,(4,3),(3,3),13) move(6,(3,3),(3,2),14) move(7,(5,5),(4,5),1) move(7,(4,5),(3,5),2) move(7,(3,5),(2,5),3) move(7,(2,5),(3,5),7) move(7,(3,5),(3,4),8) move(7,(3,4),(3,5),10) move(7,(3,5),(3,4),11) move(7,(3,4),(3,3),12) move(7,(3,3),(3,2),13) move(7,(3,2),(3,1),14) move(7,(3,1),(2,1),15) move(8,(4,5),(3,5),1) move(8,(3,5),(3,4),2) move(8,(3,4),(3,5),3) move(8,(3,5),(4,5),4) move(8,(4,5),(5,5),5) move(8,(5,5),(4,5),8) move(8,(4,5),(3,5),9) move(8,(3,5),(4,5),10) move(8,(4,5),(3,5),12) move(8,(3,5),(3,4),14)
+SATISFIABLE
+
+Models       : 1+
+Calls        : 1
+Time         : 2.127s (Solving: 2.05s 1st Model: 2.05s Unsat: 0.00s)
+CPU Time     : 2.094s
+
+Choices      : 55786    (Domain: 55786)
+Conflicts    : 36906    (Analyzed: 36906)
+Restarts     : 133      (Average: 277.49 Last: 388)
+Model-Level  : 29.0    
+Problems     : 1        (Average Length: 0.00 Splits: 0)
+Lemmas       : 36906    (Deleted: 29652)
+  Binary     : 187      (Ratio:   0.51%)
+  Ternary    : 444      (Ratio:   1.20%)
+  Conflict   : 36906    (Average Length:   37.9 Ratio: 100.00%) 
+  Loop       : 0        (Average Length:    0.0 Ratio:   0.00%) 
+  Other      : 0        (Average Length:    0.0 Ratio:   0.00%) 
+Backjumps    : 36906    (Average:  1.49 Max:  38 Sum:  55021)
+  Executed   : 36906    (Average:  1.49 Max:  38 Sum:  55021 Ratio: 100.00%)
+  Bounded    : 0        (Average:  0.00 Max:   0 Sum:      0 Ratio:   0.00%)
+
+Rules        : 17618    (Original: 15689)
+  Choice     : 120     
+  Heuristic  : 1555     (Original: 1627)
+Atoms        : 7118    
+Bodies       : 11381    (Original: 9380)
+  Count      : 391      (Original: 581)
+Equivalences : 5986     (Atom=Atom: 135 Body=Body: 144 Other: 5707)
+Tight        : Yes
+Variables    : 10380    (Eliminated:    0 Frozen: 5391)
+Constraints  : 27053    (Binary:  76.3% Ternary:  16.1% Other:   7.6%)
+

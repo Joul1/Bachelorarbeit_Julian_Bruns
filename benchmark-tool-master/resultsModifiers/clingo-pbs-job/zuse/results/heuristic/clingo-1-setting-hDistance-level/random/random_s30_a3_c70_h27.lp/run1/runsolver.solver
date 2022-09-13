@@ -1,0 +1,38 @@
+clingo version 5.5.2
+Reading from ...nt/beegfs/home/jubruns/encoding/mif.lp ...
+Solving...
+Answer: 1
+move(1,(27,14),(27,13),1) move(1,(27,13),(27,12),2) move(1,(27,12),(27,11),3) move(2,(25,20),(26,20),1) move(2,(26,20),(26,19),2) move(2,(26,19),(26,18),3) move(2,(26,18),(25,18),4) move(3,(30,28),(30,29),1) move(3,(30,29),(29,29),2) move(3,(29,29),(29,30),3) move(3,(29,30),(28,30),4) move(3,(28,30),(27,30),5) move(3,(27,30),(26,30),6) move(3,(26,30),(26,29),7) move(3,(26,29),(26,28),8) move(3,(26,28),(25,28),9) move(3,(25,28),(24,28),10) move(3,(24,28),(24,27),11) move(3,(24,27),(23,27),12) move(3,(23,27),(22,27),13) move(3,(22,27),(22,26),14) move(3,(22,26),(22,25),15) move(3,(22,25),(23,25),16) move(3,(23,25),(23,24),17) move(3,(23,24),(24,24),18) move(3,(24,24),(25,24),19) move(3,(25,24),(26,24),20) move(3,(26,24),(26,23),21) move(3,(26,23),(26,22),22) move(3,(26,22),(26,21),23) move(3,(26,21),(27,21),24) move(3,(27,21),(28,21),25) move(3,(28,21),(29,21),26) move(3,(29,21),(30,21),27)
+SATISFIABLE
+
+Models       : 1+
+Calls        : 1
+Time         : 1.263s (Solving: 0.02s 1st Model: 0.02s Unsat: 0.00s)
+CPU Time     : 1.222s
+
+Choices      : 76       (Domain: 76)
+Conflicts    : 9        (Analyzed: 9)
+Restarts     : 0       
+Model-Level  : 54.0    
+Problems     : 1        (Average Length: 0.00 Splits: 0)
+Lemmas       : 9        (Deleted: 0)
+  Binary     : 9        (Ratio: 100.00%)
+  Ternary    : 0        (Ratio:   0.00%)
+  Conflict   : 9        (Average Length:    2.0 Ratio: 100.00%) 
+  Loop       : 0        (Average Length:    0.0 Ratio:   0.00%) 
+  Other      : 0        (Average Length:    0.0 Ratio:   0.00%) 
+Backjumps    : 9        (Average:  2.44 Max:   6 Sum:     22)
+  Executed   : 9        (Average:  2.44 Max:   6 Sum:     22 Ratio: 100.00%)
+  Bounded    : 0        (Average:  0.00 Max:   0 Sum:      0 Ratio:   0.00%)
+
+Rules        : 434809   (Original: 392004)
+  Choice     : 81      
+  Heuristic  : 12054    (Original: 12066)
+Atoms        : 233443   (Original: 218782 Auxiliary: 14661)
+Bodies       : 251407   (Original: 223294)
+  Count      : 114      (Original: 962)
+Equivalences : 162474   (Atom=Atom: 88 Body=Body: 92 Other: 162294)
+Tight        : Yes
+Variables    : 269715   (Eliminated:    0 Frozen: 154130)
+Constraints  : 594363   (Binary:  81.9% Ternary:   8.1% Other:  10.0%)
+

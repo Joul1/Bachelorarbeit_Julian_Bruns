@@ -1,0 +1,32 @@
+running jobs@kr-node6...
+
+jobs: results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s28_a3_c70_h22.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s29_a1_c70_h26.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s30_a3_c70_h27.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s27_a3_c70_h24.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s16_a3_c70_h22.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s17_a3_c70_h13.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s20_a2_c70_h27.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s11_a12_c61_h16.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s21_a12_c41_h47.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s15_a3_c70_h17.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s26_a2_c70_h35.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s17_a2_c70_h15.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s24_a1_c70_h21.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s29_a2_c70_h13.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s27_a2_c70_h15.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s12_a3_c70_h25.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s26_a3_c70_h27.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s12_a14_c62_h37.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s20_a3_c70_h20.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s30_a1_c70_h29.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s22_a2_c70_h26.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s21_a3_c70_h23.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s18_a2_c70_h19.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s23_a2_c70_h19.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s26_a1_c70_h17.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s14_a3_c70_h14.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s28_a2_c70_h54.lp/run1/start.sh results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s21_a1_c70_h28.lp/run1/start.sh
+
+running  results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s28_a3_c70_h22.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s29_a1_c70_h26.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s30_a3_c70_h27.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s27_a3_c70_h24.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s16_a3_c70_h22.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s17_a3_c70_h13.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s20_a2_c70_h27.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s11_a12_c61_h16.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s21_a12_c41_h47.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s15_a3_c70_h17.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s26_a2_c70_h35.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s17_a2_c70_h15.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s24_a1_c70_h21.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s29_a2_c70_h13.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s27_a2_c70_h15.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s12_a3_c70_h25.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s26_a3_c70_h27.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s12_a14_c62_h37.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s20_a3_c70_h20.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s30_a1_c70_h29.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s22_a2_c70_h26.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s21_a3_c70_h23.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s18_a2_c70_h19.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s23_a2_c70_h19.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s26_a1_c70_h17.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s14_a3_c70_h14.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s28_a2_c70_h54.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNaivePathDistance2-sign/random/random_s21_a1_c70_h28.lp/run1/start.sh

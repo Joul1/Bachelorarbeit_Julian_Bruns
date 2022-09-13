@@ -1,0 +1,33 @@
+[runlim] version:		2.0.0rc6
+[runlim] host:			kr-node4
+[runlim] time limit:		21600 seconds
+[runlim] real time limit:	311040000 seconds
+[runlim] space limit:		160000 MB
+[runlim] argv[0]:		../../../../../../../../../programs/clingo-1
+[runlim] argv[1]:		/mnt/beegfs/home/jubruns/encoding/mif.lp
+[runlim] argv[2]:		/mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hNaivePathDistance.lp
+[runlim] argv[3]:		--heuristic=Domain
+[runlim] argv[4]:		--stats
+[runlim] argv[5]:		--quiet=1,0
+[runlim] argv[6]:		../../../../../../../../../benchmarks/instances/random/random_s23_a16_c43_h82.lp
+[runlim] start:			Tue Sep  6 00:44:58 2022
+[runlim] child:			7111
+[runlim] sample:		9.85 time, 10.01 real, 984 MB, 1.70 load
+[runlim] sample:		19.85 time, 20.01 real, 1438 MB, 1.74 load
+[runlim] sample:		29.84 time, 30.01 real, 1615 MB, 1.78 load
+[runlim] sample:		39.84 time, 40.01 real, 1787 MB, 1.90 load
+[runlim] sample:		49.85 time, 50.01 real, 2220 MB, 1.91 load
+[runlim] sample:		59.84 time, 60.01 real, 3132 MB, 1.93 load
+[runlim] sample:		69.84 time, 70.01 real, 3132 MB, 1.94 load
+[runlim] sample:		79.84 time, 80.01 real, 3132 MB, 1.95 load
+[runlim] sample:		89.84 time, 90.01 real, 2013 MB, 1.96 load
+[runlim] end:			Tue Sep  6 00:46:30 2022
+[runlim] status:		ok
+[runlim] result:		10
+[runlim] children:		2
+[runlim] processes:		33
+[runlim] real:			91.03 seconds
+[runlim] time:			90.84 seconds
+[runlim] space:			3332 MB
+[runlim] load:			1.96 maximum
+[runlim] samples:		910

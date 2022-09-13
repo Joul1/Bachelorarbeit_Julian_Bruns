@@ -1,0 +1,29 @@
+[runlim] version:		2.0.0rc6
+[runlim] host:			kr-node3
+[runlim] time limit:		21600 seconds
+[runlim] real time limit:	311040000 seconds
+[runlim] space limit:		160000 MB
+[runlim] argv[0]:		../../../../../../../../../programs/clingo-1
+[runlim] argv[1]:		/mnt/beegfs/home/jubruns/encoding/mif.lp
+[runlim] argv[2]:		/mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hDistance.lp
+[runlim] argv[3]:		--heuristic=Domain
+[runlim] argv[4]:		--stats
+[runlim] argv[5]:		--quiet=1,0
+[runlim] argv[6]:		../../../../../../../../../benchmarks/instances/maze/maze_s4_a6_h32.lp
+[runlim] start:			Tue Sep  6 00:33:05 2022
+[runlim] child:			21973
+[runlim] sample:		9.78 time, 10.01 real, 33 MB, 0.45 load
+[runlim] sample:		19.74 time, 20.01 real, 32 MB, 0.62 load
+[runlim] sample:		29.72 time, 30.01 real, 33 MB, 0.76 load
+[runlim] sample:		39.69 time, 40.01 real, 32 MB, 0.79 load
+[runlim] sample:		49.67 time, 50.01 real, 33 MB, 0.98 load
+[runlim] end:			Tue Sep  6 00:34:05 2022
+[runlim] status:		ok
+[runlim] result:		10
+[runlim] children:		2
+[runlim] processes:		49
+[runlim] real:			58.97 seconds
+[runlim] time:			58.55 seconds
+[runlim] space:			38 MB
+[runlim] load:			0.98 maximum
+[runlim] samples:		589

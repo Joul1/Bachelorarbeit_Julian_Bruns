@@ -1,0 +1,40 @@
+[runlim] version:		2.0.0rc6
+[runlim] host:			kr-node4
+[runlim] time limit:		21600 seconds
+[runlim] real time limit:	311040000 seconds
+[runlim] space limit:		160000 MB
+[runlim] argv[0]:		../../../../../../../../../programs/clingo-1
+[runlim] argv[1]:		/mnt/beegfs/home/jubruns/encoding/mif.lp
+[runlim] argv[2]:		--stats
+[runlim] argv[3]:		--quiet=1,0
+[runlim] argv[4]:		../../../../../../../../../benchmarks/instances/random/random_s23_a16_c43_h82.lp
+[runlim] start:			Tue Sep  6 01:05:39 2022
+[runlim] child:			10990
+[runlim] sample:		9.86 time, 10.01 real, 920 MB, 1.54 load
+[runlim] sample:		19.86 time, 20.01 real, 920 MB, 1.61 load
+[runlim] sample:		29.86 time, 30.01 real, 920 MB, 1.67 load
+[runlim] sample:		39.86 time, 40.01 real, 920 MB, 1.72 load
+[runlim] sample:		49.86 time, 50.01 real, 920 MB, 1.76 load
+[runlim] sample:		59.86 time, 60.01 real, 920 MB, 1.80 load
+[runlim] sample:		69.86 time, 70.01 real, 920 MB, 1.83 load
+[runlim] sample:		79.86 time, 80.01 real, 920 MB, 1.86 load
+[runlim] sample:		89.86 time, 90.01 real, 920 MB, 1.88 load
+[runlim] sample:		99.86 time, 100.01 real, 920 MB, 1.90 load
+[runlim] sample:		109.86 time, 110.01 real, 920 MB, 1.92 load
+[runlim] sample:		119.86 time, 120.01 real, 920 MB, 1.93 load
+[runlim] sample:		129.86 time, 130.01 real, 920 MB, 1.94 load
+[runlim] sample:		139.86 time, 140.01 real, 920 MB, 1.95 load
+[runlim] sample:		149.85 time, 150.01 real, 920 MB, 1.96 load
+[runlim] sample:		159.85 time, 160.01 real, 920 MB, 1.96 load
+[runlim] sample:		169.85 time, 170.01 real, 920 MB, 1.97 load
+[runlim] sample:		179.85 time, 180.01 real, 920 MB, 1.98 load
+[runlim] end:			Tue Sep  6 01:08:47 2022
+[runlim] status:		ok
+[runlim] result:		10
+[runlim] children:		2
+[runlim] processes:		33
+[runlim] real:			187.11 seconds
+[runlim] time:			186.85 seconds
+[runlim] space:			920 MB
+[runlim] load:			1.98 maximum
+[runlim] samples:		1870

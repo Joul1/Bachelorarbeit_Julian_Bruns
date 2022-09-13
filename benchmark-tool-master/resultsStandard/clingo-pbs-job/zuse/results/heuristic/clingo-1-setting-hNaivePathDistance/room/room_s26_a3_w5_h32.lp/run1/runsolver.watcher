@@ -1,0 +1,42 @@
+[runlim] version:		2.0.0rc6
+[runlim] host:			kr-node3
+[runlim] time limit:		21600 seconds
+[runlim] real time limit:	311040000 seconds
+[runlim] space limit:		160000 MB
+[runlim] argv[0]:		../../../../../../../../../programs/clingo-1
+[runlim] argv[1]:		/mnt/beegfs/home/jubruns/encoding/mif.lp
+[runlim] argv[2]:		/mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hNaivePathDistance.lp
+[runlim] argv[3]:		--heuristic=Domain
+[runlim] argv[4]:		--stats
+[runlim] argv[5]:		--quiet=1,0
+[runlim] argv[6]:		../../../../../../../../../benchmarks/instances/room/room_s26_a3_w5_h32.lp
+[runlim] start:			Tue Sep  6 00:42:36 2022
+[runlim] child:			24185
+[runlim] sample:		9.86 time, 10.01 real, 684 MB, 1.65 load
+[runlim] sample:		19.86 time, 20.01 real, 747 MB, 1.85 load
+[runlim] sample:		29.85 time, 30.01 real, 747 MB, 1.87 load
+[runlim] sample:		39.85 time, 40.01 real, 747 MB, 1.89 load
+[runlim] sample:		49.85 time, 50.01 real, 747 MB, 1.91 load
+[runlim] sample:		59.85 time, 60.01 real, 747 MB, 1.92 load
+[runlim] sample:		69.85 time, 70.01 real, 747 MB, 1.94 load
+[runlim] sample:		79.84 time, 80.01 real, 747 MB, 1.95 load
+[runlim] sample:		89.84 time, 90.01 real, 747 MB, 1.96 load
+[runlim] sample:		99.84 time, 100.01 real, 747 MB, 1.96 load
+[runlim] sample:		109.83 time, 110.01 real, 747 MB, 1.97 load
+[runlim] sample:		119.83 time, 120.01 real, 747 MB, 1.97 load
+[runlim] sample:		129.83 time, 130.01 real, 747 MB, 2.14 load
+[runlim] sample:		139.83 time, 140.01 real, 747 MB, 2.12 load
+[runlim] sample:		149.82 time, 150.01 real, 747 MB, 2.10 load
+[runlim] sample:		159.82 time, 160.01 real, 748 MB, 2.08 load
+[runlim] sample:		169.80 time, 170.01 real, 742 MB, 2.00 load
+[runlim] sample:		179.78 time, 180.01 real, 743 MB, 2.00 load
+[runlim] end:			Tue Sep  6 00:45:37 2022
+[runlim] status:		ok
+[runlim] result:		10
+[runlim] children:		2
+[runlim] processes:		37
+[runlim] real:			180.62 seconds
+[runlim] time:			180.37 seconds
+[runlim] space:			757 MB
+[runlim] load:			2.14 maximum
+[runlim] samples:		1806

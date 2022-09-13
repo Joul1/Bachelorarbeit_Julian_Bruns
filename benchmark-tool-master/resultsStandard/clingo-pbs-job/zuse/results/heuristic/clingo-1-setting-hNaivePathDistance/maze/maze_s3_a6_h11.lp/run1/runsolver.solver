@@ -1,0 +1,38 @@
+clingo version 5.5.2
+Reading from ...nt/beegfs/home/jubruns/encoding/mif.lp ...
+Solving...
+Answer: 1
+move(1,(4,3),(3,3),1) move(1,(3,3),(3,4),2) move(1,(3,4),(3,5),3) move(1,(3,5),(4,5),4) move(1,(4,5),(5,5),6) move(1,(5,5),(4,5),8) move(1,(4,5),(3,5),10) move(1,(3,5),(4,5),11) move(2,(5,2),(5,3),1) move(2,(5,3),(5,2),2) move(2,(5,2),(5,3),3) move(2,(5,3),(4,3),4) move(2,(4,3),(3,3),5) move(2,(3,3),(3,2),6) move(2,(3,2),(3,3),7) move(2,(3,3),(4,3),8) move(2,(4,3),(3,3),9) move(2,(3,3),(3,2),10) move(3,(2,5),(1,5),1) move(3,(1,5),(2,5),6) move(3,(2,5),(3,5),7) move(3,(3,5),(3,4),8) move(3,(3,4),(3,3),10) move(3,(3,3),(4,3),11) move(4,(2,1),(3,1),1) move(4,(3,1),(3,2),2) move(4,(3,2),(3,3),3) move(4,(3,3),(3,4),4) move(4,(3,4),(3,5),5) move(4,(3,5),(4,5),6) move(4,(4,5),(3,5),8) move(4,(3,5),(2,5),10) move(4,(2,5),(3,5),11) move(5,(3,3),(3,4),1) move(5,(3,4),(3,5),2) move(5,(3,5),(2,5),3) move(5,(2,5),(3,5),4) move(5,(3,5),(2,5),5) move(5,(2,5),(3,5),6) move(5,(3,5),(3,4),7) move(5,(3,4),(3,3),8) move(5,(3,3),(3,2),9) move(5,(3,2),(3,1),10) move(5,(3,1),(2,1),11) move(6,(3,2),(3,3),2) move(6,(3,3),(4,3),3) move(6,(4,3),(3,3),4) move(6,(3,3),(3,4),5) move(6,(3,4),(3,3),6) move(6,(3,3),(4,3),7) move(6,(4,3),(5,3),8) move(6,(5,3),(5,2),9)
+SATISFIABLE
+
+Models       : 1+
+Calls        : 1
+Time         : 0.175s (Solving: 0.06s 1st Model: 0.06s Unsat: 0.00s)
+CPU Time     : 0.148s
+
+Choices      : 2543     (Domain: 1201)
+Conflicts    : 1492     (Analyzed: 1492)
+Restarts     : 12       (Average: 124.33 Last: 48)
+Model-Level  : 275.0   
+Problems     : 1        (Average Length: 0.00 Splits: 0)
+Lemmas       : 1528     (Deleted: 0)
+  Binary     : 52       (Ratio:   3.40%)
+  Ternary    : 65       (Ratio:   4.25%)
+  Conflict   : 1492     (Average Length:   20.5 Ratio:  97.64%) 
+  Loop       : 36       (Average Length:    9.0 Ratio:   2.36%) 
+  Other      : 0        (Average Length:    0.0 Ratio:   0.00%) 
+Backjumps    : 1492     (Average:  1.49 Max:  20 Sum:   2230)
+  Executed   : 1492     (Average:  1.49 Max:  20 Sum:   2230 Ratio: 100.00%)
+  Bounded    : 0        (Average:  0.00 Max:   0 Sum:      0 Ratio:   0.00%)
+
+Rules        : 45335    (Original: 41692)
+  Choice     : 1142    
+  Heuristic  : 6209     (Original: 17374)
+Atoms        : 22401    (Original: 16849 Auxiliary: 5552)
+Bodies       : 24309    (Original: 16786)
+  Count      : 0        (Original: 1209)
+Equivalences : 25532    (Atom=Atom: 2233 Body=Body: 1779 Other: 21520)
+Tight        : No       (SCCs: 13 Non-Hcfs: 0 Nodes: 3468 Gammas: 0)
+Variables    : 15969    (Eliminated:    0 Frozen: 1740)
+Constraints  : 44980    (Binary:  77.4% Ternary:  19.6% Other:   3.0%)
+

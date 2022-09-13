@@ -1,0 +1,32 @@
+running jobs@kr-node10...
+
+jobs: results/heuristic/clingo-1-setting-hNodeCost-sign/random/random_s13_a16_c63_h14.lp/run1/start.sh results/heuristic/clingo-1-setting-hNodeCost-sign/random/random_s18_a3_c70_h18.lp/run1/start.sh results/heuristic/clingo-1-setting-hNodeCost-sign/random/random_s14_a1_c70_h16.lp/run1/start.sh results/heuristic/clingo-1-setting-hNodeCost-sign/random/random_s24_a2_c70_h23.lp/run1/start.sh results/heuristic/clingo-1-setting-hNodeCost-sign/random/random_s19_a2_c70_h32.lp/run1/start.sh results/heuristic/clingo-1-setting-hNodeCost-sign/random/random_s21_a2_c70_h24.lp/run1/start.sh results/heuristic/clingo-1-setting-hNodeCost-sign/random/random_s13_a1_c70_h18.lp/run1/start.sh results/heuristic/clingo-1-setting-hNodeCost-sign/random/random_s25_a3_c70_h17.lp/run1/start.sh results/heuristic/clingo-1-setting-hNodeCost-sign/random/random_s23_a3_c70_h27.lp/run1/start.sh results/heuristic/clingo-1-setting-hNodeCost-sign/room/room_s20_a1_w5_h25.lp/run1/start.sh results/heuristic/clingo-1-setting-hNodeCost-sign/room/room_s27_a2_w5_h28.lp/run1/start.sh results/heuristic/clingo-1-setting-hNodeCost-sign/room/room_s16_a2_w5_h19.lp/run1/start.sh results/heuristic/clingo-1-setting-hNodeCost-sign/room/room_s24_a18_w4_h31.lp/run1/start.sh results/heuristic/clingo-1-setting-hNodeCost-sign/room/room_s21_a3_w5_h14.lp/run1/start.sh results/heuristic/clingo-1-setting-hNodeCost-sign/room/room_s17_a2_w5_h8.lp/run1/start.sh results/heuristic/clingo-1-setting-hNodeCost-sign/room/room_s20_a3_w5_h19.lp/run1/start.sh results/heuristic/clingo-1-setting-hNodeCost-sign/room/room_s30_a1_w5_h16.lp/run1/start.sh results/heuristic/clingo-1-setting-hNodeCost-sign/room/room_s23_a3_w5_h9.lp/run1/start.sh results/heuristic/clingo-1-setting-hNodeCost-sign/room/room_s19_a2_w5_h2.lp/run1/start.sh results/heuristic/clingo-1-setting-hNodeCost-sign/room/room_s28_a2_w5_h20.lp/run1/start.sh results/heuristic/clingo-1-setting-hNodeCost-sign/room/room_s21_a12_w4_h27.lp/run1/start.sh results/heuristic/clingo-1-setting-hNodeCost-sign/room/room_s18_a1_w5_h5.lp/run1/start.sh results/heuristic/clingo-1-setting-hNodeCost-sign/room/room_s29_a3_w5_h26.lp/run1/start.sh results/heuristic/clingo-1-setting-hNodeCost-sign/room/room_s27_a1_w5_h19.lp/run1/start.sh results/heuristic/clingo-1-setting-hNodeCost-sign/room/room_s18_a3_w5_h27.lp/run1/start.sh results/heuristic/clingo-1-setting-hNodeCost-sign/room/room_s19_a3_w5_h11.lp/run1/start.sh results/heuristic/clingo-1-setting-hNodeCost-sign/room/room_s16_a3_w5_h14.lp/run1/start.sh results/heuristic/clingo-1-setting-hNodeCost-sign/room/room_s22_a3_w5_h22.lp/run1/start.sh
+
+running  results/heuristic/clingo-1-setting-hNodeCost-sign/random/random_s13_a16_c63_h14.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNodeCost-sign/random/random_s18_a3_c70_h18.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNodeCost-sign/random/random_s14_a1_c70_h16.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNodeCost-sign/random/random_s24_a2_c70_h23.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNodeCost-sign/random/random_s19_a2_c70_h32.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNodeCost-sign/random/random_s21_a2_c70_h24.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNodeCost-sign/random/random_s13_a1_c70_h18.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNodeCost-sign/random/random_s25_a3_c70_h17.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNodeCost-sign/random/random_s23_a3_c70_h27.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNodeCost-sign/room/room_s20_a1_w5_h25.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNodeCost-sign/room/room_s27_a2_w5_h28.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNodeCost-sign/room/room_s16_a2_w5_h19.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNodeCost-sign/room/room_s24_a18_w4_h31.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNodeCost-sign/room/room_s21_a3_w5_h14.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNodeCost-sign/room/room_s17_a2_w5_h8.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNodeCost-sign/room/room_s20_a3_w5_h19.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNodeCost-sign/room/room_s30_a1_w5_h16.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNodeCost-sign/room/room_s23_a3_w5_h9.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNodeCost-sign/room/room_s19_a2_w5_h2.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNodeCost-sign/room/room_s28_a2_w5_h20.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNodeCost-sign/room/room_s21_a12_w4_h27.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNodeCost-sign/room/room_s18_a1_w5_h5.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNodeCost-sign/room/room_s29_a3_w5_h26.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNodeCost-sign/room/room_s27_a1_w5_h19.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNodeCost-sign/room/room_s18_a3_w5_h27.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNodeCost-sign/room/room_s19_a3_w5_h11.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNodeCost-sign/room/room_s16_a3_w5_h14.lp/run1/start.sh
+running  results/heuristic/clingo-1-setting-hNodeCost-sign/room/room_s22_a3_w5_h22.lp/run1/start.sh

@@ -1,0 +1,38 @@
+clingo version 5.5.2
+Reading from ...nt/beegfs/home/jubruns/encoding/mif.lp ...
+Solving...
+Answer: 1
+move(1,(19,2),(20,2),1) move(1,(20,2),(21,2),2) move(1,(21,2),(21,3),3) move(2,(13,3),(13,4),1) move(2,(13,4),(13,5),2) move(2,(13,5),(13,6),3) move(2,(13,6),(13,7),4) move(2,(13,7),(13,8),5) move(2,(13,8),(12,8),6) move(2,(12,8),(11,8),7) move(2,(11,8),(11,9),8) move(2,(11,9),(11,10),9) move(2,(11,10),(11,11),10) move(2,(11,11),(10,11),11) move(2,(10,11),(10,12),12) move(2,(10,12),(10,13),13) move(2,(10,13),(10,14),14) move(2,(10,14),(9,14),15) move(2,(9,14),(8,14),16) move(2,(8,14),(8,15),17) move(2,(8,15),(8,16),18) move(2,(8,16),(9,16),19) move(2,(9,16),(10,16),20) move(2,(10,16),(11,16),21) move(2,(11,16),(12,16),22) move(2,(12,16),(12,15),23) move(3,(21,12),(21,13),1) move(3,(21,13),(21,14),2)
+SATISFIABLE
+
+Models       : 1+
+Calls        : 1
+Time         : 3.567s (Solving: 0.60s 1st Model: 0.60s Unsat: 0.00s)
+CPU Time     : 3.544s
+
+Choices      : 15068    (Domain: 36)
+Conflicts    : 8        (Analyzed: 8)
+Restarts     : 0       
+Model-Level  : 6458.0  
+Problems     : 1        (Average Length: 0.00 Splits: 0)
+Lemmas       : 89       (Deleted: 0)
+  Binary     : 4        (Ratio:   4.49%)
+  Ternary    : 1        (Ratio:   1.12%)
+  Conflict   : 8        (Average Length:   18.1 Ratio:   8.99%) 
+  Loop       : 81       (Average Length:  200.4 Ratio:  91.01%) 
+  Other      : 0        (Average Length:    0.0 Ratio:   0.00%) 
+Backjumps    : 8        (Average: 1076.25 Max: 8544 Sum:   8610)
+  Executed   : 8        (Average: 1076.25 Max: 8544 Sum:   8610 Ratio: 100.00%)
+  Bounded    : 0        (Average:  0.00 Max:   0 Sum:      0 Ratio:   0.00%)
+
+Rules        : 1260311  (Original: 1566994)
+  Choice     : 21262   
+  Heuristic  : 686292   (Original: 1108010)
+Atoms        : 319641   (Original: 305752 Auxiliary: 13889)
+Bodies       : 348644   (Original: 307030)
+  Count      : 69       (Original: 34822)
+Equivalences : 397002   (Atom=Atom: 35533 Body=Body: 33877 Other: 327592)
+Tight        : No       (SCCs: 3 Non-Hcfs: 0 Nodes: 103289 Gammas: 0)
+Variables    : 299367   (Eliminated:    0 Frozen: 112507)
+Constraints  : 839224   (Binary:  73.3% Ternary:  17.6% Other:   9.0%)
+
