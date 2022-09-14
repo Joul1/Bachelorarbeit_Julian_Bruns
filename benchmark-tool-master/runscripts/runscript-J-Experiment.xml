@@ -8,8 +8,29 @@
 
 		<setting name="setting-hDistanceStart" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/Experiment/hDistanceStart.lp --heuristic=Domain --stats --quiet=1,0" tag="basic" />
 		<setting name="setting-hDistanceTime" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/Experiment/hDistanceTime.lp --heuristic=Domain --stats --quiet=1,0" tag="basic" />
+		<setting name="setting-hDistance-init" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hDistance-init.lp --heuristic=Domain --stats --quiet=1,0" tag="basic" />
+		
+
 		<setting name="setting-hForbiddenHorizon" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/Experiment/hForbiddenHorizon.lp --heuristic=Domain --stats --quiet=1,0" tag="basic" />
-		<setting name="setting-hStrange and hNodecost" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hStrange.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hNodeCost.lp --heuristic=Domain --stats --quiet=1,0" tag="basic" />
+		<setting name="setting-hForbiddenNodeNegative" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/Experiment/hForbiddenNodeNegative.lp --heuristic=Domain --stats --quiet=1,0" tag="basic" />		
+		<setting name="setting-hForbiddenNode-init" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hForbiddenNode-init.lp --heuristic=Domain --stats --quiet=1,0" tag="basic" />
+		
+
+		<setting name="setting-hStrange-AND-hNodecost" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hStrange.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hNodeCost.lp --heuristic=Domain --stats --quiet=1,0" tag="basic" />
+		<setting name="setting-hStrange" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hStrange.lp --heuristic=Domain --stats --quiet=1,0" tag="basic" />
+		<setting name="setting-hNodecost" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hNodeCost.lp --heuristic=Domain --stats --quiet=1,0" tag="basic" />
+
+		<setting name="setting-hPathArea-AND-Distance" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/Experiment/hPathAreaANDDistance.lp --heuristic=Domain --stats --quiet=1,0" tag="basic" />
+		<setting name="setting-hPathArea-AND-NodeCost" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/Experiment/hPathAreaANDNodeCost.lp --heuristic=Domain --stats --quiet=1,0" tag="basic" />
+		<setting name="setting-hPathArea" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hPathArea.lp --heuristic=Domain --stats --quiet=1,0" tag="basic" />
+
+		<setting name="setting-hNaivePathDistance3" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/Experiment/hNaivePathDistance3.lp --heuristic=Domain --stats --quiet=1,0" tag="basic" />
+		<setting name="setting-hNaivePathDistance" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hNaivePathDistance-init.lp --heuristic=Domain --stats --quiet=1,0" tag="basic" />
+		
+
+		<setting name="setting-Standard" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp --stats --quiet=1,0" tag="basic" />
+
+
 
     </system>
 
