@@ -15,6 +15,7 @@
 		<setting name="setting-hStrange" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hStrange.lp --heuristic=Domain --stats --quiet=1,0" tag="basic" />
 		<setting name="setting-Standard" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp --stats --quiet=1,0" tag="basic" />
 
+
 		
     </system>
 

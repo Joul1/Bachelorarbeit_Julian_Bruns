@@ -1,0 +1,27 @@
+<runscript output="resultsExperiment">
+
+	<machine name="zuse" cpu="24x8xE5520@2.27GHz" memory="24GB"/>
+	
+  	<config name="seq-generic" template="templates/seq-generic.sh"/>
+  
+	<system name="clingo" version="1" measures="clingo" config="seq-generic">
+
+		<setting name="setting-hDistanceStart" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/Experiment/hDistanceStart.lp --heuristic=Domain --stats --quiet=1,0" tag="basic" />
+		<setting name="setting-hDistanceTime" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/Experiment/hDistanceTime.lp --heuristic=Domain --stats --quiet=1,0" tag="basic" />
+		<setting name="setting-hForbiddenHorizon" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/Experiment/hForbiddenHorizon.lp --heuristic=Domain --stats --quiet=1,0" tag="basic" />
+		<setting name="setting-hStrange and hNodecost" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hStrange.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hNodeCost.lp --heuristic=Domain --stats --quiet=1,0" tag="basic" />
+
+    </system>
+
+	      	<pbsjob name="pbs-gen" timeout="21600" runs="1" script_mode="timeout" walltime="6:10:00" cpt="4"/>
+
+	<benchmark name="heuristic">
+		<folder path="/mnt/beegfs/home/jubruns/benchmark-tool-master/benchmarks/instances/"><ignore prefix="leaveHereForLater"/></folder>
+	</benchmark>
+
+	<project name="clingo-pbs-job" job="pbs-gen">
+		<runtag machine="zuse" benchmark="heuristic" tag="basic"/>
+	</project>
+
+</runscript>
+
