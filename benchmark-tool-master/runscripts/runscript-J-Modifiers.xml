@@ -52,7 +52,7 @@
 	      	<pbsjob name="pbs-gen" timeout="1200" runs="1" script_mode="timeout" walltime="12:00:00" cpt="4"/>
 
 	<benchmark name="heuristic">
-		<folder path="/mnt/beegfs/home/jubruns/benchmark-tool-master/benchmarks/instancesSmall/"><ignore prefix="leaveHereForLater"/></folder>
+		<folder path="/mnt/beegfs/home/jubruns/benchmark-tool-master/benchmarks/instancesBig/"><ignore prefix="leaveHereForLater"/></folder>
 	</benchmark>
 
 	<project name="clingo-pbs-job" job="pbs-gen">
