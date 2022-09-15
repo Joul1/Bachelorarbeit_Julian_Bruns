@@ -1,0 +1,30 @@
+[runlim] version:		2.0.0rc6
+[runlim] host:			kr-node7
+[runlim] time limit:		21600 seconds
+[runlim] real time limit:	311040000 seconds
+[runlim] space limit:		160000 MB
+[runlim] argv[0]:		../../../../../../../../../programs/clingo-1
+[runlim] argv[1]:		/mnt/beegfs/home/jubruns/encoding/mif.lp
+[runlim] argv[2]:		/mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hNaivePathDistance-init.lp
+[runlim] argv[3]:		--heuristic=Domain
+[runlim] argv[4]:		--stats
+[runlim] argv[5]:		--quiet=1,0
+[runlim] argv[6]:		../../../../../../../../../benchmarks/instances/maze/maze_s12_a14_h72.lp
+[runlim] start:			Wed Sep 14 17:37:07 2022
+[runlim] child:			20565
+[runlim] sample:		9.77 time, 10.01 real, 1159 MB, 1.28 load
+[runlim] sample:		19.73 time, 20.01 real, 1433 MB, 1.24 load
+[runlim] sample:		29.70 time, 30.01 real, 1584 MB, 1.28 load
+[runlim] sample:		39.70 time, 40.01 real, 1736 MB, 1.39 load
+[runlim] sample:		49.67 time, 50.01 real, 1951 MB, 1.41 load
+[runlim] sample:		59.62 time, 60.01 real, 2911 MB, 1.42 load
+[runlim] end:			Wed Sep 14 17:38:17 2022
+[runlim] status:		ok
+[runlim] result:		10
+[runlim] children:		2
+[runlim] processes:		43
+[runlim] real:			69.13 seconds
+[runlim] time:			68.72 seconds
+[runlim] space:			2921 MB
+[runlim] load:			1.51 maximum
+[runlim] samples:		691

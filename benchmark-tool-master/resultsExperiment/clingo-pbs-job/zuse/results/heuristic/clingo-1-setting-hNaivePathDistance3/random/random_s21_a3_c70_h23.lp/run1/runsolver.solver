@@ -1,0 +1,38 @@
+clingo version 5.5.2
+Reading from ...nt/beegfs/home/jubruns/encoding/mif.lp ...
+Solving...
+Answer: 1
+move(1,(19,2),(20,2),1) move(1,(20,2),(21,2),2) move(1,(21,2),(21,3),3) move(2,(13,3),(13,4),1) move(2,(13,4),(13,5),2) move(2,(13,5),(13,6),3) move(2,(13,6),(13,7),4) move(2,(13,7),(13,8),5) move(2,(13,8),(12,8),6) move(2,(12,8),(11,8),7) move(2,(11,8),(11,9),8) move(2,(11,9),(11,10),9) move(2,(11,10),(11,11),10) move(2,(11,11),(10,11),11) move(2,(10,11),(10,12),12) move(2,(10,12),(10,13),13) move(2,(10,13),(10,14),14) move(2,(10,14),(9,14),15) move(2,(9,14),(8,14),16) move(2,(8,14),(8,15),17) move(2,(8,15),(8,16),18) move(2,(8,16),(9,16),19) move(2,(9,16),(10,16),20) move(2,(10,16),(11,16),21) move(2,(11,16),(12,16),22) move(2,(12,16),(12,15),23) move(3,(21,12),(21,13),1) move(3,(21,13),(21,14),2)
+SATISFIABLE
+
+Models       : 1+
+Calls        : 1
+Time         : 2.066s (Solving: 0.03s 1st Model: 0.03s Unsat: 0.00s)
+CPU Time     : 2.043s
+
+Choices      : 214     
+Conflicts    : 7        (Analyzed: 7)
+Restarts     : 0       
+Model-Level  : 111.0   
+Problems     : 1        (Average Length: 0.00 Splits: 0)
+Lemmas       : 7        (Deleted: 0)
+  Binary     : 3        (Ratio:  42.86%)
+  Ternary    : 0        (Ratio:   0.00%)
+  Conflict   : 7        (Average Length:   20.6 Ratio: 100.00%) 
+  Loop       : 0        (Average Length:    0.0 Ratio:   0.00%) 
+  Other      : 0        (Average Length:    0.0 Ratio:   0.00%) 
+Backjumps    : 7        (Average: 14.71 Max:  58 Sum:    103)
+  Executed   : 7        (Average: 14.71 Max:  58 Sum:    103 Ratio: 100.00%)
+  Bounded    : 0        (Average:  0.00 Max:   0 Sum:      0 Ratio:   0.00%)
+
+Rules        : 1768219  (Original: 1732437)
+  Choice     : 138     
+  Heuristic  : 1378300  (Original: 1381072)
+Atoms        : 251000   (Original: 236220 Auxiliary: 14780)
+Bodies       : 250550   (Original: 226898)
+  Count      : 148      (Original: 416)
+Equivalences : 316365   (Atom=Atom: 62119 Body=Body: 61022 Other: 193224)
+Tight        : Yes
+Variables    : 218122   (Eliminated:    0 Frozen: 122963)
+Constraints  : 462965   (Binary:  81.7% Ternary:   9.2% Other:   9.1%)
+

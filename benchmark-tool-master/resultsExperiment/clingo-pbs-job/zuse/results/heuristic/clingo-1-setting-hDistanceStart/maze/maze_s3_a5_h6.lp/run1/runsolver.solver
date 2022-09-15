@@ -1,0 +1,38 @@
+clingo version 5.5.2
+Reading from ...nt/beegfs/home/jubruns/encoding/mif.lp ...
+Solving...
+Answer: 1
+move(1,(3,5),(2,5),1) move(1,(2,5),(3,5),2) move(1,(3,5),(3,4),3) move(1,(3,4),(3,5),4) move(1,(3,5),(2,5),5) move(1,(2,5),(1,5),6) move(2,(2,5),(1,5),1) move(2,(1,5),(2,5),2) move(2,(2,5),(3,5),3) move(2,(3,5),(4,5),4) move(3,(3,1),(3,2),1) move(3,(3,2),(3,3),2) move(3,(3,3),(4,3),3) move(3,(4,3),(5,3),4) move(3,(5,3),(5,2),5) move(3,(5,2),(5,1),6) move(4,(1,2),(1,1),1) move(4,(1,1),(2,1),2) move(4,(2,1),(3,1),3) move(4,(3,1),(3,2),4) move(4,(3,2),(3,3),5) move(4,(3,3),(4,3),6) move(5,(4,5),(3,5),1) move(5,(3,5),(3,4),2) move(5,(3,4),(3,3),3) move(5,(3,3),(3,4),4) move(5,(3,4),(3,5),5) move(5,(3,5),(2,5),6)
+SATISFIABLE
+
+Models       : 1+
+Calls        : 1
+Time         : 0.040s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.012s
+
+Choices      : 26       (Domain: 26)
+Conflicts    : 10       (Analyzed: 10)
+Restarts     : 0       
+Model-Level  : 4.0     
+Problems     : 1        (Average Length: 0.00 Splits: 0)
+Lemmas       : 10       (Deleted: 0)
+  Binary     : 0        (Ratio:   0.00%)
+  Ternary    : 1        (Ratio:  10.00%)
+  Conflict   : 10       (Average Length:    4.9 Ratio: 100.00%) 
+  Loop       : 0        (Average Length:    0.0 Ratio:   0.00%) 
+  Other      : 0        (Average Length:    0.0 Ratio:   0.00%) 
+Backjumps    : 10       (Average:  2.20 Max:   8 Sum:     22)
+  Executed   : 10       (Average:  2.20 Max:   8 Sum:     22 Ratio: 100.00%)
+  Bounded    : 0        (Average:  0.00 Max:   0 Sum:      0 Ratio:   0.00%)
+
+Rules        : 3732     (Original: 3352)
+  Choice     : 30      
+  Heuristic  : 124      (Original: 252)
+Atoms        : 1758    
+Bodies       : 2364     (Original: 1856)
+  Count      : 49       (Original: 138)
+Equivalences : 3794     (Atom=Atom: 88 Body=Body: 113 Other: 3593)
+Tight        : Yes
+Variables    : 1659     (Eliminated:    0 Frozen:  696)
+Constraints  : 2414     (Binary:  79.1% Ternary:  10.1% Other:  10.8%)
+

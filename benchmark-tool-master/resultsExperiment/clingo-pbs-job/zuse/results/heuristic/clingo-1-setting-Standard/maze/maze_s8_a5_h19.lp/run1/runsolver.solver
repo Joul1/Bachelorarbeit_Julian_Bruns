@@ -1,0 +1,37 @@
+clingo version 5.5.2
+Reading from ...nt/beegfs/home/jubruns/encoding/mif.lp ...
+Solving...
+Answer: 1
+move(1,(6,11),(5,11),1) move(1,(5,11),(5,10),2) move(1,(5,10),(5,11),6) move(1,(5,11),(6,11),7) move(1,(6,11),(7,11),8) move(1,(7,11),(7,12),9) move(1,(7,12),(7,13),10) move(1,(7,13),(6,13),11) move(1,(6,13),(5,13),12) move(1,(5,13),(4,13),13) move(1,(4,13),(3,13),14) move(1,(3,13),(3,14),15) move(1,(3,14),(3,15),16) move(1,(3,15),(4,15),17) move(1,(4,15),(5,15),18) move(1,(5,15),(6,15),19) move(2,(7,12),(7,11),3) move(2,(7,11),(6,11),4) move(2,(6,11),(5,11),5) move(2,(5,11),(4,11),6) move(2,(4,11),(3,11),7) move(2,(3,11),(3,10),8) move(2,(3,10),(3,9),9) move(2,(3,9),(3,8),10) move(2,(3,8),(3,7),11) move(2,(3,7),(3,6),12) move(2,(3,6),(3,5),13) move(2,(3,5),(4,5),14) move(2,(4,5),(5,5),15) move(3,(8,5),(7,5),1) move(3,(7,5),(7,6),2) move(3,(7,6),(7,7),3) move(3,(7,7),(8,7),4) move(4,(7,1),(6,1),1) move(4,(6,1),(5,1),2) move(4,(5,1),(5,2),3) move(4,(5,2),(5,3),4) move(4,(5,3),(6,3),5) move(4,(6,3),(7,3),6) move(4,(7,3),(8,3),7) move(4,(8,3),(9,3),8) move(4,(9,3),(9,4),9) move(4,(9,4),(9,5),10) move(4,(9,5),(10,5),11) move(4,(10,5),(11,5),12) move(4,(11,5),(11,4),13) move(5,(6,15),(5,15),1) move(5,(5,15),(4,15),2) move(5,(4,15),(3,15),3) move(5,(3,15),(3,14),4) move(5,(3,14),(3,13),5) move(5,(3,13),(4,13),6) move(5,(4,13),(5,13),7) move(5,(5,13),(6,13),8) move(5,(6,13),(7,13),9) move(5,(7,13),(8,13),10) move(5,(8,13),(9,13),11) move(5,(9,13),(9,14),12) move(5,(9,14),(9,15),13) move(5,(9,15),(10,15),14) move(5,(10,15),(11,15),15) move(5,(11,15),(10,15),19)
+SATISFIABLE
+
+Models       : 1+
+Calls        : 1
+Time         : 0.226s (Solving: 0.01s 1st Model: 0.01s Unsat: 0.00s)
+CPU Time     : 0.209s
+
+Choices      : 127     
+Conflicts    : 15       (Analyzed: 15)
+Restarts     : 0       
+Model-Level  : 61.0    
+Problems     : 1        (Average Length: 0.00 Splits: 0)
+Lemmas       : 15       (Deleted: 0)
+  Binary     : 6        (Ratio:  40.00%)
+  Ternary    : 2        (Ratio:  13.33%)
+  Conflict   : 15       (Average Length:   10.1 Ratio: 100.00%) 
+  Loop       : 0        (Average Length:    0.0 Ratio:   0.00%) 
+  Other      : 0        (Average Length:    0.0 Ratio:   0.00%) 
+Backjumps    : 15       (Average:  4.40 Max:  27 Sum:     66)
+  Executed   : 15       (Average:  4.40 Max:  27 Sum:     66 Ratio: 100.00%)
+  Bounded    : 0        (Average:  0.00 Max:   0 Sum:      0 Ratio:   0.00%)
+
+Rules        : 98190    (Original: 63709)
+  Choice     : 95      
+Atoms        : 49168    (Original: 34521 Auxiliary: 14647)
+Bodies       : 57565    (Original: 37832)
+  Count      : 79       (Original: 864)
+Equivalences : 28210    (Atom=Atom: 104 Body=Body: 110 Other: 27996)
+Tight        : Yes
+Variables    : 56567    (Eliminated:    0 Frozen: 19908)
+Constraints  : 138004   (Binary:  82.9% Ternary:  11.8% Other:   5.3%)
+

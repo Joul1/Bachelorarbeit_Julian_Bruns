@@ -1,0 +1,39 @@
+clingo version 5.5.2
+Reading from ...nt/beegfs/home/jubruns/encoding/mif.lp ...
+Solving...
+Answer: 1
+move(1,(23,21),(22,21),1) move(1,(22,21),(22,22),2) move(1,(22,22),(21,22),3) move(1,(21,22),(20,22),4) move(1,(20,22),(19,22),5) move(1,(19,22),(18,22),6) move(1,(18,22),(17,22),7) move(1,(17,22),(17,23),8) move(1,(17,23),(16,23),9) move(1,(16,23),(15,23),10) move(1,(15,23),(14,23),11) move(1,(14,23),(13,23),12) move(1,(13,23),(13,22),13) move(1,(13,22),(13,21),14) move(1,(13,21),(12,21),15) move(1,(12,21),(12,20),16) move(1,(12,20),(11,20),17) move(1,(11,20),(10,20),18) move(1,(10,20),(9,20),19) move(2,(1,16),(2,16),3) move(2,(2,16),(2,15),4) move(2,(2,15),(3,15),5) move(2,(3,15),(2,15),6) move(2,(2,15),(3,15),7) move(2,(3,15),(2,15),8) move(2,(2,15),(3,15),9) move(2,(3,15),(3,16),11) move(2,(3,16),(3,17),12) move(2,(3,17),(3,18),13) move(2,(3,18),(2,18),14) move(2,(2,18),(2,19),15) move(2,(2,19),(1,19),16) move(2,(1,19),(1,20),17) move(2,(1,20),(1,19),18) move(2,(1,19),(1,18),19)
+SATISFIABLE
+
+Models       : 1+
+Calls        : 1
+Time         : 0.373s (Solving: 0.01s 1st Model: 0.01s Unsat: 0.00s)
+CPU Time     : 0.335s
+
+Choices      : 31       (Domain: 30)
+Conflicts    : 7        (Analyzed: 7)
+Restarts     : 0       
+Model-Level  : 19.0    
+Problems     : 1        (Average Length: 0.00 Splits: 0)
+Lemmas       : 7        (Deleted: 0)
+  Binary     : 1        (Ratio:  14.29%)
+  Ternary    : 1        (Ratio:  14.29%)
+  Conflict   : 7        (Average Length:    3.0 Ratio: 100.00%) 
+  Loop       : 0        (Average Length:    0.0 Ratio:   0.00%) 
+  Other      : 0        (Average Length:    0.0 Ratio:   0.00%) 
+Backjumps    : 7        (Average:  1.71 Max:   4 Sum:     12)
+  Executed   : 7        (Average:  1.71 Max:   4 Sum:     12 Ratio: 100.00%)
+  Bounded    : 0        (Average:  0.00 Max:   0 Sum:      0 Ratio:   0.00%)
+
+Rules        : 133489   (Original: 104806)
+  Choice     : 38      
+  Heuristic  : 4942     (Original: 4956)
+Atoms        : 76998    (Original: 63902 Auxiliary: 13096)
+Disjunctions : 0        (Original: 1)
+Bodies       : 73971    (Original: 58408)
+  Count      : 34       (Original: 114)
+Equivalences : 42530    (Atom=Atom: 41 Body=Body: 44 Other: 42445)
+Tight        : Yes
+Variables    : 83492    (Eliminated:    0 Frozen: 35564)
+Constraints  : 179451   (Binary:  80.1% Ternary:  18.9% Other:   1.0%)
+
