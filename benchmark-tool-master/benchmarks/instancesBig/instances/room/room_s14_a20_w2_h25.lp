@@ -527,4 +527,7 @@ goal(18,(1,2)).
 start(19,(2,6)).
 goal(19,(14,3)).
 start(20,(1,14)).
-goal(20,(3,1)).
+goal(20,(3,1)).% meta information:
+#const horizon=25.
+makespan(horizon).
+acyclic.
