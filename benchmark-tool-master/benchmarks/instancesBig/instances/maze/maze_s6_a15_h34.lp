@@ -262,4 +262,6 @@ goal(13,(1,11)).
 start(14,(1,1)).
 goal(14,(7,10)).
 goal(15,(1,1)).
-start(15,(11,7)).
+start(15,(11,7)).% meta information:
+#const horizon=34.
+makespan(horizon).
