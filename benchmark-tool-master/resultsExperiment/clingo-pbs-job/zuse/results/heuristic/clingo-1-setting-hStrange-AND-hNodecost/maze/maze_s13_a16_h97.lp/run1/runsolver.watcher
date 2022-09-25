@@ -11,16 +11,16 @@
 [runlim] argv[5]:		--stats
 [runlim] argv[6]:		--quiet=1,0
 [runlim] argv[7]:		../../../../../../../../../benchmarks/instances/maze/maze_s13_a16_h97.lp
-[runlim] start:			Wed Sep 14 17:12:35 2022
-[runlim] child:			23865
-[runlim] sample:		9.77 time, 10.01 real, 880 MB, 1.20 load
-[runlim] end:			Wed Sep 14 17:12:54 2022
+[runlim] start:			Tue Sep 13 21:39:09 2022
+[runlim] child:			2206
+[runlim] sample:		9.81 time, 10.01 real, 833 MB, 1.37 load
+[runlim] end:			Tue Sep 13 21:39:29 2022
 [runlim] status:		ok
 [runlim] result:		10
 [runlim] children:		2
 [runlim] processes:		37
-[runlim] real:			18.02 seconds
-[runlim] time:			17.70 seconds
-[runlim] space:			1544 MB
-[runlim] load:			1.26 maximum
-[runlim] samples:		180
+[runlim] real:			18.73 seconds
+[runlim] time:			18.49 seconds
+[runlim] space:			1552 MB
+[runlim] load:			1.37 maximum
+[runlim] samples:		187

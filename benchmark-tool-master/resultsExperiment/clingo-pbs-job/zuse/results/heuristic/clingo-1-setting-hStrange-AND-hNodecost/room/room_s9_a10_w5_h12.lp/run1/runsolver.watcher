@@ -11,15 +11,15 @@
 [runlim] argv[5]:		--stats
 [runlim] argv[6]:		--quiet=1,0
 [runlim] argv[7]:		../../../../../../../../../benchmarks/instances/room/room_s9_a10_w5_h12.lp
-[runlim] start:			Wed Sep 14 17:13:21 2022
-[runlim] child:			19592
-[runlim] end:			Wed Sep 14 17:13:23 2022
+[runlim] start:			Tue Sep 13 21:39:19 2022
+[runlim] child:			30503
+[runlim] end:			Tue Sep 13 21:39:21 2022
 [runlim] status:		ok
 [runlim] result:		10
 [runlim] children:		2
 [runlim] processes:		33
-[runlim] real:			0.44 seconds
-[runlim] time:			0.19 seconds
+[runlim] real:			0.46 seconds
+[runlim] time:			0.25 seconds
 [runlim] space:			42 MB
-[runlim] load:			1.03 maximum
+[runlim] load:			1.63 maximum
 [runlim] samples:		4

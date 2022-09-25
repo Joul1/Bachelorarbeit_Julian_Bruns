@@ -1,5 +1,5 @@
 [runlim] version:		2.0.0rc6
-[runlim] host:			kr-node3
+[runlim] host:			kr-node8
 [runlim] time limit:		21600 seconds
 [runlim] real time limit:	311040000 seconds
 [runlim] space limit:		160000 MB
@@ -11,15 +11,15 @@
 [runlim] argv[5]:		--stats
 [runlim] argv[6]:		--quiet=1,0
 [runlim] argv[7]:		../../../../../../../../../benchmarks/instances/maze/maze_s9_a3_h51.lp
-[runlim] start:			Wed Sep 14 17:12:26 2022
-[runlim] child:			22433
-[runlim] end:			Wed Sep 14 17:12:28 2022
+[runlim] start:			Tue Sep 13 21:38:26 2022
+[runlim] child:			30281
+[runlim] end:			Tue Sep 13 21:38:28 2022
 [runlim] status:		ok
 [runlim] result:		10
 [runlim] children:		2
 [runlim] processes:		33
-[runlim] real:			0.82 seconds
-[runlim] time:			0.66 seconds
-[runlim] space:			82 MB
-[runlim] load:			1.43 maximum
+[runlim] real:			0.84 seconds
+[runlim] time:			0.62 seconds
+[runlim] space:			87 MB
+[runlim] load:			0.89 maximum
 [runlim] samples:		8

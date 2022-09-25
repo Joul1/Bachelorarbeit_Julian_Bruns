@@ -1,5 +1,5 @@
 [runlim] version:		2.0.0rc6
-[runlim] host:			kr-node9
+[runlim] host:			kr-node4
 [runlim] time limit:		21600 seconds
 [runlim] real time limit:	311040000 seconds
 [runlim] space limit:		160000 MB
@@ -11,15 +11,15 @@
 [runlim] argv[5]:		--stats
 [runlim] argv[6]:		--quiet=1,0
 [runlim] argv[7]:		../../../../../../../../../benchmarks/instances/room/room_s9_a15_w5_h14.lp
-[runlim] start:			Wed Sep 14 17:13:24 2022
-[runlim] child:			19605
-[runlim] end:			Wed Sep 14 17:13:26 2022
+[runlim] start:			Tue Sep 13 21:39:46 2022
+[runlim] child:			30050
+[runlim] end:			Tue Sep 13 21:39:48 2022
 [runlim] status:		ok
 [runlim] result:		10
 [runlim] children:		2
 [runlim] processes:		33
-[runlim] real:			0.65 seconds
-[runlim] time:			0.37 seconds
-[runlim] space:			66 MB
-[runlim] load:			0.94 maximum
+[runlim] real:			0.63 seconds
+[runlim] time:			0.41 seconds
+[runlim] space:			63 MB
+[runlim] load:			0.90 maximum
 [runlim] samples:		6

@@ -11,15 +11,15 @@
 [runlim] argv[5]:		--stats
 [runlim] argv[6]:		--quiet=1,0
 [runlim] argv[7]:		../../../../../../../../../benchmarks/instances/random/random_s22_a14_c42_h41.lp
-[runlim] start:			Wed Sep 14 17:14:29 2022
-[runlim] child:			23238
-[runlim] end:			Wed Sep 14 17:14:33 2022
+[runlim] start:			Tue Sep 13 21:41:04 2022
+[runlim] child:			2249
+[runlim] end:			Tue Sep 13 21:41:08 2022
 [runlim] status:		ok
 [runlim] result:		10
 [runlim] children:		2
-[runlim] processes:		35
-[runlim] real:			3.03 seconds
-[runlim] time:			2.79 seconds
-[runlim] space:			319 MB
-[runlim] load:			1.36 maximum
-[runlim] samples:		30
+[runlim] processes:		33
+[runlim] real:			3.28 seconds
+[runlim] time:			2.95 seconds
+[runlim] space:			315 MB
+[runlim] load:			1.13 maximum
+[runlim] samples:		32

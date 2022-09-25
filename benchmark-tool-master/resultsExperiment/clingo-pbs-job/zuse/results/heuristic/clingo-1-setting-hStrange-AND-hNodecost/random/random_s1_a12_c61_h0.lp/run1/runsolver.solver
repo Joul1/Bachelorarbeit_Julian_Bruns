@@ -4,8 +4,8 @@ UNKNOWN
 
 Models       : 0+
 Calls        : 1
-Time         : 0.051s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 0.005s
+Time         : 0.038s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.004s
 
 Choices      : 0       
 Conflicts    : 0        (Analyzed: 0)

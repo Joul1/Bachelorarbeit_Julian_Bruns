@@ -7,8 +7,8 @@ SATISFIABLE
 
 Models       : 1+
 Calls        : 1
-Time         : 11.284s (Solving: 2.88s 1st Model: 2.88s Unsat: 0.00s)
-CPU Time     : 11.210s
+Time         : 10.598s (Solving: 2.75s 1st Model: 2.75s Unsat: 0.00s)
+CPU Time     : 10.505s
 
 Choices      : 14211    (Domain: 14204)
 Conflicts    : 338      (Analyzed: 338)
