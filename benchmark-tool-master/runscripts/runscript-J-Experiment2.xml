@@ -1,0 +1,56 @@
+<runscript output="resultsExperiment">
+
+	<machine name="zuse" cpu="24x8xE5520@2.27GHz" memory="24GB"/>
+	
+  	<config name="seq-generic" template="templates/seq-generic.sh"/>
+  
+	<system name="clingo" version="1" measures="clingo" config="seq-generic">
+
+
+		<setting name="setting-hForbiddenNodeNegative" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/Experiment2/hForbiddenNodeNegative.lp --heuristic=Domain --stats --quiet=1,0" tag="basic" />
+		<setting name="setting-hForbiddenNodeNegativeBoth" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/Experiment2/hForbiddenNodeNegativeBoth.lp --heuristic=Domain --stats --quiet=1,0" tag="basic" />
+		<setting name="setting-hForbiddenNodeNegativeBothLevel" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/Experiment2/hForbiddenNodeNegativeBothLevel.lp --heuristic=Domain --stats --quiet=1,0" tag="basic" />
+		<setting name="setting-hForbiddenNodeNegativeGoal" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/Experiment2/hForbiddenNodeNegativeGoal.lp --heuristic=Domain --stats --quiet=1,0" tag="basic" />
+		
+		<setting name="setting-hNaivePathDistance3" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/Experiment2/hNaivePathDistance3.lp --heuristic=Domain --stats --quiet=1,0" tag="basic" />
+		<setting name="setting-hNaivePathDistance3ANDNodeCostSGT" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/Experiment2/hNaivePathDistance3ANDNodeCostSGT.lp --heuristic=Domain --stats --quiet=1,0" tag="basic" />
+		<setting name="setting-hNaivePathDistance3ANDTime" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/Experiment2/hNaivePathDistance3ANDTime.lp --heuristic=Domain --stats --quiet=1,0" tag="basic" />
+		
+		<setting name="setting-hNodeCost" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/Experiment2/hNodeCost.lp --heuristic=Domain --stats --quiet=1,0" tag="basic" />
+		<setting name="setting-hNodeCostSGT" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/Experiment2/hNodeCostSGT.lp --heuristic=Domain --stats --quiet=1,0" tag="basic" />
+		
+		<setting name="setting-hPathAreaANDDistance" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/Experiment2/hPathAreaANDDistance.lp --heuristic=Domain --stats --quiet=1,0" tag="basic" />
+		<setting name="setting-hPathAreaANDNodeCost" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/Experiment2/hPathAreaANDNodeCost.lp --heuristic=Domain --stats --quiet=1,0" tag="basic" />
+		<setting name="setting-hPathAreaANDNodeCostSGT" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/Experiment2/hPathAreaANDNodeCostSGT.lp --heuristic=Domain --stats --quiet=1,0" tag="basic" />
+		<setting name="setting-hPathAreaTime" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/Experiment2/hPathAreaTime.lp --heuristic=Domain --stats --quiet=1,0" tag="basic" />
+		
+		<setting name="setting-hStrangeLevel" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/Experiment2/hStrangeLevel.lp --heuristic=Domain --stats --quiet=1,0" tag="basic" />
+		<setting name="setting-hStrangeSign" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/Experiment2/hStrangeSign.lp --heuristic=Domain --stats --quiet=1,0" tag="basic" />
+		
+		<setting name="setting-hTime" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/Experiment2/hTime.lp --heuristic=Domain --stats --quiet=1,0" tag="basic" />
+
+
+		<setting name="setting-hForbiddenNodeNegativeANDhPathDistance3" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/Experiment2/hForbiddenNodeNegative.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/Experiment2/hNaivePathDistance3.lp --heuristic=Domain --stats --quiet=1,0" tag="basic" />
+		<setting name="setting-hForbiddenNodeNegativeANDhPathAreaANDDistance" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/Experiment2/hForbiddenNodeNegative.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/Experiment2/hPathAreaANDDistance.lp --heuristic=Domain --stats --quiet=1,0" tag="basic" />
+		<setting name="setting-hForbiddenNodeNegativeANDhNodeCost" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/Experiment2/hForbiddenNodeNegative.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/Experiment2/hNodeCost.lp --heuristic=Domain --stats --quiet=1,0" tag="basic" />
+		
+
+
+		<setting name="setting-Standard" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp --stats --quiet=1,0" tag="basic" />
+
+
+
+    </system>
+
+	      	<pbsjob name="pbs-gen" timeout="21600" runs="1" script_mode="timeout" walltime="6:10:00" cpt="4"/>
+
+	<benchmark name="heuristic">
+		<folder path="/mnt/beegfs/home/jubruns/benchmark-tool-master/benchmarks/instancesBig/"><ignore prefix="leaveHereForLater"/></folder>
+	</benchmark>
+
+	<project name="clingo-pbs-job" job="pbs-gen">
+		<runtag machine="zuse" benchmark="heuristic" tag="basic"/>
+	</project>
+
+</runscript>
+

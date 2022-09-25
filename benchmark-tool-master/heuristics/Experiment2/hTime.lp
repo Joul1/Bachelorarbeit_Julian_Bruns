@@ -1,0 +1,1 @@
+#heuristic at(_,(_,_),T). [10000-T,init]
