@@ -1,0 +1,39 @@
+clingo version 5.5.2
+Reading from ...nt/beegfs/home/jubruns/encoding/mif.lp ...
+Solving...
+Answer: 1
+move(1,(2,7),(1,7),1) move(1,(1,7),(1,6),2) move(1,(1,6),(1,5),3) move(1,(1,5),(1,4),4) move(1,(1,4),(1,3),5) move(1,(1,3),(1,2),6) move(1,(1,2),(1,1),7) move(1,(1,1),(2,1),8) move(1,(2,1),(3,1),9) move(1,(3,1),(4,1),10) move(1,(4,1),(5,1),11) move(1,(5,1),(6,1),12) move(1,(6,1),(5,1),15) move(1,(5,1),(4,1),16) move(1,(4,1),(3,1),17) move(1,(3,1),(2,1),18) move(1,(2,1),(1,1),19) move(1,(1,1),(1,2),20) move(1,(1,2),(1,3),21) move(1,(1,3),(1,4),22) move(1,(1,4),(1,5),23) move(1,(1,5),(1,6),24) move(1,(1,6),(1,7),25) move(1,(1,7),(2,7),26) move(1,(2,7),(3,7),27) move(1,(3,7),(4,7),28) move(1,(4,7),(5,7),29) move(1,(5,7),(6,7),30) move(2,(5,7),(4,7),1) move(2,(4,7),(3,7),2) move(2,(3,7),(2,7),3) move(2,(2,7),(1,7),4) move(2,(1,7),(1,6),5) move(2,(1,6),(1,5),6) move(2,(1,5),(1,4),7) move(2,(1,4),(1,3),8) move(2,(1,3),(1,2),9) move(2,(1,2),(1,1),10) move(2,(1,1),(2,1),11) move(2,(2,1),(3,1),12) move(2,(3,1),(4,1),13) move(2,(4,1),(5,1),14) move(2,(5,1),(5,2),15) move(2,(5,2),(5,3),16) move(2,(5,3),(5,4),17) move(2,(5,4),(5,5),18) move(2,(5,5),(6,5),19) move(2,(6,5),(7,5),20) move(2,(7,5),(6,5),22) move(2,(6,5),(5,5),23) move(2,(5,5),(6,5),24) move(2,(6,5),(5,5),25) move(2,(5,5),(4,5),26) move(2,(4,5),(5,5),27) move(2,(5,5),(6,5),28) move(2,(6,5),(7,5),29) move(3,(6,5),(5,5),1) move(3,(5,5),(5,4),2) move(3,(5,4),(5,3),3) move(3,(5,3),(5,2),4) move(3,(5,2),(5,1),5) move(3,(5,1),(6,1),6) move(3,(6,1),(7,1),7) move(3,(7,1),(6,1),15) move(3,(6,1),(5,1),16) move(3,(5,1),(4,1),19) move(3,(4,1),(3,1),21) move(3,(3,1),(2,1),22) move(3,(2,1),(1,1),23) move(3,(1,1),(1,2),24) move(3,(1,2),(1,3),25) move(3,(1,3),(1,4),26) move(3,(1,4),(1,5),27) move(3,(1,5),(1,6),28) move(3,(1,6),(1,7),29) move(3,(1,7),(2,7),30) move(4,(5,1),(6,1),1) move(4,(6,1),(7,1),2) move(4,(7,1),(7,2),3) move(4,(7,2),(7,1),15) move(4,(7,1),(6,1),16) move(4,(6,1),(5,1),20) move(4,(5,1),(4,1),29) move(4,(4,1),(3,1),30) move(5,(1,6),(1,5),1) move(5,(1,5),(1,4),2) move(5,(1,4),(1,3),3) move(5,(1,3),(1,2),4) move(5,(1,2),(1,1),5) move(5,(1,1),(2,1),6) move(5,(2,1),(3,1),7) move(5,(3,1),(4,1),8) move(5,(4,1),(5,1),9) move(5,(5,1),(5,2),10) move(5,(5,2),(5,3),11) move(5,(5,3),(5,4),12) move(5,(5,4),(5,5),13) move(5,(5,5),(4,5),14) move(5,(4,5),(3,5),15) move(5,(3,5),(3,4),16) move(5,(3,4),(3,3),17) move(5,(3,3),(3,4),27) move(5,(3,4),(3,5),29)
+SATISFIABLE
+
+Models       : 1+
+Calls        : 1
+Time         : 0.180s (Solving: 0.03s 1st Model: 0.03s Unsat: 0.00s)
+CPU Time     : 0.149s
+
+Choices      : 805      (Domain: 332)
+Conflicts    : 298      (Analyzed: 298)
+Restarts     : 2        (Average: 149.00 Last: 79)
+Model-Level  : 174.0   
+Problems     : 1        (Average Length: 0.00 Splits: 0)
+Lemmas       : 298      (Deleted: 0)
+  Binary     : 27       (Ratio:   9.06%)
+  Ternary    : 23       (Ratio:   7.72%)
+  Conflict   : 298      (Average Length:   38.2 Ratio: 100.00%) 
+  Loop       : 0        (Average Length:    0.0 Ratio:   0.00%) 
+  Other      : 0        (Average Length:    0.0 Ratio:   0.00%) 
+Backjumps    : 298      (Average:  2.07 Max:  34 Sum:    616)
+  Executed   : 298      (Average:  2.07 Max:  34 Sum:    616 Ratio: 100.00%)
+  Bounded    : 0        (Average:  0.00 Max:   0 Sum:      0 Ratio:   0.00%)
+
+Rules        : 73073    (Original: 35268)
+  Choice     : 150     
+  Heuristic  : 3392     (Original: 3427)
+Atoms        : 30918    (Original: 16233 Auxiliary: 14685)
+Disjunctions : 0        (Original: 1)
+Bodies       : 44209    (Original: 21269)
+  Count      : 75       (Original: 1127)
+Equivalences : 13048    (Atom=Atom: 160 Body=Body: 166 Other: 12722)
+Tight        : Yes
+Variables    : 38712    (Eliminated:    0 Frozen: 4500)
+Constraints  : 110457   (Binary:  80.3% Ternary:  15.4% Other:   4.4%)
+

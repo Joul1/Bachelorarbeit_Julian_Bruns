@@ -1,0 +1,38 @@
+clingo version 5.5.2
+Reading from ...nt/beegfs/home/jubruns/encoding/mif.lp ...
+Solving...
+Answer: 1
+move(1,(11,4),(11,3),1) move(2,(10,17),(9,17),1) move(2,(9,17),(8,17),2) move(2,(8,17),(8,16),3) move(2,(8,16),(8,15),4) move(2,(8,15),(8,14),5) move(2,(8,14),(8,13),6) move(2,(8,13),(8,12),7) move(2,(8,12),(8,11),8) move(2,(8,11),(9,11),9) move(2,(9,11),(10,11),10) move(2,(10,11),(11,11),11) move(2,(11,11),(11,10),12) move(2,(11,10),(11,9),13) move(3,(6,7),(7,7),1) move(3,(7,7),(8,7),2) move(3,(8,7),(8,6),3) move(3,(8,6),(8,5),4) move(3,(8,5),(8,4),5) move(3,(8,4),(8,3),6) move(3,(8,3),(8,2),7) move(3,(8,2),(8,1),8) move(3,(8,1),(9,1),9) move(3,(9,1),(10,1),10) move(3,(10,1),(11,1),11) move(3,(11,1),(11,2),12) move(3,(11,2),(12,2),13)
+SATISFIABLE
+
+Models       : 1+
+Calls        : 1
+Time         : 0.312s (Solving: 0.01s 1st Model: 0.01s Unsat: 0.00s)
+CPU Time     : 0.269s
+
+Choices      : 103      (Domain: 48)
+Conflicts    : 10       (Analyzed: 10)
+Restarts     : 0       
+Model-Level  : 31.0    
+Problems     : 1        (Average Length: 0.00 Splits: 0)
+Lemmas       : 10       (Deleted: 0)
+  Binary     : 2        (Ratio:  20.00%)
+  Ternary    : 0        (Ratio:   0.00%)
+  Conflict   : 10       (Average Length:   37.3 Ratio: 100.00%) 
+  Loop       : 0        (Average Length:    0.0 Ratio:   0.00%) 
+  Other      : 0        (Average Length:    0.0 Ratio:   0.00%) 
+Backjumps    : 10       (Average:  7.20 Max:  16 Sum:     72)
+  Executed   : 10       (Average:  7.20 Max:  16 Sum:     72 Ratio: 100.00%)
+  Bounded    : 0        (Average:  0.00 Max:   0 Sum:      0 Ratio:   0.00%)
+
+Rules        : 108602   (Original: 78396)
+  Choice     : 39      
+  Heuristic  : 2406     (Original: 2418)
+Atoms        : 58066    (Original: 44252 Auxiliary: 13814)
+Bodies       : 60594    (Original: 44232)
+  Count      : 33       (Original: 197)
+Equivalences : 32695    (Atom=Atom: 46 Body=Body: 50 Other: 32599)
+Tight        : Yes
+Variables    : 64502    (Eliminated:    0 Frozen: 25344)
+Constraints  : 145055   (Binary:  82.6% Ternary:   9.4% Other:   8.0%)
+

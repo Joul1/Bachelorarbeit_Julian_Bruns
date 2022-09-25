@@ -1,0 +1,71 @@
+[runlim] version:		2.0.0rc6
+[runlim] host:			kr-node6
+[runlim] time limit:		21600 seconds
+[runlim] real time limit:	311040000 seconds
+[runlim] space limit:		160000 MB
+[runlim] argv[0]:		../../../../../../../../../programs/clingo-1
+[runlim] argv[1]:		/mnt/beegfs/home/jubruns/encoding/mif.lp
+[runlim] argv[2]:		/mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hNaivePathDistance-init.lp
+[runlim] argv[3]:		--heuristic=Domain
+[runlim] argv[4]:		--stats
+[runlim] argv[5]:		--quiet=1,0
+[runlim] argv[6]:		../../../../../../../../../benchmarks/instances/maze/maze_s22_a14_h72.lp
+[runlim] start:			Wed Sep 14 17:37:07 2022
+[runlim] child:			24709
+[runlim] sample:		9.83 time, 10.01 real, 1053 MB, 1.65 load
+[runlim] sample:		19.84 time, 20.01 real, 1988 MB, 1.71 load
+[runlim] sample:		29.84 time, 30.01 real, 3544 MB, 1.83 load
+[runlim] sample:		39.83 time, 40.01 real, 4036 MB, 1.85 load
+[runlim] sample:		49.84 time, 50.01 real, 4191 MB, 1.88 load
+[runlim] sample:		59.83 time, 60.01 real, 4347 MB, 1.90 load
+[runlim] sample:		69.83 time, 70.01 real, 4502 MB, 1.99 load
+[runlim] sample:		79.83 time, 80.01 real, 4658 MB, 2.07 load
+[runlim] sample:		89.83 time, 90.01 real, 4812 MB, 2.06 load
+[runlim] sample:		99.84 time, 100.01 real, 4966 MB, 2.05 load
+[runlim] sample:		109.83 time, 110.01 real, 5099 MB, 2.04 load
+[runlim] sample:		119.83 time, 120.01 real, 5221 MB, 2.03 load
+[runlim] sample:		129.84 time, 130.01 real, 5343 MB, 2.03 load
+[runlim] sample:		139.83 time, 140.01 real, 5459 MB, 2.02 load
+[runlim] sample:		149.84 time, 150.01 real, 5571 MB, 2.02 load
+[runlim] sample:		159.80 time, 160.01 real, 5691 MB, 1.94 load
+[runlim] sample:		169.78 time, 170.01 real, 5832 MB, 1.95 load
+[runlim] sample:		179.77 time, 180.01 real, 5979 MB, 1.95 load
+[runlim] sample:		189.74 time, 190.01 real, 6125 MB, 1.89 load
+[runlim] sample:		199.71 time, 200.01 real, 6267 MB, 1.91 load
+[runlim] sample:		209.68 time, 210.01 real, 6402 MB, 1.77 load
+[runlim] sample:		219.64 time, 220.01 real, 6546 MB, 1.73 load
+[runlim] sample:		229.65 time, 230.01 real, 6689 MB, 1.77 load
+[runlim] sample:		239.61 time, 240.01 real, 6831 MB, 1.65 load
+[runlim] sample:		249.57 time, 250.01 real, 6971 MB, 1.62 load
+[runlim] sample:		259.53 time, 260.01 real, 7469 MB, 1.60 load
+[runlim] sample:		269.49 time, 270.01 real, 8241 MB, 1.66 load
+[runlim] sample:		279.45 time, 280.01 real, 8458 MB, 1.64 load
+[runlim] sample:		289.44 time, 290.01 real, 10051 MB, 1.61 load
+[runlim] sample:		299.41 time, 300.01 real, 10548 MB, 1.59 load
+[runlim] sample:		309.37 time, 310.01 real, 7141 MB, 1.57 load
+[runlim] sample:		319.36 time, 320.01 real, 7140 MB, 1.63 load
+[runlim] sample:		329.34 time, 330.01 real, 7141 MB, 1.61 load
+[runlim] sample:		339.33 time, 340.01 real, 7140 MB, 1.52 load
+[runlim] sample:		349.31 time, 350.01 real, 7141 MB, 1.44 load
+[runlim] sample:		359.30 time, 360.01 real, 7140 MB, 1.37 load
+[runlim] sample:		369.28 time, 370.01 real, 7141 MB, 1.31 load
+[runlim] sample:		379.26 time, 380.01 real, 7140 MB, 1.42 load
+[runlim] sample:		389.24 time, 390.01 real, 7141 MB, 1.51 load
+[runlim] sample:		399.21 time, 400.01 real, 7139 MB, 1.43 load
+[runlim] sample:		409.19 time, 410.01 real, 7140 MB, 1.36 load
+[runlim] sample:		419.17 time, 420.01 real, 7141 MB, 1.38 load
+[runlim] sample:		429.14 time, 430.01 real, 7140 MB, 1.40 load
+[runlim] sample:		439.13 time, 440.01 real, 7141 MB, 1.58 load
+[runlim] sample:		449.11 time, 450.01 real, 7140 MB, 1.57 load
+[runlim] sample:		459.10 time, 460.01 real, 7141 MB, 1.56 load
+[runlim] sample:		469.10 time, 470.01 real, 7140 MB, 1.48 load
+[runlim] end:			Wed Sep 14 17:45:01 2022
+[runlim] status:		ok
+[runlim] result:		10
+[runlim] children:		2
+[runlim] processes:		102
+[runlim] real:			473.65 seconds
+[runlim] time:			472.62 seconds
+[runlim] space:			10548 MB
+[runlim] load:			2.07 maximum
+[runlim] samples:		4736

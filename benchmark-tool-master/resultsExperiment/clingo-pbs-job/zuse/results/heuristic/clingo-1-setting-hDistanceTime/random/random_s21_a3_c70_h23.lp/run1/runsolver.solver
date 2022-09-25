@@ -1,0 +1,38 @@
+clingo version 5.5.2
+Reading from ...nt/beegfs/home/jubruns/encoding/mif.lp ...
+Solving...
+Answer: 1
+move(1,(19,2),(19,1),2) move(1,(19,1),(19,2),20) move(1,(19,2),(20,2),21) move(1,(20,2),(21,2),22) move(1,(21,2),(21,3),23) move(2,(13,3),(13,4),1) move(2,(13,4),(13,5),2) move(2,(13,5),(13,6),3) move(2,(13,6),(13,7),4) move(2,(13,7),(13,8),5) move(2,(13,8),(12,8),6) move(2,(12,8),(11,8),7) move(2,(11,8),(11,9),8) move(2,(11,9),(11,10),9) move(2,(11,10),(11,11),10) move(2,(11,11),(10,11),11) move(2,(10,11),(10,12),12) move(2,(10,12),(10,13),13) move(2,(10,13),(10,14),14) move(2,(10,14),(9,14),15) move(2,(9,14),(8,14),16) move(2,(8,14),(8,15),17) move(2,(8,15),(8,16),18) move(2,(8,16),(9,16),19) move(2,(9,16),(10,16),20) move(2,(10,16),(11,16),21) move(2,(11,16),(12,16),22) move(2,(12,16),(12,15),23) move(3,(21,12),(21,11),2) move(3,(21,11),(21,10),3) move(3,(21,10),(20,10),4) move(3,(20,10),(20,9),5) move(3,(20,9),(20,8),6) move(3,(20,8),(20,7),7) move(3,(20,7),(20,6),8) move(3,(20,6),(20,5),9) move(3,(20,5),(19,5),10) move(3,(19,5),(18,5),11) move(3,(18,5),(19,5),12) move(3,(19,5),(20,5),13) move(3,(20,5),(20,6),14) move(3,(20,6),(20,7),15) move(3,(20,7),(20,8),16) move(3,(20,8),(20,9),17) move(3,(20,9),(20,10),18) move(3,(20,10),(21,10),19) move(3,(21,10),(21,11),20) move(3,(21,11),(21,12),21) move(3,(21,12),(21,13),22) move(3,(21,13),(21,14),23)
+SATISFIABLE
+
+Models       : 1+
+Calls        : 1
+Time         : 0.566s (Solving: 0.02s 1st Model: 0.02s Unsat: 0.00s)
+CPU Time     : 0.530s
+
+Choices      : 314      (Domain: 314)
+Conflicts    : 4        (Analyzed: 4)
+Restarts     : 0       
+Model-Level  : 130.0   
+Problems     : 1        (Average Length: 0.00 Splits: 0)
+Lemmas       : 4        (Deleted: 0)
+  Binary     : 0        (Ratio:   0.00%)
+  Ternary    : 0        (Ratio:   0.00%)
+  Conflict   : 4        (Average Length:    7.0 Ratio: 100.00%) 
+  Loop       : 0        (Average Length:    0.0 Ratio:   0.00%) 
+  Other      : 0        (Average Length:    0.0 Ratio:   0.00%) 
+Backjumps    : 4        (Average: 46.00 Max:  59 Sum:    184)
+  Executed   : 4        (Average: 46.00 Max:  59 Sum:    184 Ratio: 100.00%)
+  Bounded    : 0        (Average:  0.00 Max:   0 Sum:      0 Ratio:   0.00%)
+
+Rules        : 188641   (Original: 156368)
+  Choice     : 69      
+  Heuristic  : 4475     (Original: 4487)
+Atoms        : 102171   (Original: 88282 Auxiliary: 13889)
+Bodies       : 106891   (Original: 88564)
+  Count      : 66       (Original: 209)
+Equivalences : 65791    (Atom=Atom: 78 Body=Body: 82 Other: 65631)
+Tight        : Yes
+Variables    : 115629   (Eliminated:    0 Frozen: 58212)
+Constraints  : 256648   (Binary:  82.2% Ternary:   8.5% Other:   9.3%)
+

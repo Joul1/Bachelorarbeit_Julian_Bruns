@@ -1,0 +1,25 @@
+[runlim] version:		2.0.0rc6
+[runlim] host:			kr-node6
+[runlim] time limit:		21600 seconds
+[runlim] real time limit:	311040000 seconds
+[runlim] space limit:		160000 MB
+[runlim] argv[0]:		../../../../../../../../../programs/clingo-1
+[runlim] argv[1]:		/mnt/beegfs/home/jubruns/encoding/mif.lp
+[runlim] argv[2]:		/mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/Experiment/hForbiddenHorizon.lp
+[runlim] argv[3]:		--heuristic=Domain
+[runlim] argv[4]:		--stats
+[runlim] argv[5]:		--quiet=1,0
+[runlim] argv[6]:		../../../../../../../../../benchmarks/instances/random/random_s25_a20_c45_h78.lp
+[runlim] start:			Tue Sep 13 21:37:56 2022
+[runlim] child:			28364
+[runlim] sample:		9.76 time, 10.01 real, 830 MB, 1.03 load
+[runlim] end:			Tue Sep 13 21:38:10 2022
+[runlim] status:		ok
+[runlim] result:		10
+[runlim] children:		2
+[runlim] processes:		35
+[runlim] real:			13.19 seconds
+[runlim] time:			12.86 seconds
+[runlim] space:			1366 MB
+[runlim] load:			1.03 maximum
+[runlim] samples:		131

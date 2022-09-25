@@ -1,0 +1,38 @@
+clingo version 5.5.2
+Reading from ...nt/beegfs/home/jubruns/encoding/mif.lp ...
+Solving...
+Answer: 1
+move(1,(17,16),(16,16),1) move(1,(16,16),(16,15),2) move(1,(16,15),(16,14),3) move(1,(16,14),(17,14),4) move(1,(17,14),(17,13),5) move(1,(17,13),(17,12),6) move(1,(17,12),(17,11),7) move(1,(17,11),(17,10),8) move(1,(17,10),(17,9),9) move(1,(17,9),(17,8),10) move(1,(17,8),(17,7),11) move(1,(17,7),(17,6),12) move(1,(17,6),(17,5),13) move(1,(17,5),(17,4),14) move(1,(17,4),(17,3),15) move(1,(17,3),(18,3),16) move(2,(18,14),(18,13),1) move(2,(18,13),(18,12),2) move(2,(18,12),(17,12),3) move(2,(17,12),(17,11),4) move(2,(17,11),(16,11),5) move(2,(16,11),(15,11),6) move(2,(15,11),(14,11),7) move(2,(14,11),(14,10),8) move(2,(14,10),(13,10),9) move(2,(13,10),(12,10),10) move(2,(12,10),(11,10),11) move(2,(11,10),(10,10),12) move(2,(10,10),(9,10),13) move(2,(9,10),(8,10),14) move(2,(8,10),(7,10),15) move(2,(7,10),(6,10),16) move(2,(6,10),(6,9),17) move(2,(6,9),(5,9),18) move(2,(5,9),(4,9),19)
+SATISFIABLE
+
+Models       : 1+
+Calls        : 1
+Time         : 2.839s (Solving: 1.83s 1st Model: 1.83s Unsat: 0.00s)
+CPU Time     : 2.819s
+
+Choices      : 61746   
+Conflicts    : 4873     (Analyzed: 4873)
+Restarts     : 24       (Average: 203.04 Last: 11)
+Model-Level  : 1613.0  
+Problems     : 1        (Average Length: 0.00 Splits: 0)
+Lemmas       : 6074     (Deleted: 2878)
+  Binary     : 223      (Ratio:   3.67%)
+  Ternary    : 137      (Ratio:   2.26%)
+  Conflict   : 4873     (Average Length:  166.5 Ratio:  80.23%) 
+  Loop       : 1201     (Average Length:  164.0 Ratio:  19.77%) 
+  Other      : 0        (Average Length:    0.0 Ratio:   0.00%) 
+Backjumps    : 4873     (Average:  9.13 Max: 1602 Sum:  44501)
+  Executed   : 4873     (Average:  9.13 Max: 1602 Sum:  44501 Ratio: 100.00%)
+  Bounded    : 0        (Average:  0.00 Max:   0 Sum:      0 Ratio:   0.00%)
+
+Rules        : 502882   (Original: 595908)
+  Choice     : 8594    
+  Heuristic  : 247947   (Original: 405882)
+Atoms        : 144175   (Original: 129707 Auxiliary: 14468)
+Bodies       : 154213   (Original: 127353)
+  Count      : 32       (Original: 13721)
+Equivalences : 162788   (Atom=Atom: 15415 Body=Body: 14300 Other: 133073)
+Tight        : No       (SCCs: 2 Non-Hcfs: 0 Nodes: 41132 Gammas: 0)
+Variables    : 134020   (Eliminated:    0 Frozen: 39828)
+Constraints  : 363732   (Binary:  73.7% Ternary:  20.4% Other:   6.0%)
+

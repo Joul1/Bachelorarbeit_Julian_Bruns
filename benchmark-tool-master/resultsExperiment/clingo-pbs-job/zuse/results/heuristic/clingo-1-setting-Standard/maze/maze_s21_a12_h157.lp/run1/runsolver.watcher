@@ -1,0 +1,27 @@
+[runlim] version:		2.0.0rc6
+[runlim] host:			kr-node3
+[runlim] time limit:		21600 seconds
+[runlim] real time limit:	311040000 seconds
+[runlim] space limit:		160000 MB
+[runlim] argv[0]:		../../../../../../../../../programs/clingo-1
+[runlim] argv[1]:		/mnt/beegfs/home/jubruns/encoding/mif.lp
+[runlim] argv[2]:		--stats
+[runlim] argv[3]:		--quiet=1,0
+[runlim] argv[4]:		../../../../../../../../../benchmarks/instances/maze/maze_s21_a12_h157.lp
+[runlim] start:			Wed Sep 14 17:42:40 2022
+[runlim] child:			29863
+[runlim] sample:		9.87 time, 10.01 real, 1189 MB, 2.00 load
+[runlim] sample:		19.86 time, 20.01 real, 1665 MB, 2.00 load
+[runlim] sample:		29.86 time, 30.01 real, 2228 MB, 2.07 load
+[runlim] sample:		39.86 time, 40.01 real, 2751 MB, 2.06 load
+[runlim] sample:		49.87 time, 50.01 real, 2735 MB, 2.05 load
+[runlim] end:			Wed Sep 14 17:43:31 2022
+[runlim] status:		ok
+[runlim] result:		10
+[runlim] children:		2
+[runlim] processes:		33
+[runlim] real:			50.37 seconds
+[runlim] time:			50.16 seconds
+[runlim] space:			4444 MB
+[runlim] load:			2.08 maximum
+[runlim] samples:		503

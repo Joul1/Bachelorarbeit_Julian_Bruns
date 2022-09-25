@@ -1,0 +1,38 @@
+clingo version 5.5.2
+Reading from ...nt/beegfs/home/jubruns/encoding/mif.lp ...
+Solving...
+Answer: 1
+move(1,(15,3),(15,4),1)
+SATISFIABLE
+
+Models       : 1+
+Calls        : 1
+Time         : 0.061s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.037s
+
+Choices      : 7       
+Conflicts    : 0        (Analyzed: 0)
+Restarts     : 0       
+Model-Level  : 7.0     
+Problems     : 1        (Average Length: 0.00 Splits: 0)
+Lemmas       : 3        (Deleted: 0)
+  Binary     : 3        (Ratio: 100.00%)
+  Ternary    : 0        (Ratio:   0.00%)
+  Conflict   : 0        (Average Length:    0.0 Ratio:   0.00%) 
+  Loop       : 3        (Average Length:    2.0 Ratio: 100.00%) 
+  Other      : 0        (Average Length:    0.0 Ratio:   0.00%) 
+Backjumps    : 0        (Average:  0.00 Max:   0 Sum:      0)
+  Executed   : 0        (Average:  0.00 Max:   0 Sum:      0 Ratio:   0.00%)
+  Bounded    : 0        (Average:  0.00 Max:   0 Sum:      0 Ratio: 100.00%)
+
+Rules        : 15377    (Original: 7978)
+  Choice     : 10      
+  Heuristic  : 0        (Original: 44)
+Atoms        : 10360    (Original: 6672 Auxiliary: 3688)
+Bodies       : 6292     (Original: 3798)
+  Count      : 0        (Original: 20)
+Equivalences : 10046    (Atom=Atom: 2503 Body=Body: 36 Other: 7507)
+Tight        : No       (SCCs: 3 Non-Hcfs: 0 Nodes: 51 Gammas: 0)
+Variables    : 5008     (Eliminated:    0 Frozen:   27)
+Constraints  : 9478     (Binary:  86.4% Ternary:  13.3% Other:   0.3%)
+

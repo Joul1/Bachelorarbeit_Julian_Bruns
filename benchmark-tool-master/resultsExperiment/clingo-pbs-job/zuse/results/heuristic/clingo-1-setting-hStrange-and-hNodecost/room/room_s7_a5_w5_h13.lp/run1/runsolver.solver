@@ -1,0 +1,39 @@
+clingo version 5.5.2
+Reading from ...nt/beegfs/home/jubruns/encoding/mif.lp ...
+Solving...
+Answer: 1
+move(1,(6,5),(5,5),2) move(1,(5,5),(5,4),3) move(1,(5,4),(4,4),4) move(1,(4,4),(4,3),6) move(1,(4,3),(4,4),7) move(1,(4,4),(4,5),8) move(1,(4,5),(5,5),10) move(1,(5,5),(6,5),11) move(1,(6,5),(7,5),12) move(1,(7,5),(7,4),13) move(2,(3,3),(4,3),4) move(2,(4,3),(4,2),5) move(2,(4,2),(4,3),7) move(2,(4,3),(4,4),8) move(2,(4,4),(4,3),9) move(2,(4,3),(4,2),10) move(2,(4,2),(3,2),11) move(2,(3,2),(4,2),12) move(2,(4,2),(4,1),13) move(3,(5,1),(5,2),4) move(3,(5,2),(5,3),5) move(3,(5,3),(5,4),6) move(3,(5,4),(5,5),7) move(3,(5,5),(6,5),8) move(3,(6,5),(7,5),9) move(3,(7,5),(7,4),10) move(3,(7,4),(7,3),11) move(3,(7,3),(7,2),12) move(3,(7,2),(7,1),13) move(4,(1,3),(2,3),3) move(4,(2,3),(3,3),4) move(4,(3,3),(4,3),5) move(4,(4,3),(3,3),6) move(4,(3,3),(3,4),7) move(4,(3,4),(3,5),8) move(4,(3,5),(3,4),9) move(4,(3,4),(3,3),10) move(4,(3,3),(3,4),11) move(4,(3,4),(2,4),12) move(4,(2,4),(1,4),13) move(5,(7,1),(7,2),1) move(5,(7,2),(7,3),2) move(5,(7,3),(7,4),3) move(5,(7,4),(7,5),4) move(5,(7,5),(6,5),5) move(5,(6,5),(5,5),6) move(5,(5,5),(4,5),7) move(5,(4,5),(5,5),8) move(5,(5,5),(5,4),9) move(5,(5,4),(4,4),10)
+SATISFIABLE
+
+Models       : 1+
+Calls        : 1
+Time         : 0.121s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.088s
+
+Choices      : 70       (Domain: 68)
+Conflicts    : 16       (Analyzed: 16)
+Restarts     : 0       
+Model-Level  : 38.0    
+Problems     : 1        (Average Length: 0.00 Splits: 0)
+Lemmas       : 16       (Deleted: 0)
+  Binary     : 1        (Ratio:   6.25%)
+  Ternary    : 2        (Ratio:  12.50%)
+  Conflict   : 16       (Average Length:   14.2 Ratio: 100.00%) 
+  Loop       : 0        (Average Length:    0.0 Ratio:   0.00%) 
+  Other      : 0        (Average Length:    0.0 Ratio:   0.00%) 
+Backjumps    : 16       (Average:  2.00 Max:   5 Sum:     32)
+  Executed   : 16       (Average:  2.00 Max:   5 Sum:     32 Ratio: 100.00%)
+  Bounded    : 0        (Average:  0.00 Max:   0 Sum:      0 Ratio:   0.00%)
+
+Rules        : 58667    (Original: 25162)
+  Choice     : 65      
+  Heuristic  : 3158     (Original: 3228)
+Atoms        : 25956    (Original: 11075 Auxiliary: 14881)
+Disjunctions : 0        (Original: 1)
+Bodies       : 32638    (Original: 14055)
+  Count      : 8        (Original: 529)
+Equivalences : 8960     (Atom=Atom: 76 Body=Body: 82 Other: 8802)
+Tight        : Yes
+Variables    : 30477    (Eliminated:    0 Frozen:  864)
+Constraints  : 83507    (Binary:  82.0% Ternary:  14.8% Other:   3.1%)
+

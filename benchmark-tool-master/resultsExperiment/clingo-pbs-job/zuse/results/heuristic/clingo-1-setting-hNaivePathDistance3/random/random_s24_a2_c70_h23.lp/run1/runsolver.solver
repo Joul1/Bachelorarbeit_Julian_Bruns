@@ -1,0 +1,38 @@
+clingo version 5.5.2
+Reading from ...nt/beegfs/home/jubruns/encoding/mif.lp ...
+Solving...
+Answer: 1
+move(1,(24,23),(24,24),2) move(1,(24,24),(23,24),3) move(2,(1,22),(2,22),1) move(2,(2,22),(2,23),2) move(2,(2,23),(2,24),3) move(2,(2,24),(3,24),4) move(2,(3,24),(4,24),5) move(2,(4,24),(4,23),6) move(2,(4,23),(4,22),7) move(2,(4,22),(5,22),8) move(2,(5,22),(5,21),9) move(2,(5,21),(5,20),10) move(2,(5,20),(6,20),11) move(2,(6,20),(6,19),12) move(2,(6,19),(6,18),13) move(2,(6,18),(7,18),14) move(2,(7,18),(7,17),15) move(2,(7,17),(7,16),16) move(2,(7,16),(6,16),17) move(2,(6,16),(5,16),18) move(2,(5,16),(4,16),19) move(2,(4,16),(3,16),20) move(2,(3,16),(2,16),21) move(2,(2,16),(1,16),22) move(2,(1,16),(1,15),23)
+SATISFIABLE
+
+Models       : 1+
+Calls        : 1
+Time         : 1.511s (Solving: 0.02s 1st Model: 0.02s Unsat: 0.00s)
+CPU Time     : 1.492s
+
+Choices      : 252     
+Conflicts    : 8        (Analyzed: 8)
+Restarts     : 0       
+Model-Level  : 94.0    
+Problems     : 1        (Average Length: 0.00 Splits: 0)
+Lemmas       : 8        (Deleted: 0)
+  Binary     : 2        (Ratio:  25.00%)
+  Ternary    : 0        (Ratio:   0.00%)
+  Conflict   : 8        (Average Length:   12.4 Ratio: 100.00%) 
+  Loop       : 0        (Average Length:    0.0 Ratio:   0.00%) 
+  Other      : 0        (Average Length:    0.0 Ratio:   0.00%) 
+Backjumps    : 8        (Average: 19.75 Max:  52 Sum:    158)
+  Executed   : 8        (Average: 19.75 Max:  52 Sum:    158 Ratio: 100.00%)
+  Bounded    : 0        (Average:  0.00 Max:   0 Sum:      0 Ratio:   0.00%)
+
+Rules        : 1219908  (Original: 1191126)
+  Choice     : 92      
+  Heuristic  : 902317   (Original: 903929)
+Atoms        : 217683   (Original: 204743 Auxiliary: 12940)
+Bodies       : 199973   (Original: 182607)
+  Count      : 90       (Original: 276)
+Equivalences : 264055   (Atom=Atom: 52725 Body=Body: 51350 Other: 159980)
+Tight        : Yes
+Variables    : 177920   (Eliminated:    0 Frozen: 100260)
+Constraints  : 355645   (Binary:  81.3% Ternary:  14.5% Other:   4.2%)
+

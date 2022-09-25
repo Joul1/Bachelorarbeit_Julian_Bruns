@@ -1,0 +1,49 @@
+[runlim] version:		2.0.0rc6
+[runlim] host:			kr-node5
+[runlim] time limit:		21600 seconds
+[runlim] real time limit:	311040000 seconds
+[runlim] space limit:		160000 MB
+[runlim] argv[0]:		../../../../../../../../../programs/clingo-1
+[runlim] argv[1]:		/mnt/beegfs/home/jubruns/encoding/mif.lp
+[runlim] argv[2]:		/mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/Experiment/hNaivePathDistance3.lp
+[runlim] argv[3]:		--heuristic=Domain
+[runlim] argv[4]:		--stats
+[runlim] argv[5]:		--quiet=1,0
+[runlim] argv[6]:		../../../../../../../../../benchmarks/instances/maze/maze_s22_a14_h72.lp
+[runlim] start:			Wed Sep 14 17:31:27 2022
+[runlim] child:			20548
+[runlim] sample:		9.79 time, 10.01 real, 1050 MB, 1.26 load
+[runlim] sample:		19.75 time, 20.01 real, 2378 MB, 1.30 load
+[runlim] sample:		29.70 time, 30.01 real, 2960 MB, 1.33 load
+[runlim] sample:		39.67 time, 40.01 real, 3113 MB, 1.36 load
+[runlim] sample:		49.64 time, 50.01 real, 3265 MB, 1.30 load
+[runlim] sample:		59.60 time, 60.01 real, 3417 MB, 1.33 load
+[runlim] sample:		69.56 time, 70.01 real, 3571 MB, 1.50 load
+[runlim] sample:		79.52 time, 80.01 real, 3715 MB, 1.50 load
+[runlim] sample:		89.49 time, 90.01 real, 3863 MB, 1.42 load
+[runlim] sample:		99.46 time, 100.01 real, 4016 MB, 1.43 load
+[runlim] sample:		109.43 time, 110.01 real, 4166 MB, 1.52 load
+[runlim] sample:		119.39 time, 120.01 real, 4318 MB, 1.67 load
+[runlim] sample:		129.36 time, 130.01 real, 4470 MB, 1.64 load
+[runlim] sample:		139.33 time, 140.01 real, 4615 MB, 1.54 load
+[runlim] sample:		149.30 time, 150.01 real, 4771 MB, 1.46 load
+[runlim] sample:		159.26 time, 160.01 real, 4923 MB, 1.46 load
+[runlim] sample:		169.23 time, 170.01 real, 5079 MB, 1.47 load
+[runlim] sample:		179.20 time, 180.01 real, 5233 MB, 1.47 load
+[runlim] sample:		189.16 time, 190.01 real, 5379 MB, 1.71 load
+[runlim] sample:		199.13 time, 200.01 real, 5533 MB, 1.67 load
+[runlim] sample:		209.09 time, 210.01 real, 5685 MB, 1.64 load
+[runlim] sample:		219.05 time, 220.01 real, 5842 MB, 1.63 load
+[runlim] sample:		228.99 time, 230.01 real, 6312 MB, 1.68 load
+[runlim] sample:		238.98 time, 240.01 real, 7523 MB, 1.73 load
+[runlim] sample:		248.98 time, 250.01 real, 5017 MB, 1.77 load
+[runlim] end:			Wed Sep 14 17:35:41 2022
+[runlim] status:		ok
+[runlim] result:		10
+[runlim] children:		2
+[runlim] processes:		85
+[runlim] real:			252.98 seconds
+[runlim] time:			251.88 seconds
+[runlim] space:			8236 MB
+[runlim] load:			1.79 maximum
+[runlim] samples:		2529

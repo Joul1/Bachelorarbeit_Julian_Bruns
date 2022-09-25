@@ -1,0 +1,29 @@
+#!/bin/bash
+#SBATCH --output=out.%j
+#SBATCH --error=err.%j
+#SBATCH --time=06:10:00        # walltime
+#SBATCH --cpus-per-task=4    # number of processor cores (i.e. tasks)
+#SBATCH --partition=kr
+
+# Good Idea to stop operation on first error.
+set -e
+
+# Load environment modules for your application here.
+source ~/.bashrc
+
+eval "$(conda shell.bash hook)"
+conda activate clingoEnv
+
+
+# Run jobs
+jobs="results/heuristic/clingo-1-setting-hStrange-AND-hNodecost/room/room_s11_a1_w5_h15.lp/run1/start.sh
+"
+echo running jobs@$(hostname)...
+echo ""
+echo "jobs:" $jobs
+echo ""
+for i in $jobs
+do
+    echo "running " $i
+    $i
+done

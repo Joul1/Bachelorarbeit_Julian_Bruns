@@ -1,0 +1,42 @@
+[runlim] version:		2.0.0rc6
+[runlim] host:			kr-node1
+[runlim] time limit:		21600 seconds
+[runlim] real time limit:	311040000 seconds
+[runlim] space limit:		160000 MB
+[runlim] argv[0]:		../../../../../../../../../programs/clingo-1
+[runlim] argv[1]:		/mnt/beegfs/home/jubruns/encoding/mif.lp
+[runlim] argv[2]:		/mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/Experiment/hForbiddenHorizon.lp
+[runlim] argv[3]:		--heuristic=Domain
+[runlim] argv[4]:		--stats
+[runlim] argv[5]:		--quiet=1,0
+[runlim] argv[6]:		../../../../../../../../../benchmarks/instances/maze/maze_s13_a16_h97.lp
+[runlim] start:			Tue Sep 13 21:35:53 2022
+[runlim] child:			2708
+[runlim] sample:		9.83 time, 10.01 real, 911 MB, 1.08 load
+[runlim] sample:		19.83 time, 20.01 real, 1535 MB, 1.22 load
+[runlim] sample:		29.83 time, 30.01 real, 1535 MB, 1.34 load
+[runlim] sample:		39.83 time, 40.01 real, 1535 MB, 1.44 load
+[runlim] sample:		49.83 time, 50.01 real, 1535 MB, 1.53 load
+[runlim] sample:		59.83 time, 60.01 real, 1535 MB, 1.60 load
+[runlim] sample:		69.83 time, 70.01 real, 1535 MB, 1.74 load
+[runlim] sample:		79.82 time, 80.01 real, 1535 MB, 1.78 load
+[runlim] sample:		89.82 time, 90.01 real, 1537 MB, 1.81 load
+[runlim] sample:		99.82 time, 100.01 real, 1540 MB, 1.84 load
+[runlim] sample:		109.82 time, 110.01 real, 1540 MB, 1.87 load
+[runlim] sample:		119.82 time, 120.01 real, 1540 MB, 1.89 load
+[runlim] sample:		129.82 time, 130.01 real, 1541 MB, 1.91 load
+[runlim] sample:		139.82 time, 140.01 real, 1541 MB, 1.92 load
+[runlim] sample:		149.82 time, 150.01 real, 1541 MB, 1.93 load
+[runlim] sample:		159.82 time, 160.01 real, 1541 MB, 1.94 load
+[runlim] sample:		169.82 time, 170.01 real, 1541 MB, 1.95 load
+[runlim] sample:		179.82 time, 180.01 real, 1541 MB, 1.96 load
+[runlim] end:			Tue Sep 13 21:38:59 2022
+[runlim] status:		ok
+[runlim] result:		10
+[runlim] children:		2
+[runlim] processes:		33
+[runlim] real:			185.76 seconds
+[runlim] time:			185.53 seconds
+[runlim] space:			1543 MB
+[runlim] load:			1.96 maximum
+[runlim] samples:		1857

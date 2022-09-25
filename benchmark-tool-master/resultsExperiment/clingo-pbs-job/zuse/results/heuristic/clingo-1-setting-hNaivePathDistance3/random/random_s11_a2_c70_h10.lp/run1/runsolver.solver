@@ -1,0 +1,38 @@
+clingo version 5.5.2
+Reading from ...nt/beegfs/home/jubruns/encoding/mif.lp ...
+Solving...
+Answer: 1
+move(1,(7,5),(6,5),1) move(1,(6,5),(6,6),2) move(1,(6,6),(5,6),3) move(1,(5,6),(5,7),4) move(1,(5,7),(5,8),5) move(1,(5,8),(5,9),6) move(1,(5,9),(5,10),7) move(1,(5,10),(6,10),8) move(1,(6,10),(7,10),9) move(1,(7,10),(7,9),10) move(2,(3,9),(3,10),2)
+SATISFIABLE
+
+Models       : 1+
+Calls        : 1
+Time         : 0.169s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.136s
+
+Choices      : 51      
+Conflicts    : 1        (Analyzed: 1)
+Restarts     : 0       
+Model-Level  : 29.0    
+Problems     : 1        (Average Length: 0.00 Splits: 0)
+Lemmas       : 1        (Deleted: 0)
+  Binary     : 0        (Ratio:   0.00%)
+  Ternary    : 0        (Ratio:   0.00%)
+  Conflict   : 1        (Average Length:    1.0 Ratio: 100.00%) 
+  Loop       : 0        (Average Length:    0.0 Ratio:   0.00%) 
+  Other      : 0        (Average Length:    0.0 Ratio:   0.00%) 
+Backjumps    : 1        (Average: 22.00 Max:  22 Sum:     22)
+  Executed   : 1        (Average: 22.00 Max:  22 Sum:     22 Ratio: 100.00%)
+  Bounded    : 0        (Average:  0.00 Max:   0 Sum:      0 Ratio:   0.00%)
+
+Rules        : 82478    (Original: 83436)
+  Choice     : 40      
+  Heuristic  : 23016    (Original: 54684)
+Atoms        : 34202    (Original: 19530 Auxiliary: 14672)
+Bodies       : 33039    (Original: 19085)
+  Count      : 8        (Original: 120)
+Equivalences : 24682    (Atom=Atom: 4773 Body=Body: 4606 Other: 15303)
+Tight        : Yes
+Variables    : 30257    (Eliminated:    0 Frozen: 1808)
+Constraints  : 57482    (Binary:  84.6% Ternary:  13.3% Other:   2.1%)
+

@@ -1,0 +1,44 @@
+[runlim] version:		2.0.0rc6
+[runlim] host:			kr-node3
+[runlim] time limit:		21600 seconds
+[runlim] real time limit:	311040000 seconds
+[runlim] space limit:		160000 MB
+[runlim] argv[0]:		../../../../../../../../../programs/clingo-1
+[runlim] argv[1]:		/mnt/beegfs/home/jubruns/encoding/mif.lp
+[runlim] argv[2]:		/mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hForbiddenNode-init.lp
+[runlim] argv[3]:		--heuristic=Domain
+[runlim] argv[4]:		--stats
+[runlim] argv[5]:		--quiet=1,0
+[runlim] argv[6]:		../../../../../../../../../benchmarks/instances/maze/maze_s3_a9_h20.lp
+[runlim] start:			Wed Sep 14 17:09:02 2022
+[runlim] child:			21672
+[runlim] sample:		9.82 time, 10.01 real, 24 MB, 0.92 load
+[runlim] sample:		19.80 time, 20.01 real, 22 MB, 1.01 load
+[runlim] sample:		29.76 time, 30.01 real, 24 MB, 1.08 load
+[runlim] sample:		39.73 time, 40.01 real, 25 MB, 1.22 load
+[runlim] sample:		49.70 time, 50.01 real, 25 MB, 1.26 load
+[runlim] sample:		59.67 time, 60.01 real, 26 MB, 1.30 load
+[runlim] sample:		69.65 time, 70.01 real, 27 MB, 1.32 load
+[runlim] sample:		79.63 time, 80.01 real, 28 MB, 1.35 load
+[runlim] sample:		89.59 time, 90.01 real, 28 MB, 1.29 load
+[runlim] sample:		99.57 time, 100.01 real, 29 MB, 1.33 load
+[runlim] sample:		109.53 time, 110.01 real, 28 MB, 1.36 load
+[runlim] sample:		119.51 time, 120.01 real, 31 MB, 1.38 load
+[runlim] sample:		129.47 time, 130.01 real, 30 MB, 1.40 load
+[runlim] sample:		139.46 time, 140.01 real, 32 MB, 1.34 load
+[runlim] sample:		149.43 time, 150.01 real, 31 MB, 1.28 load
+[runlim] sample:		159.43 time, 160.01 real, 34 MB, 1.24 load
+[runlim] sample:		169.41 time, 170.01 real, 33 MB, 1.28 load
+[runlim] sample:		179.38 time, 180.01 real, 34 MB, 1.31 load
+[runlim] sample:		189.36 time, 190.01 real, 35 MB, 1.27 load
+[runlim] sample:		199.33 time, 200.01 real, 35 MB, 1.38 load
+[runlim] end:			Wed Sep 14 17:12:28 2022
+[runlim] status:		ok
+[runlim] result:		10
+[runlim] children:		2
+[runlim] processes:		75
+[runlim] real:			204.66 seconds
+[runlim] time:			203.90 seconds
+[runlim] space:			35 MB
+[runlim] load:			1.43 maximum
+[runlim] samples:		2046
