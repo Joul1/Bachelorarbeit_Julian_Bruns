@@ -36,9 +36,9 @@ col = ["#ff6961","#ffb480","#f8f38d","#42d6a4","#59adf6","#c780e8","#a9377a","#6
 for i in range(0,hNum):
 
 
-    time[i]=excel.iloc[1:269-1,1+3*i]
-    choices[i]=excel.iloc[1:269-1,2+3*i]
-    conflicts[i]=excel.iloc[1:269-1,3+3*i]
+    time[i]=excel.iloc[1:-9,1+3*i]
+    choices[i]=excel.iloc[1:-9,2+3*i]
+    conflicts[i]=excel.iloc[1:-9,3+3*i]
 
     time[i].sort_values(ignore_index=True).cumsum().plot(marker=next(marker),label=name[i],title="solving time",color=col[(i%4)*2],alpha=0.7)
     if i%4==3:

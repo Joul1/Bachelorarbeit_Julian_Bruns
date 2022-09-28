@@ -42,13 +42,13 @@ col = [
 for i in range(0,hNum):
     
 
-    time[i]=excel.iloc[1:269-1,1+3*i]
-    choices[i]=excel.iloc[1:269-1,2+3*i]
-    conflicts[i]=excel.iloc[1:269-1,3+3*i]
+    time[i]=excel.iloc[1:-9,1+3*i]
+    choices[i]=excel.iloc[1:-9,2+3*i]
+    conflicts[i]=excel.iloc[1:-9,3+3*i]
 
     time[i].sort_values(ignore_index=True).cumsum().plot(marker=next(marker),label=name[i],title="solving time",color=col[i],alpha=0.7)
 
-
+#print(time)
 
 plt.yscale('log')
 plt.legend()
