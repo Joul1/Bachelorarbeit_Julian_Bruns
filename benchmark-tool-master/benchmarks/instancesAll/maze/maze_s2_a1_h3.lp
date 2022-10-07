@@ -1,0 +1,34 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Size X and Y:		4
+% Number of Agents:		1
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+#program base.
+
+agent(1).
+vertex((1,1)).
+vertex((3,1)).
+vertex((1,3)).
+vertex((3,3)).
+vertex((2,1)).
+vertex((1,2)).
+vertex((3,2)).
+edge((1,1),(2,1)).
+edge((1,1),(1,2)).
+edge((3,1),(2,1)).
+edge((3,1),(3,2)).
+edge((1,3),(1,2)).
+edge((3,3),(3,2)).
+edge((2,1),(3,1)).
+edge((1,2),(1,3)).
+edge((2,1),(1,1)).
+edge((3,2),(3,3)).
+edge((1,2),(1,1)).
+edge((3,2),(3,1)).
+goal(1,(1,3)).
+start(1,(2,1)).% meta information:
+#const horizon=3.
+makespan(horizon).
+acyclic.
