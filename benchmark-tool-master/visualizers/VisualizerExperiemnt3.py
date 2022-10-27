@@ -14,7 +14,7 @@ path=r"../resultsExperiment3.ods"
 
 excel=pd.read_excel(io=path,engine="odf")
 
-hNum=13
+hNum=14
 name=[]
 
 time=[]
@@ -38,7 +38,7 @@ col = [
     "#98730d","#f8f38d","#f8f38d",
     "#028654","#42d6a4","#42d6a4",
     "#094d96","#59adf6","#59adf6",
-    "#3700a8"]
+    "#3700a8","#0000a8"]
 
 for i in range(0,hNum):
     
