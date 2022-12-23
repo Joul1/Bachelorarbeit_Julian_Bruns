@@ -1,0 +1,41 @@
+<runscript output="resultsBest">
+
+	<machine name="zuse" cpu="24x8xE5520@2.27GHz" memory="24GB"/>
+	
+  	<config name="seq-generic" template="templates/seq-generic.sh"/>
+  
+	<system name="clingo" version="1" measures="clingo" config="seq-generic">
+
+
+		<setting name="setting-hDistance-init" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/hDistance-init.lp --heuristic=Domain --stats --quiet=1,0" tag="basic" />
+
+		<setting name="setting-hForbiddenNodeNegative" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/Experiment2/hForbiddenNodeNegative.lp --heuristic=Domain --stats --quiet=1,0" tag="basic" />
+				
+		<setting name="setting-hNaivePathDistance3" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/Experiment2/hNaivePathDistance3.lp --heuristic=Domain --stats --quiet=1,0" tag="basic" />
+				
+		<setting name="setting-hNodeCostSGT" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/Experiment2/hNodeCostSGT.lp --heuristic=Domain --stats --quiet=1,0" tag="basic" />
+		
+		<setting name="setting-hPathAreaANDDistance" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/Experiment2/hPathAreaANDDistance.lp --heuristic=Domain --stats --quiet=1,0" tag="basic" />
+		
+		<setting name="setting-hStrangeLevel" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp /mnt/beegfs/home/jubruns/benchmark-tool-master/heuristics/Experiment2/hStrangeLevel.lp --heuristic=Domain --stats --quiet=1,0" tag="basic" />
+
+
+
+		<setting name="setting-Standard" cmdline="/mnt/beegfs/home/jubruns/encoding/mif.lp --stats --quiet=1,0" tag="basic" />
+
+
+
+    </system>
+
+	      	<pbsjob name="pbs-gen" timeout="21600" runs="1" script_mode="timeout" walltime="6:10:00" cpt="4"/>
+
+	<benchmark name="heuristic">
+		<folder path="/mnt/beegfs/home/jubruns/benchmark-tool-master/benchmarks/instancesFinal/"><ignore prefix="leaveHereForLater"/></folder>
+	</benchmark>
+
+	<project name="clingo-pbs-job" job="pbs-gen">
+		<runtag machine="zuse" benchmark="heuristic" tag="basic"/>
+	</project>
+
+</runscript>
+

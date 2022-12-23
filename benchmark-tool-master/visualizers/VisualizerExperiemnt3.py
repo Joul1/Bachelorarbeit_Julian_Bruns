@@ -14,7 +14,7 @@ path=r"../resultsExperiment3.ods"
 
 excel=pd.read_excel(io=path,engine="odf")
 
-hNum=14
+hNum=13
 name=[]
 
 time=[]

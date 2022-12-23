@@ -55,17 +55,28 @@ for i in range(0,hNum):
 
 
 
+plt.ylim([1, 10000000])
+
 plt.yscale('log')
 plt.legend()
+
+figure = plt.gcf()
+figure.set_size_inches(16, 9)
+plt.savefig('Experiment2Time.png', bbox_inches='tight')
 plt.show()
 
 for i in range(0,hNum):
     solvetime[i].sort_values(ignore_index=True).cumsum().plot(marker=next(marker),label=name[i],title="solvingtime",color=col[i],alpha=0.4)
 
 
+plt.ylim([1, 10000000])
 
 plt.yscale('log')
 plt.legend()
+
+figure = plt.gcf()
+figure.set_size_inches(16, 9)
+plt.savefig('Experiment2Solvetime.png', bbox_inches='tight')
 plt.show()
 
 
@@ -73,9 +84,14 @@ for i in range(0,hNum):
     choices[i].sort_values(ignore_index=True).cumsum().plot(marker=next(marker),label=name[i],title="choices",color=col[i],alpha=0.4)
 
 
+plt.ylim([100, 100000000000])
 
 plt.yscale('log')
 plt.legend()
+
+figure = plt.gcf()
+figure.set_size_inches(16, 9)
+plt.savefig('Experiment2Choices.png', bbox_inches='tight')
 plt.show()
 
 
@@ -83,19 +99,30 @@ for i in range(0,hNum):
     conflicts[i].sort_values(ignore_index=True).cumsum().plot(marker=next(marker),label=name[i],title="conflicts",color=col[i],alpha=0.4)
 
 
-        
+plt.ylim([1, 10000000000])
+       
 plt.yscale('log')
 plt.legend()
+
+figure = plt.gcf()
+figure.set_size_inches(16, 9)
+plt.savefig('Experiment2Conflicts.png', bbox_inches='tight')
 plt.show()
-
-
-
+ 
 #with open(path,"r") as reader:
 #    for line in reader.readlines():
 #        name.append(line)
 
 #print(reader)
 #print(name)
+
+
+
+
+
+
+
+
 
 
 

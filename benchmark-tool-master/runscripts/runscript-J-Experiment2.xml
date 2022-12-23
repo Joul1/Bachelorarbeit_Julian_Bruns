@@ -1,4 +1,4 @@
-<runscript output="resultsExperiment">
+<runscript output="resultsExperiment2">
 
 	<machine name="zuse" cpu="24x8xE5520@2.27GHz" memory="24GB"/>
 	
